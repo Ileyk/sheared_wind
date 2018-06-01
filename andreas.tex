@@ -1,0 +1,134 @@
+
+For describing the wind acceleration, we use the results from \citet{Sander+2018} for Vela X-1. Using the stellar
+atmosphere code PoWR \citep[e.g.]{HamannKoesterke1998,Graefener+2002}, they calculate an atmosphere model for the donor star assuming a spherical, stationary
+wind situation. The radiative transfer is performed in the comoving frame, allowing to obtain the radiative acceleration
+without any further assumptions or parameterizations, i.e.
+  \begin{align}
+    \label{eq:araddef}
+    a_\text{rad}(r) & = \frac{4\pi}{c} \frac{1}{\rho(r)}  \int\limits_{0}^{\infty} \kappa_\nu H_\nu \mathrm{d}\nu \\
+                                & = \frac{16\pi^2}{c} \frac{r^2 \varv(r)}{\dot{M}} \int\limits_{0}^{\infty} \kappa_\nu H_\nu \mathrm{d}\nu\text{.}
+  \end{align}  
+Using the technique described in \citet{Sander+2017}, the model provides a hydrodynamically consistent 
+stratification, meaning that the mass-loss rate and the velocity field were iteratively updated such that eventually
+the outward and inward forces are balancing each other throughout the stellar atmosphere. The resulting velocity and
+density stratification shows notable deviations from the typically assumed $\beta$-law, especially closer to the (donor)
+star, where e.g. the obtained wind velocity is slower.
+
+In this work we aim at studying the consequences of the wind acceleration based on these sophisticated atmosphere calculations regarding the resulting accretion scenario in SGXBs. We therefore use the radiative acceleration $a_\text{rad}$ and the acceleration based on thermal and turbulence pressure
+  \begin{align} 
+    \label{eq:apressdef}
+    a_\text{press} & := -\frac{1}{\rho} \frac{\mathrm{d}P}{\mathrm{d}r} \\
+                   & = - \frac{\mathrm{d}a^2}{\mathrm{d}r} + \frac{2 a^2}{r} + \frac{a^2}{\varv} \frac{\mathrm{d}\varv}{\mathrm{d}r}
+  \end{align} 
+\citep[cf.][]{Sander+2015} with $P = P_\text{gas} + P_\text{turb}$ or - written via $P = \rho a^2$ in terms of velocities - 
+\begin{align}
+  \label{eq:asounddef}
+    a^2(r) := & \frac{\mathcal{R} T(r)}{\mu(r)} + \frac{1}{2} \varv_\text{mic}^2\text{.}
+\end{align}
+Despite the non-spherical situation due to the NS companion, we adopt $a_\text{rad}$ as $a_\text{press}$ as functions
+of distance from the donor star here for simplicity.
+
+--- if you also use the temperature ---
+
+The temperature stratification in the stellar atmosphere model is computed consistently with the solution of the statistical equations and the radiative transfer, but not considering any X-ray irradiation on the donor star. Based on the assumption of radiative equilibrium, the (electron) temperature structure in an expanding atmosphere is obtained by applying a generalized Uns{\"o}ld-Lucy method described in \citet{HamannGraefener2003}.
+
+
+@ARTICLE{HamannKoesterke1998,
+   author = {{Hamann}, W.-R. and {Koesterke}, L.},
+    title = "{Spectrum formation in clumped stellar winds: consequences for the analyses of Wolf-Rayet spectra}",
+  journal = {\aap},
+ keywords = {RADIATIVE TRANSFER, STARS: ATMOSPHERES, STARS: FUNDAMENTAL PARAMETERS, STARS: MASS LOSS, STARS: WOLF-RAYET},
+     year = 1998,
+    month = jul,
+   volume = 335,
+    pages = {1003-1008},
+   adsurl = {http://adsabs.harvard.edu/abs/1998A%26A...335.1003H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Graefener+2002,
+   author = {{Gr{\"a}fener}, G. and {Koesterke}, L. and {Hamann}, W.-R.},
+    title = "{Line-blanketed model atmospheres for WR stars}",
+  journal = {\aap},
+ keywords = {stars: Wolf-Rayet, stars: atmospheres, stars: abundances, stars: early-type, stars: mass loss, stars: individual: WR 111},
+     year = 2002,
+    month = may,
+   volume = 387,
+    pages = {244-257},
+      doi = {10.1051/0004-6361:20020269},
+   adsurl = {http://adsabs.harvard.edu/abs/2002A%26A...387..244G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{HamannGraefener2003,
+   author = {{Hamann}, W.-R. and {Gr{\"a}fener}, G.},
+    title = "{A temperature correction method for expanding atmospheres}",
+  journal = {\aap},
+ keywords = {stars: winds, outflows, stars: mass-loss, stars: Wolf-Rayet, radiative transfer, stars: atmospheres},
+     year = 2003,
+    month = nov,
+   volume = 410,
+    pages = {993-1000},
+      doi = {10.1051/0004-6361:20031308},
+   adsurl = {http://adsabs.harvard.edu/abs/2003A%26A...410..993H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Sander+2015,
+   author = {{Sander}, A. and {Shenar}, T. and {Hainich}, R. and {G{\'{\i}}menez-Garc{\'{\i}}a}, A. and 
+    {Todt}, H. and {Hamann}, W.-R.},
+    title = "{On the consistent treatment of the quasi-hydrostatic layers in hot star atmospheres}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {1503.01338},
+ primaryClass = "astro-ph.SR",
+ keywords = {stars: early-type, stars: mass-loss, stars: winds, outflows, stars: atmospheres, stars: fundamental parameters, stars: massive},
+     year = 2015,
+    month = may,
+   volume = 577,
+      eid = {A13},
+    pages = {A13},
+      doi = {10.1051/0004-6361/201425356},
+   adsurl = {http://adsabs.harvard.edu/abs/2015A%26A...577A..13S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Sander+2017,
+   author = {{Sander}, A.~A.~C. and {Hamann}, W.-R. and {Todt}, H. and {Hainich}, R. and 
+    {Shenar}, T.},
+    title = "{Coupling hydrodynamics with comoving frame radiative transfer. I. A unified approach for OB and WR stars}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {1704.08698},
+ primaryClass = "astro-ph.SR",
+ keywords = {stars: mass-loss, stars: winds, outflows, stars: early-type, stars: atmospheres, stars: fundamental parameters, stars: massive},
+     year = 2017,
+    month = jul,
+   volume = 603,
+      eid = {A86},
+    pages = {A86},
+      doi = {10.1051/0004-6361/201730642},
+   adsurl = {http://adsabs.harvard.edu/abs/2017A%26A...603A..86S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Sander+2018,
+   author = {{Sander}, A.~A.~C. and {F{\"u}rst}, F. and {Kretschmar}, P. and 
+    {Oskinova}, L.~M. and {Todt}, H. and {Hainich}, R. and {Shenar}, T. and 
+    {Hamann}, W.-R.},
+    title = "{Coupling hydrodynamics with comoving frame radiative transfer. II. Stellar wind stratification in the high-mass X-ray binary Vela X-1}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {1708.02947},
+ primaryClass = "astro-ph.SR",
+ keywords = {stars: mass-loss, stars: winds, outflows, stars: early-type, stars: atmospheres, stars: massive, X-rays: binaries},
+     year = 2018,
+    month = feb,
+   volume = 610,
+      eid = {A60},
+    pages = {A60},
+      doi = {10.1051/0004-6361/201731575},
+   adsurl = {http://adsabs.harvard.edu/abs/2018A%26A...610A..60S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
