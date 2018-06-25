@@ -1,17 +1,45 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sheared_wind.aux
+White space in argument---line 22 of file sheared_wind.aux
+ : \citation{XXX
+ :               Podsiadlowski2010,Mereghetti2014 or Han? XXX}
+I'm skipping whatever remains of this command
+White space in argument---line 23 of file sheared_wind.aux
+ : \citation{XXX
+ :               Podsiadlowski2010? XXX}
+I'm skipping whatever remains of this command
+White space in argument---line 24 of file sheared_wind.aux
+ : \citation{XXX
+ :               Podsiadlowski2010? XXX}
+I'm skipping whatever remains of this command
 The style file: agsm.bst
 I couldn't open database file /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
----line 64 of file sheared_wind.aux
+---line 77 of file sheared_wind.aux
  : \bibdata{/Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url
  :                                                                   }
 I'm skipping whatever remains of this command
-I found no \citation commands---while reading file sheared_wind.aux
 I found no database files---while reading file sheared_wind.aux
+Warning--I didn't find a database entry for "Duchene2013"
+Warning--I didn't find a database entry for "Abbott2016a"
+Warning--I didn't find a database entry for "Boffin2014"
+Warning--I didn't find a database entry for "Masseron2009"
+Warning--I didn't find a database entry for "Mohamed"
+Warning--I didn't find a database entry for "ElMellah2016a"
+Warning--I didn't find a database entry for "Shapiro1976"
+Warning--I didn't find a database entry for "Lucy1970"
+Warning--I didn't find a database entry for "Castor1975"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Xia2017"
+Warning--I didn't find a database entry for "Schure2009"
+Warning--I didn't find a database entry for "Horedt2000"
+Warning--I didn't find a database entry for "Taam2018"
+Warning--I didn't find a database entry for "Smith2002"
+Warning--I didn't find a database entry for "Grinberg:2014ux"
+Warning--I didn't find a database entry for "Sugimura2018"
 You've used 0 entries,
             2909 wiz_defined-function locations,
-            638 strings with 4797 characters,
+            670 strings with 5125 characters,
 and the built_in function-call counts, 32 in all, are:
 = -- 0
 > -- 0
@@ -50,4 +78,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There were 3 error messages)
+(There were 5 error messages)
