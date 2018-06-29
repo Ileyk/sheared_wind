@@ -73,7 +73,7 @@
 
 % Title of the paper, and the short title which is used in the headers.
 % Keep the title short and informative.
-\title[Disc formation in SgXB]{Wind accretion in Supergiant X-ray binaries\\II. Disc formation}
+\title[Disc formation in SgXB]{Wind accretion in Supergiant X-ray binaries\\II. Disc formation and consequences for Vela X-1 and Cygnus X-1}
 
 % The list of authors, and the short list which is used in the headers.
 % If you need two or more lines of authors, add an extra line using \newauthor
@@ -104,6 +104,23 @@ $^{3}$KU Leuven, Instituut voor Sterrenkunde, Celestijnenlaan 200D, B-3001 Leuve
 % Abstract of the paper
 \begin{abstract}
 
+Context
+
+In Supergiant X-ray binaries, a compact object accretes a fraction of the intense wind from an O/B supergiant companion star on a close orbit. Proxies exist to evaluate the efficiency of wind accretion, in terms of mass and angular momentum accretion rates, but they depend so dramatically on the wind speed that within the current uncertainty range, they only bring loose constrains. Furthermore, their underlying assumptions bypass the impact of orbital and dissipative effects on the flow structure as it travels from the stellar surface down to the compact accretor. The compelling need for a more comprehensive description of mass transfer through wind accretion.
+
+which connect the different scales 
+
+significant deviation from 
+
+Aims
+
+Methods
+
+Results
+
+Conclusions
+
+
 The turbulent twilight of massive stellar binaries stars determines their final fate. In Supergiant X-ray binaries, mass transfer proceeds through the accretion of a fraction of the dense and fast wind from an evolved donor star by an orbiting compact object, generally a neutron star. The accretor both perturbs the stellar wind and provides a moving X-ray source to probe its internal structure : the characteristics of the flow constrain the X-ray emission and absorption along the line-of-sight, while the X-ray ionizing feedback alters the wind acceleration. In order to consistently monitor the flow from the stellar surface down to the accretor, we designed a multi-scale model which includes recent insights on the properties of massive star winds. We performed 3D numerical simulations to evaluate the mass and angular momentum accretion rates onto the compact object, depending on the wind to orbital speed ratio and to the cooling efficiency within the shocked region. We identified conditions favorable to the formation of a disc-like structure beyond the neutron star magnetosphere, in spite of the low angular momentum carried by the wind, and analyzed its properties. These conditions, compatible with the currently known parameters of the Supergiant X-ray binary Vela X-1 and to a certain extent with Cygnus X-1, indicate the possible presence of a limited disc-structure in the former case and account for an extended one in the latter case.
 
 \end{abstract}
@@ -123,11 +140,11 @@ accretion, accretion discs -- X-rays: binaries -- stars: neutron, supergiants, w
 \label{sec:intro}
 % ------------------------------------------------
 
-Our current understanding of single-star evolution has proved consistent with the observational surveys carried on by contemporary missions. However, few stars are deprived of a gravitationally bound stellar companion, with more high mass stars showing a higher multiplicity frequency \citep{Duchene2013}. Some of them undergo a phase of interaction with their companion tied enough to significantly alter their subsequent evolution. One of the stages important to provide a more complete evaluation of the impact of binarity on stellar evolution are high mass X-ray binaries (\hmxb). They represent the turbulent twilight of the entangled evolution of two massive stars, one having already collapsed into a compact object. They are believed to be progenitors of compact object binaries whose final coalescence has been observed by the LIGO/VIRGO collaboration \citep{Abbott2016a}.
+Our current theories of single-star evolution have proved consistent with the observational surveys carried on by contemporary missions. However, few stars are deprived of a gravitationally bound stellar companion, with more high mass stars showing a higher multiplicity frequency \citep{Duchene2013}. Some of them undergo a phase of interaction with their companion tied enough to significantly alter their subsequent evolution. One of the stages important to provide a more complete evaluation of the impact of binarity on stellar evolution are high mass X-ray binaries (\hmxb). They represent the turbulent twilight of the entangled evolution of two massive stars, one having already collapsed into a compact object. They are believed to be progenitors of compact object binaries whose final coalescence has been observed by the LIGO/VIRGO collaboration \citep{Abbott2016a}.
 
 The main characteristic manifestation of binarity is through mass transfer between the two components. It can lead to chemical contamination \citep[\eg in the case of Barium and Carbon-enhanced metal-poor stars][]{Boffin2014,Masseron2009} or to the stripping of the outer envelope of an evolved star, leaving a naked Helium-rich core \citep[\eg for some hot subdwarf stars][]{XXX Podsiadlowski2010, Mereghetti2014 or Han? XXX}. The transfer of mass goes hand in hand with a transfer of angular momentum which can produce fast rotators like millisecond pulsars \citep{XXX Podsiadlowski2010? XXX} or Be-stars \citep{XXX Podsiadlowski2010? XXX}.
 
-Supergiant X-ray Binaries (\sgx) are systems where a compact object, generally a neutron star, orbits an O/B Supergiant. Mass transfer proceeds through the capture of a fraction of the dense and fast line-driven stellar wind by the accreting body. As the flow accelerates to the compact accretor, it heats up and emits copious amounts of X-rays. This highly non-conservative mechanism, also called wind accretion, has been put in opposition to the better understood Roche lobe overflow mechanism, although elements of both can co-exist in hybrid models \citep{Mohamed,ElMellah2016a}. The central distinction lies in the presence of a large and permanent disc in the latter case, while the conditions for such a structure in the former case are still unclear. Our current knowledge on angular momentum wind accretion builds up on models of asymmetric Bondi-Hoyle-Lyttleton accretion \citep{Shapiro1976} but we still miss a fully consistent frame to follow the flow from the stellar surface down to the X-ray emitting region, in the immediate vicinity of the accretor. Until now, the six orders-of-magnitude or so separating the two scales has precluded any bold numerical attempt to follow the flow all along its journey.
+Supergiant X-ray Binaries (\sgx) are systems where a compact object, generally a neutron star, orbits an O/B Supergiant \citep[see][for a recent review]{Martinez-Nunez2017}. Mass transfer proceeds through the capture of a fraction of the dense and fast line-driven stellar wind by the accreting body. This highly non-conservative mechanism, called wind accretion, has been put in opposition to the better understood Roche lobe overflow mechanism, although elements of both can co-exist in hybrid models \citep{Mohamed,ElMellah2016a}. The central distinction lies in the presence of a large and permanent disc in the latter case, while the conditions for such a structure in the former case are still unclear. Our present knowledge on angular momentum wind accretion builds up on models of asymmetric Bondi-Hoyle-Lyttleton accretion \citep{Illarionov1975,Shapiro1976} and on numerical investigations of the impact of transverse gradients of density \citep{Ruffert1999,MacLeod2015} and velocity \citep{Ruffert1996}. Yet, we still miss a fully consistent frame to follow the flow from the stellar surface down to the X-ray emitting region, in the immediate vicinity of the accretor. Until now, the six orders-of-magnitude or so separating the two scales has precluded any bold numerical attempt to follow the flow all along its journey.
 
 Wind accretion turns out to be extremely sensitive to the properties of the stellar wind. O/B supergiants display dense and fast outflows, with mass loss rates up to several solar masses per million year. The underlying mechanism, unveiled by \cite{Lucy1970} and \cite{Castor1975}, is the resonant line absorption of UV photons by partly ionized metal ions in the outer layers of the star. As the flow accelerates, it keeps tapping previously untouched Doppler-shifted photons \cite{}. XXX FOR ANDREAS : INFLUENCE OF DETAILED IONIZATION STRUCTURE AND X-RAY IONIZING FEEDBACK XXX
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUN 2018 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 JUN 2018 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,11 +1051,6 @@ Package natbib Warning: Citation `Abbott2016a' on page 1 undefined on input lin
 e 126.
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 126--127
-\T1/aer/m/n/9 Our cur-rent un-der-stand-ing of single-star evo-lu-tion has
- []
-
-
 Package natbib Warning: Citation `Boffin2014' on page 1 undefined on input line
  128.
 
@@ -1080,6 +1075,10 @@ Package natbib Warning: Citation `XXX Podsiadlowski2010? XXX' on page 1 undefin
 ed on input line 128.
 
 
+Package natbib Warning: Citation `Martinez-Nunez2017' on page 1 undefined on in
+put line 130.
+
+
 Package natbib Warning: Citation `Mohamed' on page 1 undefined on input line 13
 0.
 
@@ -1088,7 +1087,23 @@ Package natbib Warning: Citation `ElMellah2016a' on page 1 undefined on input l
 ine 130.
 
 
+Package natbib Warning: Citation `Illarionov1975' on page 1 undefined on input 
+line 130.
+
+
 Package natbib Warning: Citation `Shapiro1976' on page 1 undefined on input lin
+e 130.
+
+
+Package natbib Warning: Citation `Ruffert1999' on page 1 undefined on input lin
+e 130.
+
+
+Package natbib Warning: Citation `MacLeod2015' on page 1 undefined on input lin
+e 130.
+
+
+Package natbib Warning: Citation `Ruffert1996' on page 1 undefined on input lin
 e 130.
 
 
@@ -1119,45 +1134,45 @@ Package natbib Warning: Citation `Castor1975' on page 2 undefined on input line
 File: Pictures/big_picture.png Graphic file (type png)
 
 <use Pictures/big_picture.png>
-Package pdftex.def Info: Pictures/big_picture.png used on input line 151.
+Package pdftex.def Info: Pictures/big_picture.png used on input line 152.
 (pdftex.def)             Requested size: 215.99854pt x 216.76837pt.
 
-Underfull \vbox (badness 1062) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for T1+aett on input line 179.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 180.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 
-Package natbib Warning: Citation `Xia2017' on page 2 undefined on input line 17
-9.
+Package natbib Warning: Citation `Xia2017' on page 2 undefined on input line 18
+0.
 
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 181.
+(Font)              scaled to size 9.0pt on input line 182.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 181.
+(Font)              scaled to size 7.3pt on input line 182.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 184.
+(Font)              scaled to size 9.0pt on input line 185.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.3pt on input line 184.
+(Font)              scaled to size 7.3pt on input line 185.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 5.5pt on input line 184.
+(Font)              scaled to size 5.5pt on input line 185.
 
 Package natbib Warning: Citation `Schure2009' on page 2 undefined on input line
- 216.
-
-
-Package natbib Warning: Citation `Horedt2000' on page 2 undefined on input line
  217.
 
 
+Package natbib Warning: Citation `Horedt2000' on page 2 undefined on input line
+ 218.
+
+
 Package natbib Warning: Citation `Taam2018' on page 2 undefined on input line 2
-19.
+20.
 
 
-Underfull \hbox (badness 10000) in alignment at lines 247--247
+Underfull \hbox (badness 10000) in alignment at lines 248--248
 [][][] 
  []
 
@@ -1165,27 +1180,26 @@ Underfull \hbox (badness 10000) in alignment at lines 247--247
 File: Pictures/inflow_maps.png Graphic file (type png)
 
 <use Pictures/inflow_maps.png>
-Package pdftex.def Info: Pictures/inflow_maps.png used on input line 263.
+Package pdftex.def Info: Pictures/inflow_maps.png used on input line 264.
 (pdftex.def)             Requested size: 480.0pt x 223.89572pt.
-
-
-Package natbib Warning: Citation `Smith2002' on page 2 undefined on input line 
-280.
-
-
-Package natbib Warning: Citation `Grinberg:2014ux' on page 2 undefined on input
- line 280.
-
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.281 
-       <./Pictures/big_picture.png>]
+l.267 \end{figure*}
+                    <./Pictures/big_picture.png>]
+
+Package natbib Warning: Citation `Smith2002' on page 3 undefined on input line 
+281.
+
+
+Package natbib Warning: Citation `Grinberg:2014ux' on page 3 undefined on input
+ line 281.
+
 
 Package natbib Warning: Citation `Sugimura2018' on page 3 undefined on input li
-ne 287.
+ne 288.
 
 (./sheared_wind.bbl
 
@@ -1195,24 +1209,27 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 324.
-[3pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
+[3pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.324 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{table.1}) has been already used, duplicate ignored
+l.325 \end{document}
+                    ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.324 \end{document}
+l.325 \end{document}
                      <./Pictures/inflow_maps.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 324.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
  (./sheared_wind.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 324.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 324.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
 Package rerunfilecheck Info: File `sheared_wind.out' has not changed.
 (rerunfilecheck)             Checksum: 7AEFC9467E9484A243CE0FE40F731711;737.
 
@@ -1223,19 +1240,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 324.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
  ) 
 Here is how much of TeX's memory you used:
- 10984 strings out of 493014
- 158025 string characters out of 6133351
- 254357 words of memory out of 5000000
- 14176 multiletter control sequences out of 15000+600000
+ 10990 strings out of 493014
+ 158106 string characters out of 6133351
+ 253400 words of memory out of 5000000
+ 14181 multiletter control sequences out of 15000+600000
  113976 words of font info for 252 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,15n,96p,1477b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,15n,96p,1538b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1272,10 +1286,10 @@ mf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2016/texmf-dist
 public/txfonts/txsyb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on sheared_wind.pdf (3 pages, 1012306 bytes).
+Output written on sheared_wind.pdf (4 pages, 1014749 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
