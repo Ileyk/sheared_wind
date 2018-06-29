@@ -106,22 +106,23 @@ $^{3}$KU Leuven, Instituut voor Sterrenkunde, Celestijnenlaan 200D, B-3001 Leuve
 
 Context
 
-In Supergiant X-ray binaries, a compact object accretes a fraction of the intense wind from an O/B supergiant companion star on a close orbit. Proxies exist to evaluate the efficiency of wind accretion, in terms of mass and angular momentum accretion rates, but they depend so dramatically on the wind speed that within the current uncertainty range, they only bring loose constrains. Furthermore, their underlying assumptions bypass the impact of orbital and dissipative effects on the flow structure as it travels from the stellar surface down to the compact accretor. The compelling need for a more comprehensive description of mass transfer through wind accretion.
-
-which connect the different scales 
-
-significant deviation from 
+In Supergiant X-ray binaries, a compact object captures a fraction of the intense wind from an O/B supergiant companion star on a close orbit. Proxies exist to evaluate the efficiency of wind accretion, in terms of mass and angular momentum accretion rates, but they depend so dramatically on the wind speed that within the current uncertainty range, they only bring loose constrains. Furthermore, their underlying assumptions bypass the impact of orbital and dissipative effects on the flow structure as it travels from the stellar surface down to the compact accretor. New observational insights on the long and short term evolution of these systems has aroused the compelling need for a more comprehensive description of mass transfer through wind accretion.
 
 Aims
 
+We study the wind dynamics and in particular, the angular momentum it gains and carries as it is accreted. We aim at evaluating the conditions of the formation of a disc-like structure around the accretor and its observational consequences for supergiant X-ray binaries. 
+
 Methods
+
+We inject recent results on the wind launching mechanism into the three-dimensional frame of a binary system, accounting for the gravitational and radiative influence of the compact companion. Once it enters the Roche lobe of the accretor, we solve the hydrodynamic equations and evaluate the impact of different cooling prescriptions on the flow.
 
 Results
 
+A shocked region forms around the accretor as the flow is beamed within a few accretion radii. For wind speeds of the order of the orbital speed, the shock is highly asymmetric compared to the axisymmetric bow shock obtained for a purely planar homogeneous inflow, deprived of any net angular momentum. Provided we enable cooling within the shocked region, the flow always circularizes for wind speeds slow enough.
+
 Conclusions
 
-
-The turbulent twilight of massive stellar binaries stars determines their final fate. In Supergiant X-ray binaries, mass transfer proceeds through the accretion of a fraction of the dense and fast wind from an evolved donor star by an orbiting compact object, generally a neutron star. The accretor both perturbs the stellar wind and provides a moving X-ray source to probe its internal structure : the characteristics of the flow constrain the X-ray emission and absorption along the line-of-sight, while the X-ray ionizing feedback alters the wind acceleration. In order to consistently monitor the flow from the stellar surface down to the accretor, we designed a multi-scale model which includes recent insights on the properties of massive star winds. We performed 3D numerical simulations to evaluate the mass and angular momentum accretion rates onto the compact object, depending on the wind to orbital speed ratio and to the cooling efficiency within the shocked region. We identified conditions favorable to the formation of a disc-like structure beyond the neutron star magnetosphere, in spite of the low angular momentum carried by the wind, and analyzed its properties. These conditions, compatible with the currently known parameters of the Supergiant X-ray binary Vela X-1 and to a certain extent with Cygnus X-1, indicate the possible presence of a limited disc-structure in the former case and account for an extended one in the latter case.
+Although the donor star does not fill its Roche lobe, a realistic wind-launching representation can lead to a flow slow enough when it enters the Roche lobe of the accretor to be significantly beamed and bent by the orbital effects. The net angular momentum of the accreted flow is then large enough to witness the formation of a persistent disc-like structure whose properties depend on the cooling mechanisms at stake.
 
 \end{abstract}
 
@@ -139,6 +140,25 @@ accretion, accretion discs -- X-rays: binaries -- stars: neutron, supergiants, w
 \section{Introduction}
 \label{sec:intro}
 % ------------------------------------------------
+
+Most stars are found in multiple stellar systems, especially the high mass ones \citep{Duchene2013}. Among them, a significant fraction will undergo a phase of mass transfer which can seriously alter their subsequent evolution. Along with the new insights provided by gravitational waves from the coalescence of compact object binaries \citep{Abbott2016a}, it built up appeal for the modalities of mass transfer in High Mass X-ray Binaries (\hmxb). The Roche lobe overflow (\rlof) mass transfer at stake in Low Mass X-ray Binaries has been extensively studied and triggered interest for the accretion disks formed in the process. They have proved to be fruitful landscapes for a wide scope of instabilities which enlighten our interpretations of the observed photometric and spectroscopic time-variability in these systems. However, observations and theoretical arguments tend to rule out the possibility of a stable \rlof mass transfer when the donor star is significantly heavier than the accretor, which is the case in most \hmxb. 
+
+In Supergiant X-ray binaries (\sgx), a supergiant O/B donor star is orbited by a compact object, generally a neutron star, embedded in the stellar wind. O/B stars are known to loose mass at a rate up to several 10$^{-6}$M$_{\odot}\cdot$yr$^{-1}$ through a wind whose launching mechanism has been first determined by \cite{Lucy1970} and \cite{Castor1975} : the resonant line absorption of UV photons by partly ionized metal ions provide the outer layers of the star with a net outwards momentum. As the flow accelerates, it keeps tapping previously untouched Doppler-shifted photons and can reach velocities up to several 1,000km$\cdot$s$^{-1}$. It is the gravitational capture of a fraction of this abundant wind by the compact companion which produces the X-ray luminosity we observe in \sgx, of the order of 10${35-37}$erg$\cdot$s$^{-1}$.
+
+Until now, the mass and angular accretion rates pertaining wind accretion have been evaluated in the context of the Bondi-Hoyle-Lyttleton model \citep[see][for a review]{Edgar:2004ip} : a planar supersonic flow is gravitationally deflected by the gravitational field of an accretor and an overdense tail is formed in its wake. \cite{Hoyle:1939fl} first derived a critical impact parameter, the accretion radius, below which material is likely to be captured by the accretor. The mass accretion rate turned out to be very sensitive to the relative speed at infinity of the flow with respect to the accretor, and the axisymmetry of the problem circumvented any discussion on the accretion of angular momentum.
+
+
+which accretes a fraction of the dense
+
+The interest is twofold \citep{Martinez-Nunez2017}
+
+brought a firm motivation
+
+brought serious motivations to the field of accretion disks
+
+
+The turbulent twilight of massive stellar binaries stars determines their final fate. In Supergiant X-ray binaries, mass transfer proceeds through the accretion of a fraction of the dense and fast wind from an evolved donor star by an orbiting compact object, generally a neutron star. The accretor both perturbs the stellar wind and provides a moving X-ray source to probe its internal structure : the characteristics of the flow constrain the X-ray emission and absorption along the line-of-sight, while the X-ray ionizing feedback alters the wind acceleration. In order to consistently monitor the flow from the stellar surface down to the accretor, we designed a multi-scale model which includes recent insights on the properties of massive star winds. We performed 3D numerical simulations to evaluate the mass and angular momentum accretion rates onto the compact object, depending on the wind to orbital speed ratio and to the cooling efficiency within the shocked region. We identified conditions favorable to the formation of a disc-like structure beyond the neutron star magnetosphere, in spite of the low angular momentum carried by the wind, and analyzed its properties. These conditions, compatible with the currently known parameters of the Supergiant X-ray binary Vela X-1 and to a certain extent with Cygnus X-1, indicate the possible presence of a limited disc-structure in the former case and account for an extended one in the latter case.
+
 
 Our current theories of single-star evolution have proved consistent with the observational surveys carried on by contemporary missions. However, few stars are deprived of a gravitationally bound stellar companion, with more high mass stars showing a higher multiplicity frequency \citep{Duchene2013}. Some of them undergo a phase of interaction with their companion tied enough to significantly alter their subsequent evolution. One of the stages important to provide a more complete evaluation of the impact of binarity on stellar evolution are high mass X-ray binaries (\hmxb). They represent the turbulent twilight of the entangled evolution of two massive stars, one having already collapsed into a compact object. They are believed to be progenitors of compact object binaries whose final coalescence has been observed by the LIGO/VIRGO collaboration \citep{Abbott2016a}.
 
@@ -313,6 +333,12 @@ If halted mass accretion, might be due to radiative heating from the X-ray sourc
 \section{Conclusion}
 \label{sec:conc}
 % ------------------------------------------------
+
+which connect the different scales 
+
+significant deviation from 
+
+bridge the gap between the  / starts to resemble RLOF
 
 
 % ------------------------------------------------
