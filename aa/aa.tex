@@ -1,0 +1,370 @@
+%                                                                 aa.dem
+% AA vers. 8.2, LaTeX class for Astronomy & Astrophysics
+% demonstration file
+%                                                       (c) EDP Sciences
+%-----------------------------------------------------------------------
+%
+%\documentclass[referee]{aa} % for a referee version
+%\documentclass[onecolumn]{aa} % for a paper on 1 column  
+%\documentclass[longauth]{aa} % for the long lists of affiliations 
+%\documentclass[rnote]{aa} % for the research notes
+%\documentclass[letter]{aa} % for the letters 
+%\documentclass[bibyear]{aa} % if the references are not structured 
+% according to the author-year natbib style
+
+%
+\documentclass{aa}  
+
+%
+\usepackage{graphicx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{txfonts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tabularx}
+
+\newcommand{\sgx}{SgXB\xspace}
+\newcommand{\sfxt}{SFXT}
+\newcommand{\sg}{Sg\xspace}
+\newcommand{\co}{CO\xspace}
+\newcommand*{\hmxb}{HMXB\@\xspace}
+\newcommand*{\rlof}{RLOF\@\xspace}
+\newcommand*{\ns}{NS\@\xspace}
+\newcommand*{\eg}{e.g.\@\xspace}
+\newcommand*{\ie}{i.e.\@\xspace}
+\newcommand*{\aka}{a.k.a. \@\xspace}
+
+%\usepackage[options]{hyperref}
+% To add links in your PDF file, use the package "hyperref"
+% with options according to your LaTeX or PDFLaTeX drivers.
+%
+\begin{document} 
+
+
+   \title{Formation of wind-capture disc in Supergiant X-ray binaries}
+
+   \subtitle{Consequences for Vela X-1 and Cygnus X-1}
+
+   \author{I. El Mellah
+          \inst{1}
+          \and
+          A. A. C. Sander
+          \inst{2}
+          \and
+          J. O. Sundqvist
+          \inst{3}
+          \and
+          R. Keppens
+          \inst{1}
+          }
+
+   \institute{Centre for mathematical Plasma Astrophysics, 
+   			 Department of Mathematics, KU Leuven, 
+   			 Celestijnenlaan 200B, B-3001 Leuven, Belgium\\
+              \email{ileyk.elmellah@kuleuven.be}
+         \and
+             Institut f{\"u}r Physik und Astronomie, 
+             Universit{\"a}t Potsdam, 
+             Karl-Liebknecht-Str. 24/25, 14476 Potsdam, Germany
+             \thanks{The university of heaven temporarily does not
+                     accept e-mails}
+         \and
+             KU Leuven, Instituut voor Sterrenkunde, 
+             Celestijnenlaan 200D, B-3001 Leuven, Belgium
+             \thanks{The university of heaven temporarily does not
+                     accept e-mails}
+             }
+
+   \date{Received ...; accepted ...}
+
+% \abstract{}{}{}{}{} 
+% 5 {} token are mandatory
+ 
+  \abstract
+  % context heading (optional)
+  % {} leave it empty if necessary  
+   {In Supergiant X-ray binaries (\sgx), a compact object captures a fraction of the intense wind from an O/B Sg companion star on a close orbit. Proxies exist to evaluate the efficiency of mass and angular momentum wind accretion but they depend so dramatically on the wind speed that within the uncertainty range, they only bring loose constrains. Furthermore, they often bypass the impact of orbital and dissipative effects on the flow structure.
+}
+  % aims heading (mandatory)
+   {We study the wind dynamics and in particular, the angular momentum it gains and carries as it is accreted. We aim at evaluating the conditions of the formation of a disc-like structure around the accretor and its observational consequences for \sgx. 
+}
+  % methods heading (mandatory)
+   {We inject recent results on the wind launching mechanism into the three-dimensional frame of a binary system, accounting for the gravitational and radiative influence of the compact companion. Once it enters the Roche lobe of the accretor, we solve the hydrodynamics equations and evaluate the impact of different cooling prescriptions on the flow.}
+  % results heading (mandatory)
+   {A shocked region forms around the accretor as the flow is beamed. For wind speeds of the order of the orbital speed, the shock is highly asymmetric compared to the axisymmetric bow shock obtained for a purely planar homogeneous inflow. Provided we enable cooling within the shocked region, the flow always circularizes for wind speeds slow enough.
+}
+  % conclusions heading (optional), leave it empty if necessary 
+   {Although the donor star does not fill its Roche lobe, a realistic wind-launching representation can lead to a flow slow enough when it enters the Roche lobe of the accretor to be significantly beamed and bent by the orbital effects. The net angular momentum of the accreted flow is then large enough to form a persistent disc-like structure whose properties depend on the cooling mechanism.
+}
+
+   \keywords{accretion, accretion discs -- X-rays: binaries -- stars: neutron, supergiants, winds, outflows -- methods: numerical}
+
+   \maketitle
+%
+%________________________________________________________________
+
+\section{Introduction}
+
+Most stars are found in multiple stellar systems, especially the high mass ones \citep{Duchene2013}. Among them, a significant fraction will undergo a phase of mass transfer which can seriously alter their subsequent evolution. New observational insights on the long \citep{Abbott2016a} and short term \citep{Grinberg2017} evolution of High Mass X-ray Binaries (\hmxb) has aroused the compelling need for a more comprehensive description of mass transfer via wind accretion. 
+
+%The Roche lobe overflow (\rlof) mass transfer at stake in Low Mass X-ray Binaries has been extensively studied and built up appeal for a better understanding of the accretion disks formed in the process. They have proved to be fruitful landscapes for a wide scope of instabilities which enlighten our interpretations of the observed photometric and spectroscopic time-variability in these systems. However, observations and theoretical arguments tend to rule out the possibility of a stable \rlof mass transfer when the donor star is significantly heavier than the accretor, which is the case in most \hmxb. 
+
+In Supergiant X-ray binaries (\sgx), a supergiant O/B donor star is orbited by a compact object, generally a neutron star, embedded in the stellar wind. O/B stars are known to loose mass at a rate up to several 10$^{-6}$M$_{\odot}\cdot$yr$^{-1}$ through a wind whose launching mechanism was first determined by \cite{Lucy1970} and \cite{Castor1975} : the resonant line absorption of UV photons by partly ionized metal ions provide the outer layers of the star with a net outwards momentum. As the flow accelerates, it keeps tapping previously untouched Doppler-shifted photons and can reach velocities up to several 1,000km$\cdot$s$^{-1}$. It is the gravitational capture of a fraction of this abundant wind by the compact companion which produces the X-ray luminosity we observe in \sgx, of the order of 10${35-37}$erg$\cdot$s$^{-1}$.
+
+Until now, the mass and angular momentum accretion rates pertaining wind accretion have been evaluated based on the Bondi-Hoyle-Lyttleton model \citep[BHL, see][for a review]{Edgar:2004ip} : a planar supersonic flow is gravitationally deflected by the gravitational field of an accretor and an overdense tail is formed in its wake. The mass accretion rate turned out to be so sensitive to the relative speed of the flow with respect to the accretor that within the uncertainties and local variations in a massive-star wind, any realistic \sgx mass accretion rate can be reproduced. Furthermore, the axisymmetry of the BHL problem circumvented any discussion on the accretion of angular momentum. This assumption was first relaxed by \cite{Illarionov1975} and \cite{Shapiro1976} to assess the possibility of the formation of a wind-capture disc around compact accretors : they concluded that it was likelier for close binaries, where the star gets close to fill its Roche lobe, but that it was also highly dependent on the relative wind speed. 
+
+In consequence, a fully consistent treatment of both the wind acceleration and its accretion by the compact object is required to avoid being left with the wind speed as a convenient but not constraining degree of freedom. The six orders-of-magnitude or so separating the orbital scale, at which the wind unfolds, from the immediate vicinity of the compact object, where most of the X-rays we observe are produced, precludes any bold numerical attempt to follow the flow all along its journey. In this paper, 
+
+
+
+
+Yet, we still miss a fully consistent frame to follow the flow from the stellar surface down to the X-ray emitting region, in the immediate vicinity of the accretor. Until now, the six orders-of-magnitude or so separating the two scales has precluded any bold numerical attempt to follow the flow all along its journey.
+
+
+\cite{Hoyle:1939fl} first derived a critical impact parameter, the accretion radius, below which material is likely to be captured by the accretor.
+
+which accretes a fraction of the dense
+
+The interest is twofold \citep{Martinez-Nunez2017}
+
+brought a firm motivation
+
+brought serious motivations to the field of accretion disks
+
+
+The turbulent twilight of massive stellar binaries stars determines their final fate. In Supergiant X-ray binaries, mass transfer proceeds through the accretion of a fraction of the dense and fast wind from an evolved donor star by an orbiting compact object, generally a neutron star. The accretor both perturbs the stellar wind and provides a moving X-ray source to probe its internal structure : the characteristics of the flow constrain the X-ray emission and absorption along the line-of-sight, while the X-ray ionizing feedback alters the wind acceleration. In order to consistently monitor the flow from the stellar surface down to the accretor, we designed a multi-scale model which includes recent insights on the properties of massive star winds. We performed 3D numerical simulations to evaluate the mass and angular momentum accretion rates onto the compact object, depending on the wind to orbital speed ratio and to the cooling efficiency within the shocked region. We identified conditions favorable to the formation of a disc-like structure beyond the neutron star magnetosphere, in spite of the low angular momentum carried by the wind, and analyzed its properties. These conditions, compatible with the currently known parameters of the Supergiant X-ray binary Vela X-1 and to a certain extent with Cygnus X-1, indicate the possible presence of a limited disc-structure in the former case and account for an extended one in the latter case.
+
+
+Our current theories of single-star evolution have proved consistent with the observational surveys carried on by contemporary missions. However, few stars are deprived of a gravitationally bound stellar companion, with more high mass stars showing a higher multiplicity frequency \citep{Duchene2013}. Some of them undergo a phase of interaction with their companion tied enough to significantly alter their subsequent evolution. One of the stages important to provide a more complete evaluation of the impact of binarity on stellar evolution are high mass X-ray binaries (\hmxb). They represent the turbulent twilight of the entangled evolution of two massive stars, one having already collapsed into a compact object. They are believed to be progenitors of compact object binaries whose final coalescence has been observed by the LIGO/VIRGO collaboration \citep{Abbott2016a}.
+
+The main characteristic manifestation of binarity is through mass transfer between the two components. It can lead to chemical contamination \citep[\eg in the case of Barium and Carbon-enhanced metal-poor stars][]{Boffin2014,Masseron2009} or to the stripping of the outer envelope of an evolved star, leaving a naked Helium-rich core \citep[\eg for some hot subdwarf stars][]{XXX Podsiadlowski2010, Mereghetti2014 or Han? XXX}. The transfer of mass goes hand in hand with a transfer of angular momentum which can produce fast rotators like millisecond pulsars \citep{XXX Podsiadlowski2010? XXX} or Be-stars \citep{XXX Podsiadlowski2010? XXX}.
+
+Supergiant X-ray Binaries (\sgx) are systems where a compact object, generally a neutron star, orbits an O/B Supergiant \citep[see][for a recent review]{Martinez-Nunez2017}. Mass transfer proceeds through the capture of a fraction of the dense and fast line-driven stellar wind by the accreting body. This highly non-conservative mechanism, called wind accretion, has been put in opposition to the better understood Roche lobe overflow mechanism, although elements of both can co-exist in hybrid models \citep{Mohamed,ElMellah2016a}. The central distinction lies in the presence of a large and permanent disc in the latter case, while the conditions for such a structure in the former case are still unclear. Our present knowledge on angular momentum wind accretion builds up on models of asymmetric Bondi-Hoyle-Lyttleton accretion \citep{Illarionov1975,Shapiro1976} and on numerical investigations of the impact of transverse gradients of density \citep{Ruffert1999,MacLeod2015} and velocity \citep{Ruffert1996}. Yet, we still miss a fully consistent frame to follow the flow from the stellar surface down to the X-ray emitting region, in the immediate vicinity of the accretor. Until now, the six orders-of-magnitude or so separating the two scales has precluded any bold numerical attempt to follow the flow all along its journey.
+
+Wind accretion turns out to be extremely sensitive to the properties of the stellar wind. O/B supergiants display dense and fast outflows, with mass loss rates up to several solar masses per million year. The underlying mechanism, unveiled by \cite{Lucy1970} and \cite{Castor1975}, is the resonant line absorption of UV photons by partly ionized metal ions in the outer layers of the star. As the flow accelerates, it keeps tapping previously untouched Doppler-shifted photons XXX FOR ANDREAS : INFLUENCE OF DETAILED IONIZATION STRUCTURE AND X-RAY IONIZING FEEDBACK XXX
+
+
+ key-ingredient
+
+
+% ------------------------------------------------
+\section{Model and numerical method}
+\label{sec:model}
+% ------------------------------------------------
+
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{At the orbital scale}
+\label{sec:orb_scale}
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsubsection{General principle}
+\label{sec:pple}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\columnwidth]{Pictures/big_picture.png}
+\caption{Computed streamlines (orange dots) from the star (dark blue) to the Roche lobe of the accretor on the right (green dashed circle), in the orbital plane. The black dashed lines represent the critical Roche surface passing by the first Lagrangian point.}
+\label{fig:big_picture}
+\end{figure} 
+
+
+\subsubsection{Wind acceleration}
+\label{sec:wind_acc}
+XXX ANDREAS : would you be able to summarize the principle of your calculation and the way we account for it here?XXX 
+
+\subsubsection{The accretion radius}
+\label{sec:acc_rad}
+
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Within the Roche lobe of the accretor}
+\label{sec:Roche_lobe}
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+
+\subsubsection{Equations}
+\label{sec:HD_eq}
+
+1 refers to donor star
+2 refers to accretor
+
+normalization units
+
+angular momentum preserving way
+
+Using the finite volume code \texttt{MPI-AMRVAC} \citep{Xia2017}, we solve the equations of hydrodynamics under their conservative form :
+
+\begin{equation}
+\label{eq:eq1}
+%\tag{1a}
+\partial _t \rho + \boldsymbol{\nabla} \cdot \left( \rho \mathbf{v} \right) = 0
+\end{equation}
+\begin{equation}
+\label{eq:eq2}
+%\tag{1b}
+\partial _t \left( \rho \mathbf{v} \right) + \boldsymbol {\nabla} \cdot \left( \rho \mathbf{v} \mathbf{v} + P \mathbb{1} \right) = \rho \mathbf{f} - 2 \boldsymbol{\Omega} \wedge \mathbf{v}
+\end{equation}
+\begin{equation}
+\label{eq:eq3}
+%\tag{1c}
+\partial _t  e  + \boldsymbol{\nabla} \cdot \left[ \left( e + P \right) \mathbf{v} \right] = - \rho \mathbf{v} \cdot \mathbf{f}
+\end{equation}
+where $\rho$, $\mathbf{v}$, $P$ and $e$ are the mass density, velocity, pressure and total energy density respectively. $\boldsymbol{\Omega}$ is the orbital angular speed vector. $f$ is the modified Roche force per mass unit given by : 
+
+\begin{equation}
+\mathbf{f}=\alpha\left( r_1 \right) \frac{q}{r_1^3}\mathbf{r_1} - \frac{1}{r_2^3}\mathbf{r_2} + \frac{1+q}{a^3}\mathbf{r_{\perp}}
+\end{equation}
+
+with the mass ratio $q=M_1/M_2$
+$\mathbf{r_1}$
+$\mathbf{r_2}$
+$\mathbf{r_{\perp}}$
+$\alpha$ : see section\,\ref{sec:wind_acc}. Encapsulates wind acceleration process and stellar gravity. $-1$ with only gravity, leading to the usual Roche force per unit mass.
+
+The energy equation\,\ref{eq:eq3} is adiabatic. See section\,\ref{sec:cool} for way to account for cooling.
+EOS ideal gas monoatomic with an adiabatic index $\gamma=5/3$ with a mean molecular weight set to 1. 
+
+
+
+\subsubsection{Cooling}
+\label{sec:cool}
+
+Cooling time scale \citep{Schure2009}
+Polytropic index $\Gamma$ \citep{Horedt2000}. Physical meaning of $\Gamma$. Bypass the energy equation\,\ref{eq:eq3} where the cooling time scale is XXX times smaller than the dynamical time scale.
+
+Provided the density is high enough, condensation of the hot shocked flow into a disc \citep[][and references therein]{Taam2018} : underlying principle of two component accretion flows models.
+
+\subsubsection{Numerical setup}
+\label{sec:num_set}
+
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Physical parameters}
+\label{sec:params}
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+
+\begin{table}
+\centering
+\caption{Parameters and integrated quantities at the outer edge of the simulation space for the 2 models considered.}
+\label{tab:params}
+\begin{tabularx}{\linewidth}{c|c|c}
+   & LF & HS \\
+  \hline
+  M$_1$ & \multicolumn{2}{c}{20.2M$_{\odot}$} \\
+  R$_1$ & \multicolumn{2}{c}{28.4R$_{\odot}$} \\
+  P & \multicolumn{2}{c}{8.964357 days} \\  
+  $\dot{\text{M}}_1$ & \multicolumn{2}{c}{6.3$\cdot$10$^{-7}$M$_{\odot}\cdot$yr$^{-1}$} \\
+  \hline
+  M$_2$ & 1.5M$_{\odot}$  & 2.5M$_{\odot}$  \\
+  Boosted & Yes & No  \\
+  \hline
+  $\dot{\text{M}}_{\text{out}}/\dot{\text{M}}_1$ & XXX & XXX  \\
+  $\dot{\text{j}}_{\text{out}}/\dot{\text{j}}_{\text{SL}}$ & XXX & XXX \\
+  R$_{\text{circ}}$ / R$_{\text{mag}}$ & XXX & XXX \\
+\end{tabularx}
+\end{table}
+
+
+% ------------------------------------------------
+\section{Results}
+\label{sec:res}
+% ------------------------------------------------
+
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Inhomogeneity and asymmetry of the inflow}
+\label{sec:asymm}
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+
+\begin{figure*}
+\centering
+\includegraphics[width=2\columnwidth]{Pictures/inflow_maps.png}
+\caption{Mollweide projections of local mass and angular momentum inflows within the simulation space centered on the accretor (dashed green sphere on Figure\ref{fig:big_picture}). The upper row corresponds to the light fast (LF) case while the bottom row is for the heavy slow (HS) case. Each map is scaled to its maximum (absolute) value and centered on the axis from the accretor to the donor star. Positive (resp. negative) values of angular momentum stands for locally prograde (resp. retrograde) flow with respect to the orbital motion.}
+\label{fig:inflow_maps}
+\end{figure*} 
+
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Flow morphology}
+\label{sec:morph}
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+
+\subsubsection{Without cooling}
+\label{sec:cool_F}
+
+\subsubsection{With cooling}
+\label{sec:cool_T}
+
+FOR BLACK HOLES :
+Presence of a disc-like structure which does not extend as far as in RLOF-fed systems (~LMXB) => no hysteresis in hardness-intensity diagram (for Cyg X-1, LMC X-1 or LMC X-3, the 3 wind-fed BH-HMXB). Indeed, the soft state might originate from : "A drop in the accretion rate affecting both flows would propagate through the halo immediately but might take up to several weeks to propagate through the disk.While the inner halo is thus temporarily depleted compared to the disk, a temporary soft state is expected." but if the disc has a much smaller outer radius (due to a much smaller angular momentum of the inflow), the viscous delay is expected to be so small that the dimming of the disc will be almost as fast as the one of the disc. \citep{Smith2002}. Explains also why no large outburst (ie a low contrast between the brightest and dimmest X-ray emission) in Cygnus X-1 (~x3) \citep{Grinberg:2014ux} : without an outer cool disc, the thermal instability resulting from the ionization of Hydrogen cannot occur (REF?). No quiescent state in Cyg X-1 : it is an argument in favor of the existence of a cool disc in the hard state.
+
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Mass and angular momentum accretion rates}
+\label{sec:mdot_ldot}
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+
+If halted mass accretion, might be due to radiative heating from the X-ray source \citep{Sugimura2018} : if circularization radius > 0.04 times the Bondi radius (for us, the accretion radius?), much lower accretion rate than Bondi (for us, BHL?). But their work depends also on isotropic or anisotropic X-ray source, alpha viscosity parameter, etc...
+
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Disc mass and morphology}
+\label{sec:disc}
+% - - - - - - - - - - - - - - - - - - - - - - - -
+
+% ------------------------------------------------
+\section{Conclusion}
+\label{sec:conc}
+% ------------------------------------------------
+
+which connect the different scales 
+
+significant deviation from 
+
+bridge the gap between the  / starts to resemble RLOF
+
+
+\begin{acknowledgements}
+Hugues Sana for his insights on binary evolution
+Antonios Manousakis for fruitful discussions about the underlying computational aspects
+
+IEM has received funding from the Research Foundation Flanders (FWO) and the European Union's Horizon 2020 research and innovation program under the Marie Sk\l odowska-Curie grant agreement No 665501. IEM and JOS are grateful for the hospitality of the International Space Science Institute (ISSI), Bern, Switzerland which sponsored a team meeting initiating a tighter collaboration between massive stars wind and X-ray binaries communities. IEM also thanks Peter Kretschmar, Victoria Grinberg and Felix F\"urst for the fruitful discussions and the relevant comments they made on the present work. The simulations were conducted on the Tier-1 VSC (Flemish Supercomputer Center funded by Hercules foundation and Flemish government).
+
+
+\end{acknowledgements}
+
+
+%-------------------------------------------------------------------
+
+\bibliographystyle{agsm}
+\begin{tiny}
+\bibliography{/Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url}
+\end{tiny}
+
+%\begin{thebibliography}{}
+%
+%
+%  \bibitem[1966]{baker} Baker, N. 1966,
+%      in Stellar Evolution,
+%      ed.\ R. F. Stein,\& A. G. W. Cameron
+%      (Plenum, New York) 333
+%
+%   \bibitem[1988]{balluch} Balluch, M. 1988,
+%      A\&A, 200, 58
+%
+%   \bibitem[1980]{cox} Cox, J. P. 1980,
+%      Theory of Stellar Pulsation
+%      (Princeton University Press, Princeton) 165
+%
+%   \bibitem[1969]{cox69} Cox, A. N.,\& Stewart, J. N. 1969,
+%      Academia Nauk, Scientific Information 15, 1
+%
+%   \bibitem[1980]{mizuno} Mizuno H. 1980,
+%      Prog. Theor. Phys., 64, 544
+%   
+%   \bibitem[1987]{tscharnuter} Tscharnuter W. M. 1987,
+%      A\&A, 188, 55
+%  
+%   \bibitem[1992]{terlevich} Terlevich, R. 1992, in ASP Conf. Ser. 31, 
+%      Relationships between Active Galactic Nuclei and Starburst Galaxies, 
+%      ed. A. V. Filippenko, 13
+%
+%   \bibitem[1980a]{yorke80a} Yorke, H. W. 1980a,
+%      A\&A, 86, 286
+%
+%   \bibitem[1997]{zheng} Zheng, W., Davidsen, A. F., Tytler, D. \& Kriss, G. A.
+%      1997, preprint
+%\end{thebibliography}
+
+\end{document}
