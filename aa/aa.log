@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 JUL 2018 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 JUL 2018 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,42 +762,42 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 ) (./aa.aux)
 \openout1 = `aa.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 40.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 40.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 42.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 42.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 40.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 42.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 40.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 42.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 40.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 42.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 40.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 42.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
@@ -892,108 +892,118 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 101.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 103.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 101.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 103.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 103.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 101.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 103.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 101.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 103.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 101.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 103.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 101.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 103.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for T1+txss on input line 101.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 103.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 101.
+(Font)              scaled to size 16.41594pt on input line 103.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 16.41594pt on input line 101.
+(Font)              scaled to size 16.41594pt on input line 103.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 101.
+(Font)              scaled to size 13.67995pt on input line 103.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 101.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 101.
+(Font)              scaled to size 13.67995pt on input line 103.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 103.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 101.
+(Font)              scaled to size 8.54997pt on input line 103.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 101.
+(Font)              scaled to size 8.54997pt on input line 103.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 101.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 103.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 8.54997pt on input line 101.
+(Font)              scaled to size 8.54997pt on input line 103.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 105.
+(Font)              scaled to size 10.40245pt on input line 107.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 105.
+(Font)              scaled to size 10.40245pt on input line 107.
 
 
 Package natbib Warning: Citation `Duchene2013' on page 1 undefined on input lin
-e 107.
+e 109.
 
 
 Package natbib Warning: Citation `Abbott2016a' on page 1 undefined on input lin
-e 107.
+e 109.
 
 
 Package natbib Warning: Citation `Grinberg2017' on page 1 undefined on input li
-ne 107.
+ne 109.
 
 
 Package natbib Warning: Citation `Lucy1970' on page 1 undefined on input line 1
-11.
+13.
 
 
 Package natbib Warning: Citation `Castor1975' on page 1 undefined on input line
- 111.
+ 113.
 
 
 Package natbib Warning: Citation `Edgar:2004ip' on page 1 undefined on input li
-ne 113.
+ne 115.
 
 
 Package natbib Warning: Citation `Illarionov1975' on page 1 undefined on input 
-line 113.
+line 115.
 
 
 Package natbib Warning: Citation `Shapiro1976' on page 1 undefined on input lin
-e 113.
+e 115.
+
+
+Package natbib Warning: Citation `Sander2017' on page 1 undefined on input line
+ 117.
+
+
+LaTeX Warning: Reference `' on page 1 undefined on input line 117.
+
+
+LaTeX Warning: Reference `' on page 1 undefined on input line 117.
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1004,174 +1014,229 @@ Package natbib Warning: Citation `Hoyle:1939fl' on page 2 undefined on input li
 ne 123.
 
 
-Package natbib Warning: Citation `Martinez-Nunez2017' on page 2 undefined on in
-put line 127.
-
-
 Package natbib Warning: Citation `Duchene2013' on page 2 undefined on input lin
-e 137.
+e 132.
 
 
 Package natbib Warning: Citation `Abbott2016a' on page 2 undefined on input lin
-e 137.
+e 132.
 
 
 Package natbib Warning: Citation `Boffin2014' on page 2 undefined on input line
- 139.
+ 134.
 
 
 Package natbib Warning: Citation `Masseron2009' on page 2 undefined on input li
-ne 139.
+ne 134.
 
 
 Package natbib Warning: Citation `XXX Podsiadlowski2010' on page 2 undefined on
- input line 139.
+ input line 134.
 
 
 Package natbib Warning: Citation `Mereghetti2014 or Han? XXX' on page 2 undefin
-ed on input line 139.
+ed on input line 134.
 
 
 Package natbib Warning: Citation `XXX Podsiadlowski2010? XXX' on page 2 undefin
-ed on input line 139.
+ed on input line 134.
 
 
 Package natbib Warning: Citation `XXX Podsiadlowski2010? XXX' on page 2 undefin
-ed on input line 139.
+ed on input line 134.
 
 
 Package natbib Warning: Citation `Martinez-Nunez2017' on page 2 undefined on in
-put line 141.
+put line 136.
 
 
-Package natbib Warning: Citation `Mohamed' on page 2 undefined on input line 14
-1.
+Package natbib Warning: Citation `Mohamed' on page 2 undefined on input line 13
+6.
 
 
 Package natbib Warning: Citation `ElMellah2016a' on page 2 undefined on input l
-ine 141.
+ine 136.
 
 
 Package natbib Warning: Citation `Illarionov1975' on page 2 undefined on input 
-line 141.
+line 136.
 
 
 Package natbib Warning: Citation `Shapiro1976' on page 2 undefined on input lin
-e 141.
+e 136.
 
 
 Package natbib Warning: Citation `Ruffert1999' on page 2 undefined on input lin
-e 141.
+e 136.
 
 
 Package natbib Warning: Citation `MacLeod2015' on page 2 undefined on input lin
-e 141.
+e 136.
 
 
 Package natbib Warning: Citation `Ruffert1996' on page 2 undefined on input lin
-e 141.
+e 136.
 
 
 Package natbib Warning: Citation `Lucy1970' on page 2 undefined on input line 1
-43.
+38.
 
 
 Package natbib Warning: Citation `Castor1975' on page 2 undefined on input line
- 143.
+ 138.
 
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 155.
+(Font)              scaled to size 9.49997pt on input line 150.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 155.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 150.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 155.
-<Pictures/big_picture.png, id=16, 607.068pt x 609.2361pt>
+(Font)              scaled to size 9.49997pt on input line 150.
+
+Package natbib Warning: Citation `ElMellah2016' on page 2 undefined on input li
+ne 154.
+
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 156.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2]
+
+Package natbib Warning: Citation `Sander2017' on page 3 undefined on input line
+ 162.
+
+
+Package natbib Warning: Citation `Hamann1998' on page 3 undefined on input line
+ 162.
+
+
+Package natbib Warning: Citation `Grafener2002' on page 3 undefined on input li
+ne 162.
+
+
+Package natbib Warning: Citation `Sander2017b' on page 3 undefined on input lin
+e 167.
+
+
+Package natbib Warning: Citation `Manousakis2013' on page 3 undefined on input 
+line 177.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 197--197
+[][][] 
+ []
+
+<Pictures/big_picture.png, id=21, 607.068pt x 609.2361pt>
 File: Pictures/big_picture.png Graphic file (type png)
 
 <use Pictures/big_picture.png>
-Package pdftex.def Info: Pictures/big_picture.png used on input line 163.
+Package pdftex.def Info: Pictures/big_picture.png used on input line 208.
 (pdftex.def)             Requested size: 230.46574pt x 231.28902pt.
-
-Underfull \vbox (badness 4416) has occurred while \output is active []
-
- [2 <./Pictures/big_picture.png>]
-
-Package natbib Warning: Citation `Xia2017' on page 3 undefined on input line 19
-1.
-
-
-Package natbib Warning: Citation `Schure2009' on page 3 undefined on input line
- 228.
-
-
-Package natbib Warning: Citation `Horedt2000' on page 3 undefined on input line
- 229.
-
-
-Package natbib Warning: Citation `Taam2018' on page 3 undefined on input line 2
-31.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 259--259
-[][][] 
- []
 
 <Pictures/inflow_maps.png, id=23, 883.1394pt x 411.939pt>
 File: Pictures/inflow_maps.png Graphic file (type png)
 
 <use Pictures/inflow_maps.png>
-Package pdftex.def Info: Pictures/inflow_maps.png used on input line 275.
+Package pdftex.def Info: Pictures/inflow_maps.png used on input line 215.
 (pdftex.def)             Requested size: 512.1496pt x 238.89334pt.
 
+Underfull \vbox (badness 4168) has occurred while \output is active []
 
-Package natbib Warning: Citation `Smith2002' on page 3 undefined on input line 
+
+
+Package natbib Warning: Citation `Xia2017' on page 3 undefined on input line 24
+0.
+
+
+LaTeX Warning: Reference `sec:wind_acc' on page 3 undefined on input line 267.
+
+
+Package natbib Warning: Citation `Schure2009' on page 3 undefined on input line
+ 275.
+
+
+Package natbib Warning: Citation `Horedt2000' on page 3 undefined on input line
+ 276.
+
+
+Package natbib Warning: Citation `Taam2018' on page 3 undefined on input line 2
+78.
+
+[3 <./Pictures/big_picture.png>]
+
+Package natbib Warning: Citation `Smith2002' on page 4 undefined on input line 
 292.
 
 
-Package natbib Warning: Citation `Grinberg:2014ux' on page 3 undefined on input
+Package natbib Warning: Citation `Grinberg:2014ux' on page 4 undefined on input
  line 292.
 
 
-Underfull \vbox (badness 1859) has occurred while \output is active []
-
-
-
-Package natbib Warning: Citation `Sugimura2018' on page 3 undefined on input li
+Package natbib Warning: Citation `Sugimura2018' on page 4 undefined on input li
 ne 299.
 
-(./aa.bbl)
+
+Package natbib Warning: Citation `Bozzo2008' on page 4 undefined on input line 
+318.
+
+
+Package natbib Warning: Citation `Shakura2012' on page 4 undefined on input lin
+e 318.
+
+
+Package natbib Warning: Citation `Romano2015' on page 4 undefined on input line
+ 318.
+
+
+Package natbib Warning: Citation `Hu2017' on page 4 undefined on input line 318
+.
+
+
+Package natbib Warning: Citation `Bozzo2017a' on page 4 undefined on input line
+ 320.
+
+
+Package natbib Warning: Citation `Martinez-Nunez2017' on page 4 undefined on in
+put line 328.
+
+[4 <./Pictures/inflow_maps.png>] (./aa.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[3] [4 <./Pictures/inflow_maps.png>] (./aa.aux) ) 
+[5
+
+] (./aa.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6213 strings out of 493014
- 79713 string characters out of 6133351
- 160481 words of memory out of 5000000
- 9538 multiletter control sequences out of 15000+600000
- 110422 words of font info for 186 fonts, out of 8000000 for 9000
+ 6265 strings out of 493014
+ 80760 string characters out of 6133351
+ 161463 words of memory out of 5000000
+ 9581 multiletter control sequences out of 15000+600000
+ 124120 words of font info for 193 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,45p,1476b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf
--dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/txfonts/rtxb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/txfonts/rtxmi.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txf
-onts/rtxr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rt
-xr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txbsy.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
-rw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
-tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on aa.pdf (4 pages, 820718 bytes).
+ 41i,14n,45p,1789b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/txfonts/txbsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/txfonts/txex.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfo
+nts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txs
+yb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on aa.pdf (5 pages, 833611 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
