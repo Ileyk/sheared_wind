@@ -1,63 +1,52 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: aa.aux
-White space in argument---line 20 of file aa.aux
- : \citation{XXX
- :               Podsiadlowski2010}
-I'm skipping whatever remains of this command
-White space in argument---line 21 of file aa.aux
- : \citation{Mereghetti2014
- :                          or Han? XXX}
-I'm skipping whatever remains of this command
-White space in argument---line 22 of file aa.aux
- : \citation{XXX
- :               Podsiadlowski2010? XXX}
-I'm skipping whatever remains of this command
-White space in argument---line 23 of file aa.aux
- : \citation{XXX
- :               Podsiadlowski2010? XXX}
-I'm skipping whatever remains of this command
-I found no \bibdata command---while reading file aa.aux
-I found no \bibstyle command---while reading file aa.aux
-You've used 18 entries,
-            0 wiz_defined-function locations,
-            116 strings with 848 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
+The style file: agsm.bst
+Database file #1: /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
+Warning--I didn't find a database entry for "Shapiro1976"
+Warning--I didn't find a database entry for "ElMellah2016"
+Warning--I didn't find a database entry for "Sanders2017"
+Warning--I didn't find a database entry for "Taam2018"
+Warning--I didn't find a database entry for "Smith2002"
+You've used 30 entries,
+            2909 wiz_defined-function locations,
+            891 strings with 14446 characters,
+and the built_in function-call counts, 290321 in all, are:
+= -- 48639
+> -- 3942
 < -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
++ -- 24564
+- -- 1252
+* -- 26572
+:= -- 55658
+add.period$ -- 30
+call.type$ -- 30
+change.case$ -- 420
+chr.to.int$ -- 30
+cite$ -- 30
+duplicate$ -- 471
+empty$ -- 946
+format.name$ -- 1348
+if$ -- 52209
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+missing$ -- 30
+newline$ -- 123
+num.names$ -- 322
+pop$ -- 74
+preamble$ -- 1
+purify$ -- 450
 quote$ -- 0
-skip$ -- 0
+skip$ -- 391
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 71056
+swap$ -- 86
+text.length$ -- 420
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 120
 warning$ -- 0
-while$ -- 0
+while$ -- 667
 width$ -- 0
-write$ -- 0
-(There were 6 error messages)
+write$ -- 435
+(There were 5 warnings)

@@ -21,6 +21,22 @@
 \usepackage{txfonts}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{tabularx}
+\usepackage{amsfonts}
+\usepackage{bbold}
+\usepackage{color}
+\usepackage{transparent}
+\usepackage{hyperref}
+\usepackage{transparent}
+\usepackage{rotating}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Only include extra packages if you really need them. Common packages are:
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}	% Extra maths symbols
+\usepackage{tablefootnote}
+\usepackage[flushleft]{threeparttable}
 
 \newcommand{\sgx}{SgXB\xspace}
 \newcommand{\sfxt}{SFXT}
@@ -34,6 +50,7 @@
 \newcommand*{\aka}{a.k.a. \@\xspace}
 \newcommand*\diff{\mathop{}\!\mathrm{d}}
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
+\newcommand*{\msun}{$M_{\odot}$\@\xspace}
 
 %\usepackage[options]{hyperref}
 % To add links in your PDF file, use the package "hyperref"
@@ -116,29 +133,29 @@ Until now, the mass and angular momentum accretion rates pertaining wind accreti
 
 In consequence, a fully consistent treatment of both the wind acceleration and its accretion by the compact object is required to avoid being left with the wind speed as a convenient but not constraining degree of freedom. \cite{Sander2017} computed the steady state wind stratification for a 1D radial non-local thermal equilibrium atmosphere of a star representative of the donor star in Vela X-1. They accounted for a plethora of chemical elements and ionization levels susceptible to absorb the stellar UV photons, and for the X-ray ionizing feedback from the accretor on the wind ionization state. In this paper, we intend to use this computed 1D line-driven acceleration to see how the 3D structure of the flow departs from a spherical wind once the orbital effects are added. Rather than being set based on an empirical fitting formula, the static wind velocity and density are mere consequences of the stellar and orbital properties. In section\,\ref{}, we evaluate the systematic bending of the wind streamlines by the orbital effects, as the wind unfolds and enters the Roche lobe of the accretor with a non-zero net angular momentum. Within the latter, we run 3D HD simulations described in section\,\ref{sec:orb_dev} to capture the structure of the flow as it cools down downstream the shock and its capacity to form a disc-like structure. In section\,\ref{}, the implications of such a component are discussed in the context of the archetype of wind accreting \ns-\sgx, Vela X-1, and of the \sgx Cygnus X-1 hosting a stellar-mass black hole candidate accreting the wind from a companion supergiant which does not fill its Roche lobe. 
 
-- - -
-
-Yet, we still miss a fully consistent frame to follow the flow from the stellar surface down to the X-ray emitting region, in the immediate vicinity of the accretor. Until now, the six orders-of-magnitude or so separating the two scales has precluded any bold numerical attempt to follow the flow all along its journey.
-
-\cite{Hoyle:1939fl} first derived a critical impact parameter, the accretion radius, below which material is likely to be captured by the accretor.
-
-brought a firm motivation
-
-brought serious motivations to the field of accretion disks
-
-The turbulent twilight of massive stellar binaries stars determines their final fate. In Supergiant X-ray binaries, mass transfer proceeds through the accretion of a fraction of the dense and fast wind from an evolved donor star by an orbiting compact object, generally a neutron star. The accretor both perturbs the stellar wind and provides a moving X-ray source to probe its internal structure : the characteristics of the flow constrain the X-ray emission and absorption along the line-of-sight, while the X-ray ionizing feedback alters the wind acceleration. In order to consistently monitor the flow from the stellar surface down to the accretor, we designed a multi-scale model which includes recent insights on the properties of massive star winds. We performed 3D numerical simulations to evaluate the mass and angular momentum accretion rates onto the compact object, depending on the wind to orbital speed ratio and to the cooling efficiency within the shocked region. We identified conditions favorable to the formation of a disc-like structure beyond the neutron star magnetosphere, in spite of the low angular momentum carried by the wind, and analyzed its properties. These conditions, compatible with the currently known parameters of the Supergiant X-ray binary Vela X-1 and to a certain extent with Cygnus X-1, indicate the possible presence of a limited disc-structure in the former case and account for an extended one in the latter case.
-
-
-Our current theories of single-star evolution have proved consistent with the observational surveys carried on by contemporary missions. However, few stars are deprived of a gravitationally bound stellar companion, with more high mass stars showing a higher multiplicity frequency \citep{Duchene2013}. Some of them undergo a phase of interaction with their companion tied enough to significantly alter their subsequent evolution. One of the stages important to provide a more complete evaluation of the impact of binarity on stellar evolution are high mass X-ray binaries (\hmxb). They represent the turbulent twilight of the entangled evolution of two massive stars, one having already collapsed into a compact object. They are believed to be progenitors of compact object binaries whose final coalescence has been observed by the LIGO/VIRGO collaboration \citep{Abbott2016a}.
-
-The main characteristic manifestation of binarity is through mass transfer between the two components. It can lead to chemical contamination \citep[\eg in the case of Barium and Carbon-enhanced metal-poor stars][]{Boffin2014,Masseron2009} or to the stripping of the outer envelope of an evolved star, leaving a naked Helium-rich core \citep[\eg for some hot subdwarf stars][]{XXX Podsiadlowski2010, Mereghetti2014 or Han? XXX}. The transfer of mass goes hand in hand with a transfer of angular momentum which can produce fast rotators like millisecond pulsars \citep{XXX Podsiadlowski2010? XXX} or Be-stars \citep{XXX Podsiadlowski2010? XXX}.
-
-Supergiant X-ray Binaries (\sgx) are systems where a compact object, generally a neutron star, orbits an O/B Supergiant \citep[see][for a recent review]{Martinez-Nunez2017}. Mass transfer proceeds through the capture of a fraction of the dense and fast line-driven stellar wind by the accreting body. This highly non-conservative mechanism, called wind accretion, has been put in opposition to the better understood Roche lobe overflow mechanism, although elements of both can co-exist in hybrid models \citep{Mohamed,ElMellah2016a}. The central distinction lies in the presence of a large and permanent disc in the latter case, while the conditions for such a structure in the former case are still unclear. Our present knowledge on angular momentum wind accretion builds up on models of asymmetric Bondi-Hoyle-Lyttleton accretion \citep{Illarionov1975,Shapiro1976} and on numerical investigations of the impact of transverse gradients of density \citep{Ruffert1999,MacLeod2015} and velocity \citep{Ruffert1996}. Yet, we still miss a fully consistent frame to follow the flow from the stellar surface down to the X-ray emitting region, in the immediate vicinity of the accretor. Until now, the six orders-of-magnitude or so separating the two scales has precluded any bold numerical attempt to follow the flow all along its journey.
-
-Wind accretion turns out to be extremely sensitive to the properties of the stellar wind. O/B supergiants display dense and fast outflows, with mass loss rates up to several solar masses per million year. The underlying mechanism, unveiled by \cite{Lucy1970} and \cite{Castor1975}, is the resonant line absorption of UV photons by partly ionized metal ions in the outer layers of the star. As the flow accelerates, it keeps tapping previously untouched Doppler-shifted photons XXX FOR ANDREAS : INFLUENCE OF DETAILED IONIZATION STRUCTURE AND X-RAY IONIZING FEEDBACK XXX
-
-
- key-ingredient
+%- - -
+%
+%Yet, we still miss a fully consistent frame to follow the flow from the stellar surface down to the X-ray emitting region, in the immediate vicinity of the accretor. Until now, the six orders-of-magnitude or so separating the two scales has precluded any bold numerical attempt to follow the flow all along its journey.
+%
+%\cite{Hoyle:1939fl} first derived a critical impact parameter, the accretion radius, below which material is likely to be captured by the accretor.
+%
+%brought a firm motivation
+%
+%brought serious motivations to the field of accretion disks
+%
+%The turbulent twilight of massive stellar binaries stars determines their final fate. In Supergiant X-ray binaries, mass transfer proceeds through the accretion of a fraction of the dense and fast wind from an evolved donor star by an orbiting compact object, generally a neutron star. The accretor both perturbs the stellar wind and provides a moving X-ray source to probe its internal structure : the characteristics of the flow constrain the X-ray emission and absorption along the line-of-sight, while the X-ray ionizing feedback alters the wind acceleration. In order to consistently monitor the flow from the stellar surface down to the accretor, we designed a multi-scale model which includes recent insights on the properties of massive star winds. We performed 3D numerical simulations to evaluate the mass and angular momentum accretion rates onto the compact object, depending on the wind to orbital speed ratio and to the cooling efficiency within the shocked region. We identified conditions favorable to the formation of a disc-like structure beyond the neutron star magnetosphere, in spite of the low angular momentum carried by the wind, and analyzed its properties. These conditions, compatible with the currently known parameters of the Supergiant X-ray binary Vela X-1 and to a certain extent with Cygnus X-1, indicate the possible presence of a limited disc-structure in the former case and account for an extended one in the latter case.
+%
+%
+%Our current theories of single-star evolution have proved consistent with the observational surveys carried on by contemporary missions. However, few stars are deprived of a gravitationally bound stellar companion, with more high mass stars showing a higher multiplicity frequency \citep{Duchene2013}. Some of them undergo a phase of interaction with their companion tied enough to significantly alter their subsequent evolution. One of the stages important to provide a more complete evaluation of the impact of binarity on stellar evolution are high mass X-ray binaries (\hmxb). They represent the turbulent twilight of the entangled evolution of two massive stars, one having already collapsed into a compact object. They are believed to be progenitors of compact object binaries whose final coalescence has been observed by the LIGO/VIRGO collaboration \citep{Abbott2016a}.
+%
+%The main characteristic manifestation of binarity is through mass transfer between the two components. It can lead to chemical contamination \citep[\eg in the case of Barium and Carbon-enhanced metal-poor stars][]{Boffin2014,Masseron2009} or to the stripping of the outer envelope of an evolved star, leaving a naked Helium-rich core \citep[\eg for some hot subdwarf stars][]{XXX Podsiadlowski2010, Mereghetti2014 or Han? XXX}. The transfer of mass goes hand in hand with a transfer of angular momentum which can produce fast rotators like millisecond pulsars \citep{XXX Podsiadlowski2010? XXX} or Be-stars \citep{XXX Podsiadlowski2010? XXX}.
+%
+%Supergiant X-ray Binaries (\sgx) are systems where a compact object, generally a neutron star, orbits an O/B Supergiant \citep[see][for a recent review]{Martinez-Nunez2017}. Mass transfer proceeds through the capture of a fraction of the dense and fast line-driven stellar wind by the accreting body. This highly non-conservative mechanism, called wind accretion, has been put in opposition to the better understood Roche lobe overflow mechanism, although elements of both can co-exist in hybrid models \citep{Mohamed,ElMellah2016a}. The central distinction lies in the presence of a large and permanent disc in the latter case, while the conditions for such a structure in the former case are still unclear. Our present knowledge on angular momentum wind accretion builds up on models of asymmetric Bondi-Hoyle-Lyttleton accretion \citep{Illarionov1975,Shapiro1976} and on numerical investigations of the impact of transverse gradients of density \citep{Ruffert1999,MacLeod2015} and velocity \citep{Ruffert1996}. Yet, we still miss a fully consistent frame to follow the flow from the stellar surface down to the X-ray emitting region, in the immediate vicinity of the accretor. Until now, the six orders-of-magnitude or so separating the two scales has precluded any bold numerical attempt to follow the flow all along its journey.
+%
+%Wind accretion turns out to be extremely sensitive to the properties of the stellar wind. O/B supergiants display dense and fast outflows, with mass loss rates up to several solar masses per million year. The underlying mechanism, unveiled by \cite{Lucy1970} and \cite{Castor1975}, is the resonant line absorption of UV photons by partly ionized metal ions in the outer layers of the star. As the flow accelerates, it keeps tapping previously untouched Doppler-shifted photons XXX FOR ANDREAS : INFLUENCE OF DETAILED IONIZATION STRUCTURE AND X-RAY IONIZING FEEDBACK XXX
+%
+%
+% key-ingredient
 
 
 % ------------------------------------------------
@@ -150,31 +167,29 @@ Wind accretion turns out to be extremely sensitive to the properties of the stel
 \subsection{Model and numerical method}
 \label{sec:orb_model}
 % - - - - - - - - - - - - - - - - - - - - - - - - 
+%(and neglect Roche deformation of the star)
 
-Sophisticated models and simulations of the launching of line-driven winds show that they become supersonic shortly above the stellar photosphere. It motivates a ballistic treatment of the wind bulk motion at the orbital scale similar to what was done in \cite{ElMellah2016} : the trajectory of test-masses is integrated assuming the star and the accretor are on circular orbits and that stellar rotation is synchronized with the orbital period. The 3D equation of motion in the co-rotating frame is :
-\begin{equation}
-\boldsymbol{v}\frac{\diff \boldsymbol{v}}{\diff \boldsymbol{r}} = \boldsymbol{a}_{\text{\mystar}} + \boldsymbol{a}_{\textbf{NS}} + \boldsymbol{a}_{\text{ni}}
-\end{equation}
-where $\boldsymbol{a}_{\textbf{NS}}$ stands for the acceleration due to the \ns gravitational field and $\boldsymbol{a}_{\text{ni}}$ for the non-inertial acceleration (centrifugal and Coriolis). The effective acceleration linked to the donor star of mass $M_1$, once projected on the radial unity vector of the spherical frame of the star, is given by :
-\begin{equation}
-a_{\text{\mystar}}=-\frac{GM_1}{r_1^2}+a_{\text{rad}}\left(r_1\right)+a_{\text{press}}\left(r_1\right)
-\end{equation}
-where $a_{\text{press}}$ is the acceleration due to thermal and turbulent pressure. For describing the total radiative acceleration $a_{\text{rad}}$, containing both the line and total continuum contribution, we rely on the computation by \cite{Sander2017} for Vela X-1. Using the stellar atmosphere code PoWR \citep[e.g.]{Hamann1998,Grafener2002}, they calculate an atmosphere model for the donor star assuming a spherical, stationary wind situation. The radiative transfer is performed in the comoving frame, allowing to obtain the radiative acceleration without any further assumptions or parameterizations, i.e. :
-\begin{equation}
-\label{eq:araddef}
-a_{\text{rad}}\left(r_1\right)  = \frac{4\pi}{c} \frac{1}{\rho(r_1)}  \int\limits_{0}^{\infty} \kappa_\nu H_\nu \mathrm{d}\nu 
-\end{equation}
-where the mass density $\rho$ is deduced from the mass loss rate and the velocity using the conservation of mass. Using the technique described in \cite{Sander2017b}, the model provides a hydrodynamically consistent stratification, meaning that the mass-loss rate and the velocity field were iteratively updated such that eventually the outward and inward forces are balancing each other throughout the stellar atmosphere. The resulting velocity and density stratification shows notable deviations from the typically assumed $\beta$-law, especially within a couple of stellar radii, where the orbiting accretor lies and where the obtained wind velocity is lower. Notice that in spite of the non-spherical situation due to the presence of the \ns, we adopt $a_\text{rad}$ as $a_\text{press}$ as functions of the distance $r_1$ to the donor star here for simplicity.
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.9\columnwidth]{Pictures/big_picture.png}
+%\caption{A few computed streamlines (orange solid lines) from the blue supergiant to the Roche lobe of the accretor on the right (green dashed circle), in the orbital plane. The black dashed lines represent the critical Roche surface passing by the first Lagrangian point. Upper panel (resp. lower) is for the heavy slow (resp. light fast) configuration.}
+%\label{fig:big_picture}
+%\end{figure} 
 
-(and neglect Roche deformation of the star)
-
- can be seen as a modified Roche potential which encapsulates the gravitational potential of the accretor, the centrifugal component and the effective gravitational potential of the star given by 
-
-
-Wind acceleration
-XXX ANDREAS : would you be able to summarize the principle of your calculation and the way we account for it here?XXX 
-
-we focus on the fraction of the wind susceptible to be eventually accreted, not on an accurate representation of the accretion tail in the wake of the accretor \citep[for this component, see rather][]{Manousakis2013}
+\begin{figure}
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=0.9\columnwidth]{Pictures/big_picture.png}
+  \label{fig:sfig1}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=0.9\columnwidth]{Pictures/big_picture.png}
+  \label{fig:sfig2}
+\end{subfigure}
+\caption{A few computed streamlines (orange solid lines) from the blue supergiant to the Roche lobe of the accretor on the right (green dashed circle), in the orbital plane. The black dashed lines represent the critical Roche surface passing by the first Lagrangian point. Upper panel (resp. lower) is for the heavy slow (resp. light fast) configuration.}
+\label{fig:big_picture}
+\end{figure} 
 
 \begin{table}
 \centering
@@ -183,12 +198,12 @@ we focus on the fraction of the wind susceptible to be eventually accreted, not 
 \begin{tabularx}{\linewidth}{c|c|c}
    & LF & HS \\
   \hline
-  M$_1$ & \multicolumn{2}{c}{20.2M$_{\odot}$} \\
-  R$_1$ & \multicolumn{2}{c}{28.4R$_{\odot}$} \\
+  M$_{\text{\mystar}}$ & \multicolumn{2}{c}{20.2M$_{\odot}$} \\
+  R$_{\text{\mystar}}$ & \multicolumn{2}{c}{28.4R$_{\odot}$} \\
   P & \multicolumn{2}{c}{8.964357 days} \\  
-  $\dot{\text{M}}_1$ & \multicolumn{2}{c}{6.3$\cdot$10$^{-7}$M$_{\odot}\cdot$yr$^{-1}$} \\
+  $\dot{\text{M}}_{\text{\mystar}}$ & \multicolumn{2}{c}{6.3$\cdot$10$^{-7}$M$_{\odot}\cdot$yr$^{-1}$} \\
   \hline
-  M$_2$ & 1.5M$_{\odot}$  & 2.5M$_{\odot}$  \\
+  M$_{\bullet}$ & 1.5M$_{\odot}$  & 2.5M$_{\odot}$  \\
   Boosted & Yes & No  \\
   \hline
   $\dot{\text{M}}_{\text{out}}/\dot{\text{M}}_1$ & XXX & XXX  \\
@@ -197,18 +212,40 @@ we focus on the fraction of the wind susceptible to be eventually accreted, not 
 \end{tabularx}
 \end{table}
 
+Sophisticated models and simulations of the launching of line-driven winds show that they become supersonic shortly above the stellar photosphere. It motivates a ballistic treatment of the wind bulk motion at the orbital scale similar to what was done in \cite{ElMellah2016} : the trajectory of test-masses is integrated assuming the star and the accretor are on circular orbits and that stellar rotation is synchronized with the orbital period. The 3D equation of motion in the co-rotating frame is :
+\begin{equation}
+\boldsymbol{v}\frac{\diff \boldsymbol{v}}{\diff \boldsymbol{r}} = \boldsymbol{a}_{\text{\mystar}} + \boldsymbol{a}_{\bullet} + \boldsymbol{a}_{\text{ni}}
+\end{equation}
+where $\boldsymbol{a}_{\bullet}$ stands for the acceleration due to the \ns gravitational field and $\boldsymbol{a}_{\text{ni}}$ for the non-inertial acceleration (centrifugal and Coriolis). The effective acceleration linked to the donor star of mass $M_1$, once projected on the radial unity vector of the spherical frame of the star, is given by :
+\begin{equation}
+a_{\text{\mystar}}=-\frac{GM_1}{r_1^2}+a_{\text{rad}}\left(r_1\right)+a_{\text{press}}\left(r_1\right)
+\end{equation}
+where $a_{\text{press}}$ is the acceleration due to thermal and turbulent pressure, important near the stellar photosphere. For describing the total radiative acceleration $a_{\text{rad}}$, containing both the line and total continuum contribution, we rely on the computation by \cite{Sander2017} for Vela X-1. Using the stellar atmosphere code PoWR \citep[e.g.]{Hamann1998,Grafener2002}, they calculate an atmosphere model for the donor star assuming a spherical, stationary wind situation. The radiative transfer is performed in the comoving frame, allowing to obtain the radiative acceleration without any further assumptions or parameterizations, i.e. :
+\begin{equation}
+\label{eq:araddef}
+a_{\text{rad}}\left(r_1\right)  = \frac{4\pi}{c} \frac{1}{\rho(r_1)}  \int\limits_{0}^{\infty} \kappa_\nu H_\nu \mathrm{d}\nu 
+\end{equation}
+where the mass density $\rho$ is deduced from the mass loss rate and the velocity using the conservation of mass. Using the technique described in \cite{Sander2017b}, the model provides a hydrodynamically consistent stratification, meaning that the mass-loss rate and the velocity field were iteratively updated such that eventually the outward and inward forces are balancing each other throughout the stellar atmosphere. The resulting velocity and density stratification shows notable deviations from the typically assumed $\beta$-law, especially within a couple of stellar radii, where the orbiting accretor lies and where the obtained wind velocity is lower. Notice that in spite of the non-spherical situation due to the presence of the \ns, we adopt $a_\text{rad}$ as $a_\text{press}$ as functions of the distance $r_1$ to the donor star here for simplicity.
+
+The streamlines computation is performed with a fourth order Runge-Kutta from the stellar surface whose ellipsoidal deformation, even for Roche lobe filling factors close to 1, is expected to have a negligible impact on the formation of a wind-capture disc. An illustration of the result is given in Figure\,\ref{fig:big_picture} where the streamlines have been represented in the orbital plane. We stop the integration when the test-masses enter a sphere around the accretor $\sim$30\% larger than its Roche lobe radius. It delimits the space where the ballistic approximation no longer holds. Dissipative effects will be accounted for within this region in section\,\ref{sec:wind-capt_discs}. With this procedure, we focus on the fraction of the flow susceptible to be eventually accreted rather than on an accurate representation of the accretion tail in the wake of the accretor \citep[for this component, see rather][]{Manousakis2013}.
+
+- - -
+
+XXX X-ray illumination does not mean slower wind XXX
+
+- - -
+
+A classic result of line-driven wind theory is that the wind terminal speed is expected to scale approximately as the effective escape velocity (\ie once surface gravity has been corrected for radiative continuum pressure on free electrons via the Eddington parameter). The donor star in Vela X-1, HD77581, is a B0.5 Ib supergiant star \citep{Hiltner1972,Forman1973} whose effective temperature of $\sim$25kK is dangerously close from the critical temperature identified by \cite{Vink2001} below which the terminal speed (with respect to the effective escape speed) drops steeply. \cite{Gimenez-Garcia2016} suggested that it could explain the low terminal speed of 700km$\cdot$s$^{-1}\pm$100km$\cdot$s$^{-1}$ they measured for the wind of HD77581. The computation carried on by \cite{Sanders2017} for HD77581 leads to terminal speeds ranging from 400 to 600km$\cdot$s$^{-1}$ depending on the inclusion of X-ray illumination (essentially from the immediate vicinity of the accretor). To illustrate the dramatic impact of the efficiency of the line-driven acceleration on the subsequent properties of the accretion flow, we consider the case of an artificially enhanced wind acceleration (by 50\%) which leads to larger flow velocities by approximately 20\%. In section\,\ref{sec:wind-capt_discs}, we will see that the orbital speed is a threshold which separates two types of accretion flows and given the value of the orbital speed in Vela X-1 (284km$\cdot$s$^{-1}$), this wind acceleration boosting will induce major changes. From now on, we consider the two cases in Table\,\ref{tab:params} :
+\begin{itemize}
+\item \underline{the heavy slow (HS) :} the accretor is 2.5\msun, lying on the upper edge of the expected maximum mass for a \ns, and the radiative acceleration is not boosted.
+\item  \underline{the light fast (LF) :} the accretor is 1.5\msun and the radiative acceleration is boosted by 50\%.
+\end{itemize} 
+Since the \ns mass estimates in Vela X-1 range from 1.7\msun \citep{Rawls2011} up to 2.3\msun \citep{Quaintrell2003a}, partly due to the uncertainty on the inclination of the system, we expect the real configuration to lie in-between the two cases we consider.
 
 % - - - - - - - - - - - - - - - - - - - - - - - - 
 \subsection{Inhomogeneity and asymmetry of the wind}
 \label{sec:orb_inhomo}
 % - - - - - - - - - - - - - - - - - - - - - - - - 
-
-\begin{figure}
-\centering
-\includegraphics[width=0.9\columnwidth]{Pictures/big_picture.png}
-\caption{Computed streamlines (orange dots) from the star (dark blue) to the Roche lobe of the accretor on the right (green dashed circle), in the orbital plane. The black dashed lines represent the critical Roche surface passing by the first Lagrangian point.}
-\label{fig:big_picture}
-\end{figure} 
 
 \begin{figure*}
 \centering
@@ -216,6 +253,15 @@ we focus on the fraction of the wind susceptible to be eventually accreted, not 
 \caption{Mollweide projections of local mass and angular momentum inflows within the simulation space centered on the accretor (dashed green sphere on Figure\ref{fig:big_picture}). The upper row corresponds to the light fast (LF) case while the bottom row is for the heavy slow (HS) case. Each map is scaled to its maximum (absolute) value and centered on the axis from the accretor to the donor star. Positive (resp. negative) values of angular momentum stands for locally prograde (resp. retrograde) flow with respect to the orbital motion.}
 \label{fig:inflow_maps}
 \end{figure*} 
+
+We now monitor the flow as it enters the spherical HD simulation space centered on the compact object and corresponding approximately to its Roche lobe. The aforementioned ballistic integration supplied information on the velocity vector at the surface of this sphere while the density relative to the stellar one is deduced from the divergence of each streamline. This information is then binned on angular tiles, with the polar axis of the spherical frame aligned with the orbital angular momentum axis ($\hat{z}$ in Figure\,\ref{fig:big_picture}). We represented the local mass and angular momentum inflow at the surface of this space with Mollweide projection in Figure\,\ref{fig:inflow_maps} for the HS and LF cases. Their integrated value, $\dot{\text{M}}_{\text{out}}$ and $\dot{\text{j}}_{\text{out}}$, normalized with the corresponding scaling parameters. Dividing the accretion rates of angular momentum and mass, we obtain the specific angular momentum of the inflowing gas and can compute the radius at which a Keplerian orbit would have the same specific angular momentum (\aka the circularization radius). This radius is compared to the \ns magnetosphere radius, $R_{\text{m}}$, given by \cite{Martinez-Nunez2017} :
+\begin{align*}
+R_{\text{m}}\sim & 1.4\cdot 10^9\text{cm}\left(\frac{\rho}{10^{-12}\text{g}\cdot\text{cm}^{-3}}\right)^{-1/6}\left(\frac{v}{2,000\text{km}\cdot\text{s}^{-1}}\right)^{-1/3} \text{...}\\
+& \text{...} \quad \left(\frac{B_{\bullet}}{2.6\cdot 10^{12}\text{G}}\right)^{1/3}\left(\frac{R_{\bullet}}{10\text{km}}\right)
+\end{align*}
+where the values used for the mass density $\rho$ and the flow speed $v$ are orders-of-magnitude at the outer edge of the magnetosphere. The low dependence of the magnetosphere radius on them guarantees that their exact value will not significantly alter this estimate. A typical \ns radius has been used and the \ns magnetic field is the one deduced by \cite{Furst2014} in Vela X-1.
+
+The left panels in Figure\,\ref{fig:inflow_maps} show that the mass inflow is approximately distributed in the same way in both cases, with a larger off-plane contribution when the wind is slower : it is a first hint that the inertia of the wind is no longer large enough to overcome the orbital beaming induced by rotation, a feature which will have major consequences within the shocked region. In both cases, the incoming flow is centered around a mean direction which departs from the axis joining the compact object to the star. The essential difference though lies in the distribution of angular momentum inflow (right panels) : the LF case leads to an equivalent amount of positive and negative angular momentum, revealing of the essentially planar (albeit deviated) structure of the flow, whereas the HS case displays a large unbalance which can not be attributed to an asymmetry of the mass inflow. Rather, it is due to the shift between the mean direction of arrival of matter (yellow spot in mass inflow maps) and the direction of radial inflow (white stripe in-between blue and red in angular momentum inflow maps). It is much more significant for HS than for LF. Consequently, the net amount of specific angular momentum is larger for HS, which also leads to larger circularization radii and to a likelier wind-capture disc, a prediction we now put to the test.
 
 % ------------------------------------------------
 \section{Wind-capture discs}
@@ -343,7 +389,7 @@ IEM has received funding from the Research Foundation Flanders (FWO) and the Eur
 
 \bibliographystyle{agsm}
 \begin{tiny}
-\bibliography{/Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url}
+\bibliography{/Users/Ileyk/Documents/Bibtex/article_sheared_wind}
 \end{tiny}
 
 %\begin{thebibliography}{}

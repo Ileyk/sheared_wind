@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 JUL 2018 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 JUL 2018 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -759,45 +759,223 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@delta=\dimen134
 \TX@cols=\count125
 \TX@ftn=\toks30
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/bbold.sty
+Package: bbold 1994/04/06 Bbold symbol package
+LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen135
+\Hy@linkcounter=\count126
+\Hy@pagecounter=\count127
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count128
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count129
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen136
+\Fld@menulength=\count130
+\Field@Width=\dimen137
+\Fld@charsize=\dimen138
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count131
+\c@Item=\count132
+\c@Hfootnote=\count133
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count134
+\c@bookmark@seq@number=\count135
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip123
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen139
+\captionmargin@=\dimen140
+\captionwidth=\dimen141
+\caption@tempdima=\dimen142
+\caption@indent=\dimen143
+\caption@parindent=\dimen144
+\caption@hangindent=\dimen145
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\aa@captionfont \ifx \@
+captype \aa@figtype \par \vskip \VSpaceBeforeFigCaption \aa@@makecaption {#1}\a
+a@capstrut #2\par \else {\aa@headcaptionfont #1\aa@floatcounterend }\aa@capstru
+t #2\par \vskip \VSpaceAfterTabCaption \fi .
+\c@ContinuedFloat=\count136
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count137
+\c@subtable=\count138
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty
+Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count139
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box40
 ) (./aa.aux)
 \openout1 = `aa.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 42.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 42.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 59.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 59.
 
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 42.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 59.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 42.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 59.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 42.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 59.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 42.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 59.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
@@ -837,52 +1015,23 @@ File: t1txr.fd 2000/12/15 v3.1
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
-\scratchdimen=\dimen135
-\scratchbox=\box40
-\nofMPsegments=\count127
-\nofMParguments=\count128
+\scratchcounter=\count140
+\scratchdimen=\dimen146
+\scratchbox=\box41
+\nofMPsegments=\count141
+\nofMParguments=\count142
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count129
-\MPscratchDim=\dimen136
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen147
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
 \everyMPtoPDFconversion=\toks32
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -892,351 +1041,387 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 103.
+\AtBeginShipoutBox=\box42
+Package hyperref Info: Link coloring OFF on input line 59.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count146
+)
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
+
+(./aa.out) (./aa.out)
+\@outlinefile=\write3
+\openout3 = `aa.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 123.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 103.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 103.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 123.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 123.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 103.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 123.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 103.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 123.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 103.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 123.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 103.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 123.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for T1+txss on input line 103.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 123.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 103.
+(Font)              scaled to size 16.41594pt on input line 123.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 16.41594pt on input line 103.
+(Font)              scaled to size 16.41594pt on input line 123.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 103.
+(Font)              scaled to size 13.67995pt on input line 123.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 103.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 103.
+(Font)              scaled to size 13.67995pt on input line 123.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 123.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 103.
+(Font)              scaled to size 8.54997pt on input line 123.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 103.
+(Font)              scaled to size 8.54997pt on input line 123.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 103.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 123.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 8.54997pt on input line 103.
+(Font)              scaled to size 8.54997pt on input line 123.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 107.
+(Font)              scaled to size 10.40245pt on input line 124.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 107.
-
-
-Package natbib Warning: Citation `Duchene2013' on page 1 undefined on input lin
-e 109.
-
-
-Package natbib Warning: Citation `Abbott2016a' on page 1 undefined on input lin
-e 109.
-
-
-Package natbib Warning: Citation `Grinberg2017' on page 1 undefined on input li
-ne 109.
-
-
-Package natbib Warning: Citation `Lucy1970' on page 1 undefined on input line 1
-13.
-
-
-Package natbib Warning: Citation `Castor1975' on page 1 undefined on input line
- 113.
-
-
-Package natbib Warning: Citation `Edgar:2004ip' on page 1 undefined on input li
-ne 115.
-
-
-Package natbib Warning: Citation `Illarionov1975' on page 1 undefined on input 
-line 115.
+(Font)              scaled to size 10.40245pt on input line 124.
 
 
 Package natbib Warning: Citation `Shapiro1976' on page 1 undefined on input lin
-e 115.
+e 132.
 
 
-Package natbib Warning: Citation `Sander2017' on page 1 undefined on input line
- 117.
+LaTeX Warning: Reference `' on page 1 undefined on input line 134.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 117.
+LaTeX Warning: Reference `' on page 1 undefined on input line 134.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 117.
+Package hyperref Warning: Suppressing link with empty target on input line 135.
+
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-
-Package natbib Warning: Citation `Hoyle:1939fl' on page 2 undefined on input li
-ne 123.
-
-
-Package natbib Warning: Citation `Duchene2013' on page 2 undefined on input lin
-e 132.
-
-
-Package natbib Warning: Citation `Abbott2016a' on page 2 undefined on input lin
-e 132.
-
-
-Package natbib Warning: Citation `Boffin2014' on page 2 undefined on input line
- 134.
-
-
-Package natbib Warning: Citation `Masseron2009' on page 2 undefined on input li
-ne 134.
-
-
-Package natbib Warning: Citation `XXX Podsiadlowski2010' on page 2 undefined on
- input line 134.
-
-
-Package natbib Warning: Citation `Mereghetti2014 or Han? XXX' on page 2 undefin
-ed on input line 134.
-
-
-Package natbib Warning: Citation `XXX Podsiadlowski2010? XXX' on page 2 undefin
-ed on input line 134.
-
-
-Package natbib Warning: Citation `XXX Podsiadlowski2010? XXX' on page 2 undefin
-ed on input line 134.
-
-
-Package natbib Warning: Citation `Martinez-Nunez2017' on page 2 undefined on in
-put line 136.
-
-
-Package natbib Warning: Citation `Mohamed' on page 2 undefined on input line 13
-6.
-
-
-Package natbib Warning: Citation `ElMellah2016a' on page 2 undefined on input l
-ine 136.
-
-
-Package natbib Warning: Citation `Illarionov1975' on page 2 undefined on input 
-line 136.
-
-
-Package natbib Warning: Citation `Shapiro1976' on page 2 undefined on input lin
-e 136.
-
-
-Package natbib Warning: Citation `Ruffert1999' on page 2 undefined on input lin
-e 136.
-
-
-Package natbib Warning: Citation `MacLeod2015' on page 2 undefined on input lin
-e 136.
-
-
-Package natbib Warning: Citation `Ruffert1996' on page 2 undefined on input lin
-e 136.
-
-
-Package natbib Warning: Citation `Lucy1970' on page 2 undefined on input line 1
-38.
-
-
-Package natbib Warning: Citation `Castor1975' on page 2 undefined on input line
- 138.
-
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 150.
+(Font)              scaled to size 9.49997pt on input line 167.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 150.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 167.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 150.
+(Font)              scaled to size 9.49997pt on input line 167.
 
-Package natbib Warning: Citation `ElMellah2016' on page 2 undefined on input li
-ne 154.
-
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 156.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2]
-
-Package natbib Warning: Citation `Sander2017' on page 3 undefined on input line
- 162.
-
-
-Package natbib Warning: Citation `Hamann1998' on page 3 undefined on input line
- 162.
-
-
-Package natbib Warning: Citation `Grafener2002' on page 3 undefined on input li
-ne 162.
-
-
-Package natbib Warning: Citation `Sander2017b' on page 3 undefined on input lin
-e 167.
-
-
-Package natbib Warning: Citation `Manousakis2013' on page 3 undefined on input 
-line 177.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 197--197
-[][][] 
- []
-
-<Pictures/big_picture.png, id=21, 607.068pt x 609.2361pt>
+<Pictures/big_picture.png, id=109, 607.068pt x 609.2361pt>
 File: Pictures/big_picture.png Graphic file (type png)
 
 <use Pictures/big_picture.png>
-Package pdftex.def Info: Pictures/big_picture.png used on input line 208.
-(pdftex.def)             Requested size: 230.46574pt x 231.28902pt.
+Package pdftex.def Info: Pictures/big_picture.png used on input line 182.
+(pdftex.def)             Requested size: 235.5872pt x 236.42981pt.
+File: Pictures/big_picture.png Graphic file (type png)
+ <use Pictures/big_picture.png>
+Package pdftex.def Info: Pictures/big_picture.png used on input line 187.
+(pdftex.def)             Requested size: 235.5872pt x 236.42981pt.
 
-<Pictures/inflow_maps.png, id=23, 883.1394pt x 411.939pt>
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 180--190
+[]$[]$
+ []
+
+
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 180--190
+[]$ 
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd)
+Underfull \hbox (badness 10000) in alignment at lines 212--212
+[][][] 
+ []
+
+
+Package natbib Warning: Citation `ElMellah2016' on page 2 undefined on input li
+ne 215.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 227.
+
+
+[2 <./Pictures/big_picture.png>]
+
+Package natbib Warning: Citation `Sanders2017' on page 3 undefined on input lin
+e 238.
+
+<Pictures/inflow_maps.png, id=153, 883.1394pt x 411.939pt>
 File: Pictures/inflow_maps.png Graphic file (type png)
 
 <use Pictures/inflow_maps.png>
-Package pdftex.def Info: Pictures/inflow_maps.png used on input line 215.
+Package pdftex.def Info: Pictures/inflow_maps.png used on input line 252.
 (pdftex.def)             Requested size: 512.1496pt x 238.89334pt.
 
-Underfull \vbox (badness 4168) has occurred while \output is active []
+
+Package hyperref Warning: Suppressing link with empty target on input line 282.
 
 
+[3]
+LaTeX Font Info:    Try loading font information for U+bbold on input line 296.
 
-Package natbib Warning: Citation `Xia2017' on page 3 undefined on input line 24
-0.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/Ubbold.fd)
 
-
-LaTeX Warning: Reference `sec:wind_acc' on page 3 undefined on input line 267.
-
-
-Package natbib Warning: Citation `Schure2009' on page 3 undefined on input line
- 275.
+LaTeX Warning: Reference `sec:wind_acc' on page 4 undefined on input line 313.
 
 
-Package natbib Warning: Citation `Horedt2000' on page 3 undefined on input line
- 276.
+Package natbib Warning: Citation `Taam2018' on page 4 undefined on input line 3
+24.
 
-
-Package natbib Warning: Citation `Taam2018' on page 3 undefined on input line 2
-78.
-
-[3 <./Pictures/big_picture.png>]
 
 Package natbib Warning: Citation `Smith2002' on page 4 undefined on input line 
-292.
+338.
 
 
-Package natbib Warning: Citation `Grinberg:2014ux' on page 4 undefined on input
- line 292.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `Sugimura2018' on page 4 undefined on input li
-ne 299.
+
+Package hyperref Warning: Suppressing link with empty target on input line 346.
 
 
-Package natbib Warning: Citation `Bozzo2008' on page 4 undefined on input line 
-318.
+[4 <./Pictures/inflow_maps.png>] (./aa.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1710.01877 http://dx.do
+i.org/10.1051/0004-
+ []
 
 
-Package natbib Warning: Citation `Shakura2012' on page 4 undefined on input lin
-e 318.
+Overfull \hbox (50.45874pt too wide) in paragraph at lines 35--40
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1303.3028 http://adsabs
+.harvard.edu/abs/2013ARA%26A..51..269D 
+ []
 
 
-Package natbib Warning: Citation `Romano2015' on page 4 undefined on input line
- 318.
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1311.5514 http://dx.doi
+.org/10.1088/0004-
+ []
 
 
-Package natbib Warning: Citation `Hu2017' on page 4 undefined on input line 318
-.
+Underfull \hbox (badness 10000) in paragraph at lines 69--79
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1603.00925 http://dx.do
+i.org/10.1051/0004-
+ []
 
 
-Package natbib Warning: Citation `Bozzo2017a' on page 4 undefined on input line
- 320.
+Underfull \hbox (badness 10000) in paragraph at lines 91--99
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1711.06743 http://dx.do
+i.org/10.1051/0004-
+ []
 
 
-Package natbib Warning: Citation `Martinez-Nunez2017' on page 4 undefined on in
-put line 328.
+Underfull \hbox (badness 10000) in paragraph at lines 103--109
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1402.4485%0Ahttp://dx.d
+oi.org/10.1051/0004-
+ []
 
-[4 <./Pictures/inflow_maps.png>] (./aa.bbl)
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://articles.adsabs.harvard.edu/cgi-bin/n
+ph-
+ []
+
+
+Overfull \hbox (137.27478pt too wide) in paragraph at lines 111--116
+\T1/txr/m/it/8 iarticle_query?1998A%26A...335.1003H&data_type=PDF_HIGH&whole_pa
+per=YES&type=PRINTER&filetype=.pdf 
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 125--128
+[]\T1/txr/m/n/8 Horedt, G. P. (2000), `Pres-sure Ef-fects in Line Ac-cre-tion',
+ \T1/txr/m/it/8 As-tro-phys. J.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--137
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1706.03902 http://dx.do
+i.org/10.3847/1538-
+ []
+
+
+Overfull \hbox (9.28273pt too wide) in paragraph at lines 130--137
+\T1/txr/m/it/8 4357/aa79a3 http://arxiv.org/abs/1706.03902%0Ahttp://dx.doi.org/
+10.3847/1538-
+ []
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 169.
+
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 172--180
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/abs/2003A&A...401.
+.313Q
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--180
+\T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/0301243 http://dx.doi.org/10.1051/
+0004-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--190
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1101.2465 http://dx.doi
+.org/10.1088/0004-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--200
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1502.04717 http://dx.do
+i.org/10.1051/0004-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/0909.5204%0Ahttp://dx.d
+oi.org/10.1051/0004-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
+\T1/txr/m/it/8 6361/200912495 http://arxiv.org/abs/0909.5204
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 229--235
+[]\T1/txr/m/n/8 Shakura, N., Post-nov, K., Ko-chetkova, A. and Hjal-mars-dot-te
+r, L. (2012),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--235
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1110.3701 http://dx.doi
+.org/10.1111/j.1365-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--252
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/0101509
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--252
+\T1/txr/m/it/8 http://dx.doi.org/10.1051/0004-6361:20010127 http://arxiv.org/ab
+s/astro-
+ []
+
+
+Overfull \hbox (88.26672pt too wide) in paragraph at lines 255--260
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://stacks.iop.org/0067-0049/234/i=2/a=30
+?key=crossref.eaf55349f020bd924d414adc8d989a32 
+ []
+
+)
 
 Package natbib Warning: There were undefined citations.
 
-[5
 
-] (./aa.aux)
+Package hyperref Warning: Suppressing link with empty target on input line 430.
+
+
+[6
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
+ (./aa.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
+Package rerunfilecheck Info: File `aa.out' has not changed.
+(rerunfilecheck)             Checksum: 0360D00AF05031F63D288445152AFA13;1007.
+
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6265 strings out of 493014
- 80760 string characters out of 6133351
- 161463 words of memory out of 5000000
- 9581 multiletter control sequences out of 15000+600000
- 124120 words of font info for 193 fonts, out of 8000000 for 9000
+ 11335 strings out of 493014
+ 161473 string characters out of 6133351
+ 280688 words of memory out of 5000000
+ 14515 multiletter control sequences out of 15000+600000
+ 121650 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,45p,1789b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,45p,1841b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-di
+2016/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/txfonts/txbsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/txfonts/txex.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfo
-nts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txs
-yb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on aa.pdf (5 pages, 833611 bytes).
+s/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/txfonts/t1xtt.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/txfonts/txbsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfo
+nts/txex.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txs
+y.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on aa.pdf (6 pages, 862585 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
