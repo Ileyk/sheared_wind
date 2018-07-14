@@ -8,45 +8,46 @@ Warning--I didn't find a database entry for "ElMellah2016"
 Warning--I didn't find a database entry for "Sanders2017"
 Warning--I didn't find a database entry for "Taam2018"
 Warning--I didn't find a database entry for "Smith2002"
-You've used 30 entries,
+Warning--I didn't find a database entry for "ElMellah"
+You've used 32 entries,
             2909 wiz_defined-function locations,
-            891 strings with 14446 characters,
-and the built_in function-call counts, 290321 in all, are:
-= -- 48639
-> -- 3942
+            908 strings with 15183 characters,
+and the built_in function-call counts, 300918 in all, are:
+= -- 50384
+> -- 4080
 < -- 0
-+ -- 24564
-- -- 1252
-* -- 26572
-:= -- 55658
-add.period$ -- 30
-call.type$ -- 30
-change.case$ -- 420
-chr.to.int$ -- 30
-cite$ -- 30
-duplicate$ -- 471
-empty$ -- 946
-format.name$ -- 1348
-if$ -- 52209
++ -- 25404
+- -- 1294
+* -- 27518
+:= -- 57740
+add.period$ -- 32
+call.type$ -- 32
+change.case$ -- 448
+chr.to.int$ -- 32
+cite$ -- 32
+duplicate$ -- 503
+empty$ -- 1019
+format.name$ -- 1399
+if$ -- 54116
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 123
-num.names$ -- 322
-pop$ -- 74
+missing$ -- 32
+newline$ -- 131
+num.names$ -- 343
+pop$ -- 79
 preamble$ -- 1
-purify$ -- 450
+purify$ -- 480
 quote$ -- 0
-skip$ -- 391
+skip$ -- 416
 stack$ -- 0
-substring$ -- 71056
-swap$ -- 86
-text.length$ -- 420
+substring$ -- 73554
+swap$ -- 92
+text.length$ -- 448
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
+type$ -- 128
 warning$ -- 0
-while$ -- 667
+while$ -- 713
 width$ -- 0
-write$ -- 435
-(There were 5 warnings)
+write$ -- 463
+(There were 6 warnings)

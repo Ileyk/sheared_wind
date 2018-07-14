@@ -214,6 +214,7 @@ In consequence, a fully consistent treatment of both the wind acceleration and i
 
 Sophisticated models and simulations of the launching of line-driven winds show that they become supersonic shortly above the stellar photosphere. It motivates a ballistic treatment of the wind bulk motion at the orbital scale similar to what was done in \cite{ElMellah2016} : the trajectory of test-masses is integrated assuming the star and the accretor are on circular orbits and that stellar rotation is synchronized with the orbital period. The 3D equation of motion in the co-rotating frame is :
 \begin{equation}
+\label{eq:ball}
 \boldsymbol{v}\frac{\diff \boldsymbol{v}}{\diff \boldsymbol{r}} = \boldsymbol{a}_{\text{\mystar}} + \boldsymbol{a}_{\bullet} + \boldsymbol{a}_{\text{ni}}
 \end{equation}
 where $\boldsymbol{a}_{\bullet}$ stands for the acceleration due to the \ns gravitational field and $\boldsymbol{a}_{\text{ni}}$ for the non-inertial acceleration (centrifugal and Coriolis). The effective acceleration linked to the donor star of mass $M_1$, once projected on the radial unity vector of the spherical frame of the star, is given by :
@@ -227,15 +228,9 @@ a_{\text{rad}}\left(r_1\right)  = \frac{4\pi}{c} \frac{1}{\rho(r_1)}  \int\limit
 \end{equation}
 where the mass density $\rho$ is deduced from the mass loss rate and the velocity using the conservation of mass. Using the technique described in \cite{Sander2017b}, the model provides a hydrodynamically consistent stratification, meaning that the mass-loss rate and the velocity field were iteratively updated such that eventually the outward and inward forces are balancing each other throughout the stellar atmosphere. The resulting velocity and density stratification shows notable deviations from the typically assumed $\beta$-law, especially within a couple of stellar radii, where the orbiting accretor lies and where the obtained wind velocity is lower. Notice that in spite of the non-spherical situation due to the presence of the \ns, we adopt $a_\text{rad}$ as $a_\text{press}$ as functions of the distance $r_1$ to the donor star here for simplicity.
 
-The streamlines computation is performed with a fourth order Runge-Kutta from the stellar surface whose ellipsoidal deformation, even for Roche lobe filling factors close to 1, is expected to have a negligible impact on the formation of a wind-capture disc. An illustration of the result is given in Figure\,\ref{fig:big_picture} where the streamlines have been represented in the orbital plane. We stop the integration when the test-masses enter a sphere around the accretor $\sim$30\% larger than its Roche lobe radius. It delimits the space where the ballistic approximation no longer holds. Dissipative effects will be accounted for within this region in section\,\ref{sec:wind-capt_discs}. With this procedure, we focus on the fraction of the flow susceptible to be eventually accreted rather than on an accurate representation of the accretion tail in the wake of the accretor \citep[for this component, see rather][]{Manousakis2013}.
+The streamlines computation is performed with a fourth order Runge-Kutta from the stellar surface whose ellipsoidal deformation, even for Roche lobe filling factors close to unity, is expected to have a negligible impact on the formation of a wind-capture disc. An illustration of the result is given in Figure\,\ref{fig:big_picture} where the streamlines have been represented in the orbital plane. We stop the integration when the test-masses enter a sphere around the accretor $\sim$30\% larger than its Roche lobe radius. It delimits the space where the ballistic approximation no longer holds. Dissipative effects will be accounted for within this region in section\,\ref{sec:wind-capt_discs}. With this procedure, we focus on the fraction of the flow susceptible to be eventually accreted rather than on an accurate representation of the accretion tail in the wake of the accretor \citep[for this component, see rather][]{Manousakis2013}.
 
-- - -
-
-XXX X-ray illumination does not mean slower wind XXX
-
-- - -
-
-A classic result of line-driven wind theory is that the wind terminal speed is expected to scale approximately as the effective escape velocity (\ie once surface gravity has been corrected for radiative continuum pressure on free electrons via the Eddington parameter). The donor star in Vela X-1, HD77581, is a B0.5 Ib supergiant star \citep{Hiltner1972,Forman1973} whose effective temperature of $\sim$25kK is dangerously close from the critical temperature identified by \cite{Vink2001} below which the terminal speed (with respect to the effective escape speed) drops steeply. \cite{Gimenez-Garcia2016} suggested that it could explain the low terminal speed of 700km$\cdot$s$^{-1}\pm$100km$\cdot$s$^{-1}$ they measured for the wind of HD77581. The computation carried on by \cite{Sanders2017} for HD77581 leads to terminal speeds ranging from 400 to 600km$\cdot$s$^{-1}$ depending on the inclusion of X-ray illumination (essentially from the immediate vicinity of the accretor). To illustrate the dramatic impact of the efficiency of the line-driven acceleration on the subsequent properties of the accretion flow, we consider the case of an artificially enhanced wind acceleration (by 50\%) which leads to larger flow velocities by approximately 20\%. In section\,\ref{sec:wind-capt_discs}, we will see that the orbital speed is a threshold which separates two types of accretion flows and given the value of the orbital speed in Vela X-1 (284km$\cdot$s$^{-1}$), this wind acceleration boosting will induce major changes. From now on, we consider the two cases in Table\,\ref{tab:params} :
+\cite{Vink2001} showed that, provided the stellar effective temperature is larger than $\sim$25kK, the wind terminal speed is expected to scale approximately as the effective escape velocity (\ie once surface gravity has been corrected for radiative continuum pressure on free electrons via the Eddington parameter). Below this critical temperature, the terminal speed with respect to the effective escape speed of the star drops steeply. The donor star in Vela X-1, HD77581, is a B0.5 Ib supergiant star \citep{Hiltner1972,Forman1973} whose effective temperature of $\sim$25kK. \cite{Gimenez-Garcia2016} suggested that it could explain the low terminal speed of 700km$\cdot$s$^{-1}\pm$100km$\cdot$s$^{-1}$ they measured for the wind of HD77581. The computation carried on by \cite{Sanders2017} for HD77581 also leads to terminal speeds ranging from 400 to 600km$\cdot$s$^{-1}$ depending on the inclusion of X-ray illumination from the accretor. A decisive result of their analysis is that the latter modifies the ionization state of the metal ions in the wind but does not necessarily inhibit the acceleration process. On the contrary, far enough upstream the \ns, the effective absorption of UV photons might be locally enhanced once the metal ions are in a higher ionization level. It is only close from the accretor, once all the elements have been deprived of their electrons, that the line-driven acceleration is halted, as previously emphasized in the literature \citep[see \eg][]{Blondin1990a}. XXX ANDREAS : DO YOU CONFIRM? WOULD YOU REFORMULATE? SHOULD IT BE AN ENTIRE SUBSECTION TO CLEARLY MAKE THIS POINT? XXX In an attempt to illustrate the dramatic impact of the efficiency of the line-driven acceleration on the subsequent properties of the accretion flow, and to encompass potential biases in the calculation of this acceleration, we consider the case of an artificially enhanced wind acceleration (by 50\%) which leads to larger flow velocities by approximately 20\%. In section\,\ref{sec:wind-capt_discs}, we will see that the orbital speed is a threshold which separates two types of accretion flows and given the value of the orbital speed in Vela X-1 (284km$\cdot$s$^{-1}$), this wind acceleration boosting will induce major changes. From now on, we consider the two cases in Table\,\ref{tab:params} :
 \begin{itemize}
 \item \underline{the heavy slow (HS) :} the accretor is 2.5\msun, lying on the upper edge of the expected maximum mass for a \ns, and the radiative acceleration is not boosted.
 \item  \underline{the light fast (LF) :} the accretor is 1.5\msun and the radiative acceleration is boosted by 50\%.
@@ -256,6 +251,7 @@ Since the \ns mass estimates in Vela X-1 range from 1.7\msun \citep{Rawls2011} u
 
 We now monitor the flow as it enters the spherical HD simulation space centered on the compact object and corresponding approximately to its Roche lobe. The aforementioned ballistic integration supplied information on the velocity vector at the surface of this sphere while the density relative to the stellar one is deduced from the divergence of each streamline. This information is then binned on angular tiles, with the polar axis of the spherical frame aligned with the orbital angular momentum axis ($\hat{z}$ in Figure\,\ref{fig:big_picture}). We represented the local mass and angular momentum inflow at the surface of this space with Mollweide projection in Figure\,\ref{fig:inflow_maps} for the HS and LF cases. Their integrated value, $\dot{\text{M}}_{\text{out}}$ and $\dot{\text{j}}_{\text{out}}$, normalized with the corresponding scaling parameters. Dividing the accretion rates of angular momentum and mass, we obtain the specific angular momentum of the inflowing gas and can compute the radius at which a Keplerian orbit would have the same specific angular momentum (\aka the circularization radius). This radius is compared to the \ns magnetosphere radius, $R_{\text{m}}$, given by \cite{Martinez-Nunez2017} :
 \begin{align*}
+\label{eq:Rmag}
 R_{\text{m}}\sim & 1.4\cdot 10^9\text{cm}\left(\frac{\rho}{10^{-12}\text{g}\cdot\text{cm}^{-3}}\right)^{-1/6}\left(\frac{v}{2,000\text{km}\cdot\text{s}^{-1}}\right)^{-1/3} \text{...}\\
 & \text{...} \quad \left(\frac{B_{\bullet}}{2.6\cdot 10^{12}\text{G}}\right)^{1/3}\left(\frac{R_{\bullet}}{10\text{km}}\right)
 \end{align*}
@@ -275,45 +271,39 @@ The left panels in Figure\,\ref{fig:inflow_maps} show that the mass inflow is ap
 
 \subsubsection{Equations}
 \label{sec:HD_eq}
+%normalization units?
 
-1 refers to donor star
-2 refers to accretor
+We solve the equations of hydrodynamics in their conservative form, converting accordingly the gravitational, radiative and non-inertial accelerations in the ballistic equation of motion\,\eqref{eq:ball} into forces per unit volume. In a first time, we do solve the energy equation everywhere, assuming that the heating from the donor star and from the X-ray produced in the vicinity of the accretor balances the cooling of this radiatively thin wind. We will discuss the validity of this adiabatic approximation and a way to relax it in section\,\ref{sec:cool}. Finally, we complement these equation with the equation-of-state of an ideal monoatomic gas (\ie with an adiabatic index $\gamma=5/3$) as a closure relation. % We also set the mean molecular weight to unity.
 
-normalization units
+The computation is performed with the new version of the finite volume code \texttt{MPI-AMRVAC} \citep{Xia2017}, using a 3$^{\text{rd}}$-order HLL solver \citep{Toro1994} with a Koren slope limiter \citep{Vreugdenhil1993}. The spherical mesh we set up, centered on the accretor, is radially stretched to guarantee a constant relative resolution from the outer to the inner edge of the simulation space, spanning several orders of magnitude at an affordable computational cost, in a similar way to what has been done for an axisymmetric flow in \cite{ElMellah2015}. The outer radius of the simulation space is approximately half of the orbital separation, which of $\sim$0.2AU in Vela X-1, while the inner edge has a radius of 5 times the \ns magnetosphere radius given by\,\eqref{eq:Rmag}, hence a factor of approximately 200 between the inner and outer edge. Due to the symmetry of the problem above and below the orbital plane, we consider only the upper hemisphere and work with a resolution of 128$\times$64$\times$128 corresponding to cells of aspect ratio close to unity near the equatorial plane of the mesh. Since our aim is to identify the conditions suitable for the formation of a wind-capture disc, the conservation of angular momentum is of uttermost importance. We implemented an angular momentum preserving scheme which guarantees the conservation of the component of the angular momentum projected onto the polar axis, in particular in the innermost regions of the flow, to machine precision.
 
-angular momentum preserving way
+%\begin{equation}
+%\label{eq:eq1}
+%%\tag{1a}
+%\partial _t \rho + \boldsymbol{\nabla} \cdot \left( \rho \boldsymbol{v} \right) = 0
+%\end{equation}
+%\begin{equation}
+%\label{eq:eq2}
+%%\tag{1b}
+%\partial _t \left( \rho \boldsymbol{v} \right) + \boldsymbol {\nabla} \cdot \left( \rho \boldsymbol{v} \boldsymbol{v} + P \mathbb{1} \right) = \rho \boldsymbol{f} - 2 \boldsymbol{\Omega} \wedge \boldsymbol{v}
+%\end{equation}
+%\begin{equation}
+%\label{eq:eq3}
+%%\tag{1c}
+%\partial _t  e  + \boldsymbol{\nabla} \cdot \left[ \left( e + P \right) \boldsymbol{v} \right] = - \rho \boldsymbol{v} \cdot \boldsymbol{f}
+%\end{equation}
+%where $\rho$, $\boldsymbol{v}$, $P$ and $e$ are the mass density, velocity, pressure and total energy density respectively. $\boldsymbol{\Omega}$ is the orbital angular speed vector. $f$ is the modified Roche force per mass unit given by : 
+%
+%\begin{equation}
+%\boldsymbol{f}=\alpha\left( r_1 \right) \frac{q}{r_1^3}\boldsymbol{r_1} - \frac{1}{r_2^3}\boldsymbol{r_2} + \frac{1+q}{a^3}\boldsymbol{r_{\perp}}
+%\end{equation}
+%
+%with the mass ratio $q=M_1/M_2$
+%$\boldsymbol{r_1}$
+%$\boldsymbol{r_2}$
+%$\boldsymbol{r_{\perp}}$
+%$\alpha$ : see section\,\ref{sec:wind_acc}. Encapsulates wind acceleration process and stellar gravity. $-1$ with only gravity, leading to the usual Roche force per unit mass.
 
-Using the finite volume code \texttt{MPI-AMRVAC} \citep{Xia2017}, we solve the equations of hydrodynamics under their conservative form :
-
-\begin{equation}
-\label{eq:eq1}
-%\tag{1a}
-\partial _t \rho + \boldsymbol{\nabla} \cdot \left( \rho \boldsymbol{v} \right) = 0
-\end{equation}
-\begin{equation}
-\label{eq:eq2}
-%\tag{1b}
-\partial _t \left( \rho \boldsymbol{v} \right) + \boldsymbol {\nabla} \cdot \left( \rho \boldsymbol{v} \boldsymbol{v} + P \mathbb{1} \right) = \rho \boldsymbol{f} - 2 \boldsymbol{\Omega} \wedge \boldsymbol{v}
-\end{equation}
-\begin{equation}
-\label{eq:eq3}
-%\tag{1c}
-\partial _t  e  + \boldsymbol{\nabla} \cdot \left[ \left( e + P \right) \boldsymbol{v} \right] = - \rho \boldsymbol{v} \cdot \boldsymbol{f}
-\end{equation}
-where $\rho$, $\boldsymbol{v}$, $P$ and $e$ are the mass density, velocity, pressure and total energy density respectively. $\boldsymbol{\Omega}$ is the orbital angular speed vector. $f$ is the modified Roche force per mass unit given by : 
-
-\begin{equation}
-\boldsymbol{f}=\alpha\left( r_1 \right) \frac{q}{r_1^3}\boldsymbol{r_1} - \frac{1}{r_2^3}\boldsymbol{r_2} + \frac{1+q}{a^3}\boldsymbol{r_{\perp}}
-\end{equation}
-
-with the mass ratio $q=M_1/M_2$
-$\boldsymbol{r_1}$
-$\boldsymbol{r_2}$
-$\boldsymbol{r_{\perp}}$
-$\alpha$ : see section\,\ref{sec:wind_acc}. Encapsulates wind acceleration process and stellar gravity. $-1$ with only gravity, leading to the usual Roche force per unit mass.
-
-The energy equation\,\ref{eq:eq3} is adiabatic. See section\,\ref{sec:cool} for way to account for cooling.
-EOS ideal gas monoatomic with an adiabatic index $\gamma=5/3$ with a mean molecular weight set to 1. 
 
 \subsubsection{Cooling}
 \label{sec:cool}
@@ -364,6 +354,8 @@ In this paper, we connected the orbital scale, at which the wind unfolds, to the
 currently, lack of conclusive evidence in favor of the presence of a permanent disc in \sgx \citep{Bozzo2008,Shakura2012,Romano2015,Hu2017} : is it because it is could be truncated by the magnetosphere and not hot enough to contribute significantly compared to the accretion columns at the NS poles?
 
 What about the impact of other orbital scale structures on the formation of wind capture disc? Impact of corotating (\ie at the stellar rotation rate) interaction region (spiral-shaped density and velocity enhancements due to irregularities on the stellar surface such as local luminosity increase by 10\%). Observed in single OB stars. In low luminosity \sgx and SFXT, proposed by \cite{Bozzo2017a} as a possible origin of the super-orbital modulation (between stellar and orbital period) observed, as the accretor crosses the CIR. Rq : since the super orbital period is usually of the order of a few times the orbital period only, it means that the stellar rotation period and the orbital period must be quite different (while I expected stars to be in synchronous rotation in \hmxb...)
+
+Time to add clumps : see \cite{ElMellah} where we followed the accretion of overdense regions initially formed at the orbital scale, down to the \ns magnetosphere. Will lead to time-variability of the mass and angular momentum accretion rate, opening the door to a consistent way to address the question of the \ns spinning-up and down.
 
 which connect the different scales 
 
