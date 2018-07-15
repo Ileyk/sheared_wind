@@ -3,51 +3,55 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: aa.aux
 The style file: agsm.bst
 Database file #1: /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
+Repeated entry---line 610 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
+ : @article{Edgar:2004ip
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Shapiro1976"
 Warning--I didn't find a database entry for "ElMellah2016"
 Warning--I didn't find a database entry for "Sanders2017"
 Warning--I didn't find a database entry for "Taam2018"
 Warning--I didn't find a database entry for "Smith2002"
 Warning--I didn't find a database entry for "ElMellah"
-You've used 32 entries,
+You've used 41 entries,
             2909 wiz_defined-function locations,
-            908 strings with 15183 characters,
-and the built_in function-call counts, 300918 in all, are:
-= -- 50384
-> -- 4080
+            979 strings with 17588 characters,
+and the built_in function-call counts, 338689 in all, are:
+= -- 56562
+> -- 4547
 < -- 0
-+ -- 25404
-- -- 1294
-* -- 27518
-:= -- 57740
-add.period$ -- 32
-call.type$ -- 32
-change.case$ -- 448
-chr.to.int$ -- 32
-cite$ -- 32
-duplicate$ -- 503
-empty$ -- 1019
-format.name$ -- 1399
-if$ -- 54116
++ -- 28322
+- -- 1434
+* -- 30813
+:= -- 65294
+add.period$ -- 41
+call.type$ -- 41
+change.case$ -- 573
+chr.to.int$ -- 41
+cite$ -- 41
+duplicate$ -- 655
+empty$ -- 1318
+format.name$ -- 1583
+if$ -- 60906
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 32
-newline$ -- 131
-num.names$ -- 343
-pop$ -- 79
+missing$ -- 42
+newline$ -- 167
+num.names$ -- 435
+pop$ -- 114
 preamble$ -- 1
-purify$ -- 480
+purify$ -- 615
 quote$ -- 0
-skip$ -- 416
+skip$ -- 533
 stack$ -- 0
-substring$ -- 73554
-swap$ -- 92
-text.length$ -- 448
+substring$ -- 82247
+swap$ -- 124
+text.length$ -- 574
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
+type$ -- 162
 warning$ -- 0
-while$ -- 713
+while$ -- 915
 width$ -- 0
-write$ -- 463
-(There were 6 warnings)
+write$ -- 584
+(There was 1 error message)

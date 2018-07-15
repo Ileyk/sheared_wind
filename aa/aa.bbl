@@ -40,6 +40,12 @@ Castor, J.~I., Abbott, D.~C. \harvardand\ Klein, R.~I.  \harvardyearleft
   Astrophys. J.} {\bf 195},~157.
 \newline\harvardurl{http://adsabs.harvard.edu/abs/1975ApJ...195..157C}
 
+\harvarditem{Christians}{2012}{Christians2012}
+Christians, J.  \harvardyearleft 2012\harvardyearright , `{Approach for
+  Teaching Polytropic Processes Based on the Energy Transfer Ratio}', {\em Int.
+  J. Mech. Eng. Educ.} {\bf 40}(1),~53--65.
+\newline\harvardurl{http://journals.sagepub.com/doi/10.7227/IJMEE.40.1.9}
+
 \harvarditem{Duch{\^{e}}ne \harvardand\ Kraus}{2013}{Duchene2013}
 Duch{\^{e}}ne, G. \harvardand\ Kraus, A.  \harvardyearleft
   2013\harvardyearright , `{Stellar Multiplicity}', {\em Annu. Rev. Astron.
@@ -51,7 +57,8 @@ Duch{\^{e}}ne, G. \harvardand\ Kraus, A.  \harvardyearleft
 Edgar, R.~G.  \harvardyearleft 2004\harvardyearright , `{A review of
   Bondi–Hoyle–Lyttleton accretion}', {\em New Astron. Rev.} {\bf
   48}(10),~843--859.
-\newline\harvardurl{http://linkinghub.elsevier.com/retrieve/pii/S1387647304000739}
+\newline\harvardurl{http://www.sciencedirect.com/science/article/pii/S1387647304000739
+  http://linkinghub.elsevier.com/retrieve/pii/S1387647304000739}
 
 \harvarditem{{El Mellah} \harvardand\ Casse}{2015}{ElMellah2015}
 {El Mellah}, I. \harvardand\ Casse, F.  \harvardyearleft 2015\harvardyearright
@@ -61,6 +68,14 @@ Edgar, R.~G.  \harvardyearleft 2004\harvardyearright , `{A review of
 \newline\harvardurl{http://adsabs.harvard.edu/abs/2015sf2a.conf..325E
   http://adsabs.harvard.edu/abs/2015MNRAS.454.2657E
   http://mnras.oxfordjournals.org/content/454/3/2657}
+
+\harvarditem{{El Mellah} \harvardand\ Casse}{2016}{ElMellah2016a}
+{El Mellah}, I. \harvardand\ Casse, F.  \harvardyearleft 2016\harvardyearright
+  , `{A numerical investigation of wind accretion in persistent Supergiant
+  X-ray Binaries I - Structure of the flow at the orbital scale}', {\em Mon.
+  Not. R. Astron. Soc.} {\bf 467}(3),~2585--2593.
+\newline\harvardurl{http://arxiv.org/abs/1609.01532
+  http://dx.doi.org/10.1093/mnras/stx225}
 
 \harvarditem[Forman et~al.]{Forman, Jones, Tananbaum, Gursky, Kellogg
   \harvardand\ Giacconi}{1973}{Forman1973}
@@ -80,6 +95,13 @@ F{\"{u}}rst, F., Pottschmidt, K., Wilms, J., Tomsick, J.~A., Bachetti, M.,
   Astrophys. J.} {\bf 780}(2).
 \newline\harvardurl{http://arxiv.org/abs/1311.5514
   http://dx.doi.org/10.1088/0004-637X/780/2/133}
+
+\harvarditem{Ghosh \harvardand\ Lamb}{1978}{Ghosh1978}
+Ghosh, P. \harvardand\ Lamb, F.~K.  \harvardyearleft 1978\harvardyearright ,
+  `{Disk accretion by magnetic neutron stars}', {\em Astrophys. J.} {\bf
+  223},~L83.
+\newline\harvardurl{http://adsabs.harvard.edu/cgi-bin/nph-data{\_}query?bibcode=1978ApJ...223L..83G{\&}link{\_}type=ABSTRACT{\%}5Cnpapers2://publication/doi/10.1086/182734
+  http://adsabs.harvard.edu/doi/10.1086/182734}
 
 \harvarditem[Gimenez-Garcia et~al.]{Gimenez-Garcia, Shenar, Torrejon, Oskinova,
   Martinez-Nunez, Hamann, Rodes-Roca, Gonzalez-Galan, Alonso-Santiago,
@@ -158,6 +180,13 @@ Illarionov, A.~F. \harvardand\ Sunyaev, R.~A.  \harvardyearleft
   1975\harvardyearright , `{Why the Number of Galactic X-ray Stars Is so
   Small?}', {\em Astron. Astrophys.} {\bf 39}.
 \newline\harvardurl{http://adsabs.harvard.edu/abs/1975A{\%}26A....39..185I}
+
+\harvarditem{Lin \harvardand\ Papaloizou}{1985}{Lin1985}
+Lin, D. N.~C. \harvardand\ Papaloizou, J. C.~B.  \harvardyearleft
+  1985\harvardyearright , `{On the dynamical origin of the solar system}', {\em
+  Protostars planets II (A86-12626 03-90). Tucson, AZ, Univ. Arizona Press.
+  1985, p. 981-1072. NSF-supported Res.} p.~1293.
+\newline\harvardurl{http://adsabs.harvard.edu/abs/1985prpl.conf..981L}
 
 \harvarditem{Lucy \harvardand\ Solomon}{1970}{Lucy1970}
 Lucy, L.~B. \harvardand\ Solomon, P.~M.  \harvardyearleft 1970\harvardyearright
@@ -243,6 +272,15 @@ Schure, K.~M., Kosenko, D., Kaastra, J.~S., Keppens, R. \harvardand\ Vink, J.
   http://arxiv.org/abs/0909.5204 http://dx.doi.org/10.1051/0004-6361/200912495}
 
 \harvarditem[Shakura et~al.]{Shakura, Postnov, Kochetkova \harvardand\
+  Hjalmarsdotter}{2013}{Shakura2013b}
+Shakura, N.~I., Postnov, K.~A., Kochetkova, A.~Y. \harvardand\ Hjalmarsdotter,
+  L.  \harvardyearleft 2013\harvardyearright , `{Quasispherical subsonic
+  accretion in X-ray pulsars}', {\em Physics-Uspekhi} {\bf 56},~321--346.
+\newline\harvardurl{http://stacks.iop.org/1063-7869/56/i=4/a=321?key=crossref.d27834f26b1421e3d64d2288cbf629a7
+  http://arxiv.org/abs/1302.0500
+  http://dx.doi.org/10.3367/UFNe.0183.201304a.0337}
+
+\harvarditem[Shakura et~al.]{Shakura, Postnov, Kochetkova \harvardand\
   Hjalmarsdotter}{2012}{Shakura2012}
 Shakura, N., Postnov, K., Kochetkova, A. \harvardand\ Hjalmarsdotter, L.
   \harvardyearleft 2012\harvardyearright , `{Theory of quasi-spherical
@@ -259,6 +297,26 @@ Sugimura, K., Hosokawa, T., Yajima, H., Inayoshi, K. \harvardand\ Omukai, K.
   feedback}', {\em Mon. Not. R. Astron. Soc} {\bf 000}(0000),~0--0.
 \newline\harvardurl{https://arxiv.org/pdf/1802.07264.pdf}
 
+\harvarditem[Toro et~al.]{Toro, Spruce \harvardand\ Speares}{1994}{Toro1994}
+Toro, E.~F., Spruce, M. \harvardand\ Speares, W.  \harvardyearleft
+  1994\harvardyearright , `{Restoration of the contact surface in the
+  HLL-Riemann solver}', {\em Shock Waves} {\bf 4}(1),~25--34.
+\newline\harvardurl{http://link.springer.com/10.1007/BF01414629}
+
+\harvarditem{Turner \harvardand\ Stone}{2001}{Turner2001}
+Turner, N.~J. \harvardand\ Stone, J.~M.  \harvardyearleft 2001\harvardyearright
+  , `{A Module for Radiation Hydrodynamic Calculations With ZEUS-2D Using
+  Flux-Limited Diffusion}', {\em Astrophys. J. Suppl. Ser.} {\bf 135}(1),~30.
+\newline\harvardurl{http://arxiv.org/abs/astro-ph/0102145
+  http://adsabs.harvard.edu/abs/2001ApJS..135...95T}
+
+\harvarditem{van Marle \harvardand\ Keppens}{2011}{VanMarle2011}
+van Marle, A.~J. \harvardand\ Keppens, R.  \harvardyearleft
+  2011\harvardyearright , `{Radiative cooling in numerical astrophysics: The
+  need for adaptive mesh refinement}', {\em Comput. Fluids} {\bf
+  42}(1),~44--53.
+\newline\harvardurl{http://dx.doi.org/10.1016/j.compfluid.2010.10.022}
+
 \harvarditem[Vink et~al.]{Vink, de~Koter \harvardand\ Lamers}{2001}{Vink2001}
 Vink, J.~S., de~Koter, A. \harvardand\ Lamers, H. J. G. L.~M.  \harvardyearleft
   2001\harvardyearright , `{Mass-loss predictions for O and B stars as a
@@ -267,6 +325,12 @@ Vink, J.~S., de~Koter, A. \harvardand\ Lamers, H. J. G. L.~M.  \harvardyearleft
 \newline\harvardurl{http://arxiv.org/abs/astro-ph/0101509
   http://dx.doi.org/10.1051/0004-6361:20010127
   http://arxiv.org/abs/astro-ph/0101509{\%}0Ahttp://dx.doi.org/10.1051/0004-6361:20010127}
+
+\harvarditem{Vreugdenhil \harvardand\ Koren}{1993}{Vreugdenhil1993}
+Vreugdenhil, C.~B. \harvardand\ Koren, B.  \harvardyearleft
+  1993\harvardyearright , {\em {Numerical methods for advection--diffusion
+  problems}}, Vieweg.
+\newline\harvardurl{https://books.google.com/books/about/Numerical{\_}Methods{\_}for{\_}Advection{\_}Diffusio.html?id=lqQeAQAAIAAJ}
 
 \harvarditem[Xia et~al.]{Xia, Teunissen, Mellah, Chan{\'{e}} \harvardand\
   Keppens}{2018}{Xia2017}

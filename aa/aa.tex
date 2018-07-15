@@ -101,13 +101,13 @@
   \abstract
   % context heading (optional)
   % {} leave it empty if necessary  
-   {In Supergiant X-ray binaries (\sgx), a compact object captures a fraction of the intense wind from an O/B Sg companion star on a close orbit. Proxies exist to evaluate the efficiency of mass and angular momentum wind accretion but they depend so dramatically on the wind speed that within the uncertainty range, they only bring loose constrains. Furthermore, they often bypass the impact of orbital and dissipative effects on the flow structure.
+   {In Supergiant X-ray binaries (\sgx), a compact object captures a fraction of the intense wind from an O/B Sg companion star on a close orbit. Proxies exist to evaluate the efficiency of mass and angular momentum wind accretion but they depend so dramatically on the wind speed that within the theoretical and observational uncertainty ranges, they only bring loose constrains. Furthermore, they often bypass the impact of orbital and dissipative effects on the flow structure.
 }
   % aims heading (mandatory)
    {We study the wind dynamics and in particular, the angular momentum it gains and carries as it is accreted. We aim at evaluating the conditions of the formation of a disc-like structure around the accretor and its observational consequences for \sgx. 
 }
   % methods heading (mandatory)
-   {We inject recent results on the wind launching mechanism into the three-dimensional frame of a binary system, accounting for the gravitational and radiative influence of the compact companion. Once it enters the Roche lobe of the accretor, we solve the hydrodynamics equations and evaluate the impact of different cooling prescriptions on the flow.}
+   {We use recent results on the wind launching mechanism to compute ballistic wind streamlines in the three-dimensional co-rotating frame of a binary system, accounting for the gravitational and radiative influence of the compact companion. Once it enters the Roche lobe of the accretor, we solve the hydrodynamics equations and evaluate the impact of different cooling prescriptions on the flow.}
   % results heading (mandatory)
    {A shocked region forms around the accretor as the flow is beamed. For wind speeds of the order of the orbital speed, the shock is highly asymmetric compared to the axisymmetric bow shock obtained for a purely planar homogeneous inflow. Provided we enable cooling within the shocked region, the flow always circularizes for wind speeds slow enough.
 }
@@ -228,12 +228,12 @@ a_{\text{rad}}\left(r_1\right)  = \frac{4\pi}{c} \frac{1}{\rho(r_1)}  \int\limit
 \end{equation}
 where the mass density $\rho$ is deduced from the mass loss rate and the velocity using the conservation of mass. Using the technique described in \cite{Sander2017b}, the model provides a hydrodynamically consistent stratification, meaning that the mass-loss rate and the velocity field were iteratively updated such that eventually the outward and inward forces are balancing each other throughout the stellar atmosphere. The resulting velocity and density stratification shows notable deviations from the typically assumed $\beta$-law, especially within a couple of stellar radii, where the orbiting accretor lies and where the obtained wind velocity is lower. Notice that in spite of the non-spherical situation due to the presence of the \ns, we adopt $a_\text{rad}$ as $a_\text{press}$ as functions of the distance $r_1$ to the donor star here for simplicity.
 
-The streamlines computation is performed with a fourth order Runge-Kutta from the stellar surface whose ellipsoidal deformation, even for Roche lobe filling factors close to unity, is expected to have a negligible impact on the formation of a wind-capture disc. An illustration of the result is given in Figure\,\ref{fig:big_picture} where the streamlines have been represented in the orbital plane. We stop the integration when the test-masses enter a sphere around the accretor $\sim$30\% larger than its Roche lobe radius. It delimits the space where the ballistic approximation no longer holds. Dissipative effects will be accounted for within this region in section\,\ref{sec:wind-capt_discs}. With this procedure, we focus on the fraction of the flow susceptible to be eventually accreted rather than on an accurate representation of the accretion tail in the wake of the accretor \citep[for this component, see rather][]{Manousakis2013}.
+The streamlines computation is performed using the code developed in \cite{ElMellah2016a}, starting from the stellar surface whose ellipsoidal deformation, even for Roche lobe filling factors close to unity, is expected to have a negligible impact on the formation of a wind-capture disc. An illustration of the result is given in Figure\,\ref{fig:big_picture} where the streamlines have been represented in the orbital plane. We stop the integration when the test-masses enter a sphere around the accretor $\sim$30\% larger than its Roche lobe radius. This strategy alleviates the difficulty of an a priori estimate of the accretion radius \citep[the critical impact parameter below which test-masses are captured in the Bondi-Hoyle-Lyttleton formalism][]{Edgar:2004ip}. It delimits the space where the ballistic approximation no longer holds. Dissipative effects will be accounted for within this region in section\,\ref{sec:wind-capt_discs}. With this procedure, we focus on the fraction of the flow susceptible to be eventually accreted rather than on an accurate representation of the accretion tail in the wake of the accretor \citep[for this component, see rather][]{Manousakis2013}.
 
 \cite{Vink2001} showed that, provided the stellar effective temperature is larger than $\sim$25kK, the wind terminal speed is expected to scale approximately as the effective escape velocity (\ie once surface gravity has been corrected for radiative continuum pressure on free electrons via the Eddington parameter). Below this critical temperature, the terminal speed with respect to the effective escape speed of the star drops steeply. The donor star in Vela X-1, HD77581, is a B0.5 Ib supergiant star \citep{Hiltner1972,Forman1973} whose effective temperature of $\sim$25kK. \cite{Gimenez-Garcia2016} suggested that it could explain the low terminal speed of 700km$\cdot$s$^{-1}\pm$100km$\cdot$s$^{-1}$ they measured for the wind of HD77581. The computation carried on by \cite{Sanders2017} for HD77581 also leads to terminal speeds ranging from 400 to 600km$\cdot$s$^{-1}$ depending on the inclusion of X-ray illumination from the accretor. A decisive result of their analysis is that the latter modifies the ionization state of the metal ions in the wind but does not necessarily inhibit the acceleration process. On the contrary, far enough upstream the \ns, the effective absorption of UV photons might be locally enhanced once the metal ions are in a higher ionization level. It is only close from the accretor, once all the elements have been deprived of their electrons, that the line-driven acceleration is halted, as previously emphasized in the literature \citep[see \eg][]{Blondin1990a}. XXX ANDREAS : DO YOU CONFIRM? WOULD YOU REFORMULATE? SHOULD IT BE AN ENTIRE SUBSECTION TO CLEARLY MAKE THIS POINT? XXX In an attempt to illustrate the dramatic impact of the efficiency of the line-driven acceleration on the subsequent properties of the accretion flow, and to encompass potential biases in the calculation of this acceleration, we consider the case of an artificially enhanced wind acceleration (by 50\%) which leads to larger flow velocities by approximately 20\%. In section\,\ref{sec:wind-capt_discs}, we will see that the orbital speed is a threshold which separates two types of accretion flows and given the value of the orbital speed in Vela X-1 (284km$\cdot$s$^{-1}$), this wind acceleration boosting will induce major changes. From now on, we consider the two cases in Table\,\ref{tab:params} :
 \begin{itemize}
-\item \underline{the heavy slow (HS) :} the accretor is 2.5\msun, lying on the upper edge of the expected maximum mass for a \ns, and the radiative acceleration is not boosted.
-\item  \underline{the light fast (LF) :} the accretor is 1.5\msun and the radiative acceleration is boosted by 50\%.
+\item \underline{the heavy slow (HS) :} the accretor has a mass of M$_{\bullet}$=2.5\msun, lying on the upper edge of the expected maximum mass for a \ns, and the radiative acceleration is not boosted.
+\item  \underline{the light fast (LF) :} the accretor has a mass of M$_{\bullet}$=1.5\msun and the radiative acceleration is boosted by 50\%.
 \end{itemize} 
 Since the \ns mass estimates in Vela X-1 range from 1.7\msun \citep{Rawls2011} up to 2.3\msun \citep{Quaintrell2003a}, partly due to the uncertainty on the inclination of the system, we expect the real configuration to lie in-between the two cases we consider.
 
@@ -250,12 +250,14 @@ Since the \ns mass estimates in Vela X-1 range from 1.7\msun \citep{Rawls2011} u
 \end{figure*} 
 
 We now monitor the flow as it enters the spherical HD simulation space centered on the compact object and corresponding approximately to its Roche lobe. The aforementioned ballistic integration supplied information on the velocity vector at the surface of this sphere while the density relative to the stellar one is deduced from the divergence of each streamline. This information is then binned on angular tiles, with the polar axis of the spherical frame aligned with the orbital angular momentum axis ($\hat{z}$ in Figure\,\ref{fig:big_picture}). We represented the local mass and angular momentum inflow at the surface of this space with Mollweide projection in Figure\,\ref{fig:inflow_maps} for the HS and LF cases. Their integrated value, $\dot{\text{M}}_{\text{out}}$ and $\dot{\text{j}}_{\text{out}}$, normalized with the corresponding scaling parameters. Dividing the accretion rates of angular momentum and mass, we obtain the specific angular momentum of the inflowing gas and can compute the radius at which a Keplerian orbit would have the same specific angular momentum (\aka the circularization radius). This radius is compared to the \ns magnetosphere radius, $R_{\text{m}}$, given by \cite{Martinez-Nunez2017} :
-\begin{align*}
+\begin{align}
+\begin{split}
 \label{eq:Rmag}
 R_{\text{m}}\sim & 1.4\cdot 10^9\text{cm}\left(\frac{\rho}{10^{-12}\text{g}\cdot\text{cm}^{-3}}\right)^{-1/6}\left(\frac{v}{2,000\text{km}\cdot\text{s}^{-1}}\right)^{-1/3} \text{...}\\
 & \text{...} \quad \left(\frac{B_{\bullet}}{2.6\cdot 10^{12}\text{G}}\right)^{1/3}\left(\frac{R_{\bullet}}{10\text{km}}\right)
-\end{align*}
-where the values used for the mass density $\rho$ and the flow speed $v$ are orders-of-magnitude at the outer edge of the magnetosphere. The low dependence of the magnetosphere radius on them guarantees that their exact value will not significantly alter this estimate. A typical \ns radius has been used and the \ns magnetic field is the one deduced by \cite{Furst2014} in Vela X-1.
+\end{split}
+\end{align}
+where the values used for the mass density $\rho$ and the flow speed $v$ are orders-of-magnitude at the outer edge of the magnetosphere. The low dependence of the magnetosphere radius on them guarantees that their exact value will not significantly alter this estimate. A typical \ns radius has been used and the \ns magnetic field is the one deduced by \cite{Furst2014} in Vela X-1. We expect any disc-like structure to be truncated approximately at the inner radius \citep{Ghosh1978} while quasi-spherical accretion onto the magnetosphere would proceed as described by \cite{Shakura2013b}.
 
 The left panels in Figure\,\ref{fig:inflow_maps} show that the mass inflow is approximately distributed in the same way in both cases, with a larger off-plane contribution when the wind is slower : it is a first hint that the inertia of the wind is no longer large enough to overcome the orbital beaming induced by rotation, a feature which will have major consequences within the shocked region. In both cases, the incoming flow is centered around a mean direction which departs from the axis joining the compact object to the star. The essential difference though lies in the distribution of angular momentum inflow (right panels) : the LF case leads to an equivalent amount of positive and negative angular momentum, revealing of the essentially planar (albeit deviated) structure of the flow, whereas the HS case displays a large unbalance which can not be attributed to an asymmetry of the mass inflow. Rather, it is due to the shift between the mean direction of arrival of matter (yellow spot in mass inflow maps) and the direction of radial inflow (white stripe in-between blue and red in angular momentum inflow maps). It is much more significant for HS than for LF. Consequently, the net amount of specific angular momentum is larger for HS, which also leads to larger circularization radii and to a likelier wind-capture disc, a prediction we now put to the test.
 
@@ -265,7 +267,7 @@ The left panels in Figure\,\ref{fig:inflow_maps} show that the mass inflow is ap
 % ------------------------------------------------
 
 % - - - - - - - - - - - - - - - - - - - - - - - - 
-\subsection{Hydrodynamics}
+\subsection{Physics and numerical setup}
 \label{sec:HD}
 % - - - - - - - - - - - - - - - - - - - - - - - - 
 
@@ -273,9 +275,9 @@ The left panels in Figure\,\ref{fig:inflow_maps} show that the mass inflow is ap
 \label{sec:HD_eq}
 %normalization units?
 
-We solve the equations of hydrodynamics in their conservative form, converting accordingly the gravitational, radiative and non-inertial accelerations in the ballistic equation of motion\,\eqref{eq:ball} into forces per unit volume. In a first time, we do solve the energy equation everywhere, assuming that the heating from the donor star and from the X-ray produced in the vicinity of the accretor balances the cooling of this radiatively thin wind. We will discuss the validity of this adiabatic approximation and a way to relax it in section\,\ref{sec:cool}. Finally, we complement these equation with the equation-of-state of an ideal monoatomic gas (\ie with an adiabatic index $\gamma=5/3$) as a closure relation. % We also set the mean molecular weight to unity.
+Within the Roche lobe of the accretor, we solve the equations of hydrodynamics in their conservative form, converting accordingly the gravitational, radiative and non-inertial accelerations in the ballistic equation of motion\,\eqref{eq:ball} into forces per unit volume. In a first time, we do solve the energy equation everywhere, assuming that the heating from the donor star and from the X-ray produced in the vicinity of the accretor balances the cooling of this radiatively thin supersonic wind. We will discuss the validity of this adiabatic approximation downstream the shock which will form and a way to relax it in section\,\ref{sec:cool}. Finally, we complement these equation with the equation-of-state of an ideal monoatomic gas of Hydrogen (\ie with an adiabatic index $\gamma=5/3$) as a closure relation, which gives the internal energy per unit volume $u$ as a function of the thermal pressure $P$. We also set the mean molecular weight to unity, to be used in the estimates of the cooling time scale in section\,\ref{sec:cool}.
 
-The computation is performed with the new version of the finite volume code \texttt{MPI-AMRVAC} \citep{Xia2017}, using a 3$^{\text{rd}}$-order HLL solver \citep{Toro1994} with a Koren slope limiter \citep{Vreugdenhil1993}. The spherical mesh we set up, centered on the accretor, is radially stretched to guarantee a constant relative resolution from the outer to the inner edge of the simulation space, spanning several orders of magnitude at an affordable computational cost, in a similar way to what has been done for an axisymmetric flow in \cite{ElMellah2015}. The outer radius of the simulation space is approximately half of the orbital separation, which of $\sim$0.2AU in Vela X-1, while the inner edge has a radius of 5 times the \ns magnetosphere radius given by\,\eqref{eq:Rmag}, hence a factor of approximately 200 between the inner and outer edge. Due to the symmetry of the problem above and below the orbital plane, we consider only the upper hemisphere and work with a resolution of 128$\times$64$\times$128 corresponding to cells of aspect ratio close to unity near the equatorial plane of the mesh. Since our aim is to identify the conditions suitable for the formation of a wind-capture disc, the conservation of angular momentum is of uttermost importance. We implemented an angular momentum preserving scheme which guarantees the conservation of the component of the angular momentum projected onto the polar axis, in particular in the innermost regions of the flow, to machine precision.
+The computation is performed with the new version of the finite volume code \texttt{MPI-AMRVAC} \citep{Xia2017}, using a 3$^{\text{rd}}$ order HLL solver \citep{Toro1994} with a Koren slope limiter \citep{Vreugdenhil1993}. The spherical mesh we set up, centered on the accretor, is radially stretched to guarantee a constant relative resolution from the outer to the inner edge of the simulation space, spanning several orders of magnitude at an affordable computational cost and with a uniform cell aspect ratio, extending what has been done for an axisymmetric 2D flow in \cite{ElMellah2015}. The outer radius of the simulation space is approximately half of the orbital separation, which is $\sim$0.2AU in Vela X-1, while the inner edge has a radius of 5 times the \ns magnetosphere radius given by equation\,\eqref{eq:Rmag}, hence a factor of approximately 200 between the inner and outer edge. Due to the symmetry of the problem above and below the orbital plane, we consider only the upper hemisphere and work with a resolution of 128$\times$32$\times$128 corresponding to cells of aspect ratio close to unity near the equatorial plane of the mesh. Since our aim is to identify the conditions suitable for the formation of a wind-capture disc, the conservation of angular momentum is of uttermost importance. We implemented an angular momentum preserving scheme which guarantees the conservation of the component of the angular momentum projected onto the polar axis, in particular in the innermost regions of the flow, to machine precision (XXX RONY : WOULD YOU HAVE A REFERENCE IN MIND? XXX).
 
 %\begin{equation}
 %\label{eq:eq1}
@@ -305,13 +307,45 @@ The computation is performed with the new version of the finite volume code \tex
 %$\alpha$ : see section\,\ref{sec:wind_acc}. Encapsulates wind acceleration process and stellar gravity. $-1$ with only gravity, leading to the usual Roche force per unit mass.
 
 
-\subsubsection{Cooling}
+\subsubsection{Radiative cooling}
 \label{sec:cool}
 
-Cooling time scale \citep{Schure2009}
-Polytropic index $\Gamma$ \citep{Horedt2000}. Physical meaning of $\Gamma$. Bypass the energy equation\,\ref{eq:eq3} where the cooling time scale is XXX times smaller than the dynamical time scale.
+Let us estimate the importance of cooling in these simulations. Upstream the shock, we rely on the temperature stratification derived from the solution of the statistical equilibrium equations and the radiative transfer. Based on the assumption of radiative equilibrium, the (electron) temperature structure in an expanding atmosphere is obtained by applying a generalized Uns{\"o}ld-Lucy method described in \citet{Hamann1998}. Including the X-ray irradiation on the donor star did not significantly alter the temperature profile upstream the accretor obtained in \cite{Sander2017}, leading to wind temperatures of 15 to 20kK. XXX ANDREAS : DO YOU CONFIRM THE CONTENT AND THE FORM? XXX. Downstream the shock, we assume that the gas is still optically thin and consider the time scale $\tau_{\text{c}}$ to evacuate the internal energy per unit volume of an ideal gas at temperature $T$ and with a Hydrogen number density $n$, $u=nk_{\text{B}}T$, at a rate given by the cooling rate computed by \cite{Schure2009}, $\Lambda\left(T\right)$ :
+\begin{equation}
+\tau_{\text{c}}=\frac{nk_{\text{B}}T}{n^2\Lambda\left(T\right)}
+\end{equation}
+where $\Lambda$ includes the proportion of electrons relative to protons and $k_{\text{B}}$ is the Boltzmann constant. If we write $\tau_{\text{d}}$ the dynamical time scale for free fall at a fiducial accretion radius R$_{\text{acc}}$ of 1$/$30$^{\text{th}}$ of the orbital separation in Vela X-1, we obtain the following ratio :
+\begin{align}
+\frac{\tau_{\text{c}}}{\tau_{\text{d}}}\sim & 0.01\left(\frac{T}{10^6\text{K}}\right)\left(\frac{\Lambda}{10^{-22}\text{erg}\cdot\text{s}^{-1}\cdot\text{cm}^{3}}\right)^{-1} \text{...}\\
+&  \text{...} \quad \left(\frac{\rho}{10^{-13}\text{g}\cdot\text{cm}^{-3}}\right)^{-1}\left(\frac{M_{\bullet}}{2\text{M}_{\odot}}\right)^{1/2}\left(\frac{\text{R}_{\text{acc}}}{0.2\text{AU}/30}\right)^{-3/2}
+\end{align}
+where we used the values of temperature and density measured downstream the shock in the adiabatic simulations presented in section\,\ref{sec:cool_F}. It is clear that, except if the wind is a few times faster than expected in Vela X-1 and/or the star displays a mass loss rate an order of magnitude lower than what models and observations indicate \cite[$\sim$1.3$\cdot 10^{-6}$M$_{\odot}\cdot$yr$^{-1}$,][]{Gimenez-Garcia2016}, cooling will come into play in the shocked region. 
 
-Provided the density is high enough, condensation of the hot shocked flow into a disc \citep[][and references therein]{Taam2018} : underlying principle of two component accretion flows models.
+In an optically thin environment, we could include radiative cooling using the module developed for \texttt{MPI-AMRVAC} by \cite{VanMarle2011}. However, we would also need to model heating by X-rays from the compact object and by the stellar radiation field, and to use power-law approximations to compute the local opacity as a function of the density and the temperature \citep{Lin1985}. Furthermore, the optically thin approximation might not hold within the shocked region, especially when runaway cooling occurs and a high density disc-like region forms. In optically thick region, the strong coupling between matter and radiation requires more sophisticated treatments such as flux-limited diffusion \citep{Turner2001}. XXX RONY : SHOULD WE CITE JANNIS' PAPER HERE? XXX Given the additional layers of complexity a proper treatment of radiation would add, we chose to represent the cooling in a simpler way, using a polytropic model. It is equivalent to assume that the ratio of energy radiated away by the work of done by pressure force is constant : a certain compression leads to a certain energy loss, ranging from 0 (in the adiabatic limit) to 100\% (in the isothermal limit) of the work done by pressure force \citep{Christians2012}. Above a certain threshold temperature T$_{0}$, reached only within the shocked region, we overwrite the solution for the internal energy computed by the energy equation with the corresponding value of pressure deduced from the polytropic relation :
+\begin{equation}
+P=C\rho^{\alpha}
+\end{equation}
+Provided there is no creation of entropy (in particular no shock), $C$ is constant and uniform. In this framework, the polytropic index $\alpha$ ranges from 1 in the isothermal limit to $\gamma$ in the adiabatic limit \citep{Horedt2000}. After exploring a range of realistic values for $C$ and $\alpha$, we retained 3 different models :
+\begin{itemize}
+\item \underline{High entropy :} cooling occurs only in a thin unresolved radiative layer immediately downstream the shock and is then negligible (for instance, because of intense X-ray heating) which means $\alpha=\gamma$ and a constant $C$ set to a fraction of the entropy the flow would acquire downstream the shock in the fully adiabatic case, $S_0$. T$_{0}$ is set to 10$^6$K.
+\item \underline{Isothermal hot :} the net cooling is efficient enough to compensate any adiabatic compression as the flow accretes, which leads to an isothermal flow ($\alpha=1$) whose temperature is given by $C$, set such as the physical temperature is 10$^6$K. 
+\item \underline{Isothermal cool :} same as previous but with a temperature of 10$^5$K.
+\end{itemize}
+In the two isothermal cases, the cooling prescription means that the flow evolution is fully adiabatic until it reaches the temperature $T_0=C$ when it becomes isothermal. The four models (fully adiabatic, high entropy, isothermal hot and cold) are summarized in Table\,\ref{tab:cool}.
+
+\begin{table}
+\centering
+\caption{Parameters of cooling prescriptions in the four models.}
+\label{tab:cool}
+\begin{tabularx}{\linewidth}{c|c|c|c|c}
+   & adiabatic & isoS & Hot & Cool\\
+  \hline
+  Cooling & no & yes & yes & yes \\  
+  $T_0$ & -- & 10$^6$K & 10$^6$K & 10$^5$K \\
+  $C$ & -- & $S_0$ & $T_0$ & $T_0$ \\
+  $\alpha$ & -- & $\gamma$ & 1 & 1 \\
+\end{tabularx}
+\end{table}
 
 % - - - - - - - - - - - - - - - - - - - - - - - - 
 \subsection{Flow morphology}
@@ -323,6 +357,10 @@ Provided the density is high enough, condensation of the hot shocked flow into a
 
 \subsubsection{With cooling}
 \label{sec:cool_T}
+
+a centrifugally supported structure forms
+
+Provided the density is high enough, condensation of the hot shocked flow into a disc \citep[][and references therein]{Taam2018} : underlying principle of two component accretion flows models.
 
 FOR BLACK HOLES :
 Presence of a disc-like structure which does not extend as far as in RLOF-fed systems (~LMXB) => no hysteresis in hardness-intensity diagram (for Cyg X-1, LMC X-1 or LMC X-3, the 3 wind-fed BH-HMXB). Indeed, the soft state might originate from : "A drop in the accretion rate affecting both flows would propagate through the halo immediately but might take up to several weeks to propagate through the disk.While the inner halo is thus temporarily depleted compared to the disk, a temporary soft state is expected." but if the disc has a much smaller outer radius (due to a much smaller angular momentum of the inflow), the viscous delay is expected to be so small that the dimming of the disc will be almost as fast as the one of the disc. \citep{Smith2002}. Explains also why no large outburst (ie a low contrast between the brightest and dimmest X-ray emission) in Cygnus X-1 (~x3) \citep{Grinberg:2014ux} : without an outer cool disc, the thermal instability resulting from the ionization of Hydrogen cannot occur (REF?). No quiescent state in Cyg X-1 : it is an argument in favor of the existence of a cool disc in the hard state.
@@ -373,7 +411,6 @@ Antonios Manousakis for fruitful discussions about the underlying computational 
 
 IEM has received funding from the Research Foundation Flanders (FWO) and the European Union's Horizon 2020 research and innovation program under the Marie Sk\l odowska-Curie grant agreement No 665501. IEM and JOS are grateful for the hospitality of the International Space Science Institute (ISSI), Bern, Switzerland which sponsored a team meeting initiating a tighter collaboration between massive stars wind and X-ray binaries communities. IEM also thanks Peter Kretschmar, Victoria Grinberg and Felix F\"urst for the fruitful discussions and the relevant comments they made on the present work. The simulations were conducted on the Tier-1 VSC (Flemish Supercomputer Center funded by Hercules foundation and Flemish government).
 
-
 \end{acknowledgements}
 
 
@@ -383,40 +420,5 @@ IEM has received funding from the Research Foundation Flanders (FWO) and the Eur
 \begin{tiny}
 \bibliography{/Users/Ileyk/Documents/Bibtex/article_sheared_wind}
 \end{tiny}
-
-%\begin{thebibliography}{}
-%
-%
-%  \bibitem[1966]{baker} Baker, N. 1966,
-%      in Stellar Evolution,
-%      ed.\ R. F. Stein,\& A. G. W. Cameron
-%      (Plenum, New York) 333
-%
-%   \bibitem[1988]{balluch} Balluch, M. 1988,
-%      A\&A, 200, 58
-%
-%   \bibitem[1980]{cox} Cox, J. P. 1980,
-%      Theory of Stellar Pulsation
-%      (Princeton University Press, Princeton) 165
-%
-%   \bibitem[1969]{cox69} Cox, A. N.,\& Stewart, J. N. 1969,
-%      Academia Nauk, Scientific Information 15, 1
-%
-%   \bibitem[1980]{mizuno} Mizuno H. 1980,
-%      Prog. Theor. Phys., 64, 544
-%   
-%   \bibitem[1987]{tscharnuter} Tscharnuter W. M. 1987,
-%      A\&A, 188, 55
-%  
-%   \bibitem[1992]{terlevich} Terlevich, R. 1992, in ASP Conf. Ser. 31, 
-%      Relationships between Active Galactic Nuclei and Starburst Galaxies, 
-%      ed. A. V. Filippenko, 13
-%
-%   \bibitem[1980a]{yorke80a} Yorke, H. W. 1980a,
-%      A\&A, 86, 286
-%
-%   \bibitem[1997]{zheng} Zheng, W., Davidsen, A. F., Tytler, D. \& Kriss, G. A.
-%      1997, preprint
-%\end{thebibliography}
 
 \end{document}
