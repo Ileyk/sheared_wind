@@ -84,13 +84,9 @@
              Institut f{\"u}r Physik und Astronomie, 
              Universit{\"a}t Potsdam, 
              Karl-Liebknecht-Str. 24/25, 14476 Potsdam, Germany
-             \thanks{The university of heaven temporarily does not
-                     accept e-mails}
          \and
              KU Leuven, Instituut voor Sterrenkunde, 
              Celestijnenlaan 200D, B-3001 Leuven, Belgium
-             \thanks{The university of heaven temporarily does not
-                     accept e-mails}
              }
 
    \date{Received ...; accepted ...}
@@ -179,12 +175,12 @@ In consequence, a fully consistent treatment of both the wind acceleration and i
 \begin{figure}
 \begin{subfigure}{.5\textwidth}
 \centering
-\includegraphics[width=0.9\columnwidth]{Pictures/big_picture.png}
+\includegraphics[width=0.99\columnwidth]{Pictures/big_picture.png}
   \label{fig:sfig1}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
 \centering
-\includegraphics[width=0.9\columnwidth]{Pictures/big_picture.png}
+\includegraphics[width=0.99\columnwidth]{Pictures/big_picture.png}
   \label{fig:sfig2}
 \end{subfigure}
 \caption{A few computed streamlines (orange solid lines) from the blue supergiant to the Roche lobe of the accretor on the right (green dashed circle), in the orbital plane. The black dashed lines represent the critical Roche surface passing by the first Lagrangian point. Upper panel (resp. lower) is for the heavy slow (resp. light fast) configuration.}
@@ -259,7 +255,7 @@ R_{\text{m}}\sim & 1.4\cdot 10^9\text{cm}\left(\frac{\rho}{10^{-12}\text{g}\cdot
 \end{align}
 where the values used for the mass density $\rho$ and the flow speed $v$ are orders-of-magnitude at the outer edge of the magnetosphere. The low dependence of the magnetosphere radius on them guarantees that their exact value will not significantly alter this estimate. A typical \ns radius has been used and the \ns magnetic field is the one deduced by \cite{Furst2014} in Vela X-1. We expect any disc-like structure to be truncated approximately at the inner radius \citep{Ghosh1978} while quasi-spherical accretion onto the magnetosphere would proceed as described by \cite{Shakura2013b}.
 
-The left panels in Figure\,\ref{fig:inflow_maps} show that the mass inflow is approximately distributed in the same way in both cases, with a larger off-plane contribution when the wind is slower : it is a first hint that the inertia of the wind is no longer large enough to overcome the orbital beaming induced by rotation, a feature which will have major consequences within the shocked region. In both cases, the incoming flow is centered around a mean direction which departs from the axis joining the compact object to the star. The essential difference though lies in the distribution of angular momentum inflow (right panels) : the LF case leads to an equivalent amount of positive and negative angular momentum, revealing of the essentially planar (albeit deviated) structure of the flow, whereas the HS case displays a large unbalance which can not be attributed to an asymmetry of the mass inflow. Rather, it is due to the shift between the mean direction of arrival of matter (yellow spot in mass inflow maps) and the direction of radial inflow (white stripe in-between blue and red in angular momentum inflow maps). It is much more significant for HS than for LF. Consequently, the net amount of specific angular momentum is larger for HS, which also leads to larger circularization radii and to a likelier wind-capture disc, a prediction we now put to the test.
+On the left panels in Figure\,\ref{fig:inflow_maps}, we see that the mass inflow is approximately distributed in the same way in both cases, with a larger off-plane contribution when the wind is slower : it is a first hint that the inertia of the wind is no longer large enough to overcome the orbital beaming induced by rotation, a feature which will have major consequences within the shocked region. In both cases, the incoming flow is centered around a mean direction which departs from the axis joining the compact object to the star. The essential difference though lies in the distribution of angular momentum inflow (right panels) : the LF case leads to an equivalent amount of positive and negative angular momentum, revealing of the essentially planar (albeit deviated) structure of the flow, whereas the HS case displays a large unbalance. The evaluation of the net angular momentum inflowing was in no case obvious a priori : the flow arriving from the first Lagrangian point L$_1$ (with positive angular momentum) is denser than the flow arriving from the right of L$_1$ as seen from the accretor (with negative angular momentum), but it is also slower. The present analysis was required to determine which effect eventually dominates. The non-zero net angular momentum in the HS case can not be attributed to an asymmetry of the mass inflow. Rather, it is due to the shift between the mean direction of arrival of matter (yellow spot in mass inflow maps) and the direction of radial inflow (white stripe in-between blue and red in angular momentum inflow maps). It is much more significant for HS than for LF. Consequently, the net amount of specific angular momentum is larger for HS, which also leads to larger circularization radii and to a likelier wind-capture disc, a prediction we now put to the test.
 
 % ------------------------------------------------
 \section{Wind-capture discs}
@@ -331,7 +327,7 @@ Provided there is no creation of entropy (in particular no shock), $C$ is consta
 \item \underline{Isothermal hot :} the net cooling is efficient enough to compensate any adiabatic compression as the flow accretes, which leads to an isothermal flow ($\alpha=1$) whose temperature is given by $C$, set such as the physical temperature is 10$^6$K. 
 \item \underline{Isothermal cool :} same as previous but with a temperature of 10$^5$K.
 \end{itemize}
-In the two isothermal cases, the cooling prescription means that the flow evolution is fully adiabatic until it reaches the temperature $T_0=C$ when it becomes isothermal. The four models (fully adiabatic, high entropy, isothermal hot and cold) are summarized in Table\,\ref{tab:cool}.
+In the two isothermal cases, the cooling prescription means that the flow evolution is fully adiabatic until it reaches the temperature $T_0=C$ when it becomes isothermal. We believe that including the optically thin cooling  The four models (fully adiabatic, high entropy, isothermal hot and cold) are summarized in Table\,\ref{tab:cool}.
 
 \begin{table}
 \centering
@@ -352,18 +348,47 @@ In the two isothermal cases, the cooling prescription means that the flow evolut
 \label{sec:morph}
 % - - - - - - - - - - - - - - - - - - - - - - - - 
 
-\subsubsection{Without cooling}
+\subsubsection{Adiabatic evolution}
 \label{sec:cool_F}
+
+\begin{figure}
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=0.99\columnwidth]{Pictures/LF_adiab.jpeg}
+  \label{fig:sfig1}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=0.99\columnwidth]{Pictures/HS_adiab.jpeg}
+  \label{fig:sfig2}
+\end{subfigure}
+\caption{Logarithmic colormaps of the density field in the orbital plane. The arrows stand for the velocity field, with a black to white colormap for their magnitude. The black dashed line is the Mach-1 contour. The orbital speed of Vela X-1, 284km$\cdot$s$^{-1}$ has been represented.}
+\label{fig:adiab}
+\end{figure} 
+
+In Figure\,\ref{fig:adiab}, we represented slices in the orbital plane of the numerically relaxed state reached by the simulations where the adiabatic equations of hydrodynamics are solved. A 3D representation is displayed in Figure\,\ref{fig:3D_adiab} to appreciate the level of beaming of the flow along the orbital axis.
+
+In the case of a light accretor capturing material from a fast wind (LF configuration), the main features depart little from what has been observed for axisymmetric uniform flows. In agreement with \cite{Blondin:2012vf}, we do not observe any transverse oscillation of the tail \citep[the so-called "flip-flop instability" which arises in 2D polar numerical setups,][]{Foglizzo2005}. The orbital effects deflected the wind whose mean direction of arrival is $\sim$20 degrees misaligned with respect to the axis joining the star to the compact object. However, as discussed in section\,\ref{sec:orb_inhomo}, the flow remains essentially planar around this direction. When the flow is sufficiently beamed towards the accretor, it forms a bow shock at a distance ahead the accretor compatible with a fraction of the previously estimated accretion radius. The Mach-1 surface and the cone of density jump are slightly misaligned with each other, with the side facing the star denser. The Mach number immediately upstream the shock reaches 30 and we retrieve the classic jump conditions for an adiabatic shock. Between the outer boundary upstream and the inner boundary, the density (resp. the temperature) increases by a factor of $\sim$100 (resp. 5,000). In the innermost regions of the flow, we retrieve the sonic surface though no longer anchored into the inner boundary, contrary to what was predicted for a planar uniform flow with $\gamma=5/3$ by \cite{Foglizzo1996} and observed by \cite{ElMellah2015} in numerical simulations.
+
+In the case of a heavy accretor capturing material from a slow wind (HS configuration), the morphology of the flow is dramatically different. Not only is the mean direction of arrival of the flow more misaligned with the line joining the star to the compact object ($\sim$45 degrees) but also the shearing is much more important, leading to a significant amount of net angular momentum. A bow shock also forms but while it extends over several accretion radii on the side where the flow is less dense and faster, the beamed wind arriving directly from L$_1$ remains mildly supersonic as it passes the accretor. It is strongly deflected and accelerated by the gravitational slingshot but only to finally impacts the shocked region from the back. The adiabatic compression it first experiences leads to a dense and fairly cool region compared to the innermost parts of the flow. Although the Mach number of the flow entering the simulation space remains below 10 due to the limited efficient of the wind acceleration, it reaches Mach numbers of 20 just upstream the shock, leading to a temperature jump of approximately 400. As the flow is accreted, the corresponding temperatures of the order of 10MK keeps increasing up to 100MK at the inner boundary. In the absence of radiative cooling, these temperatures are to be expected but as explained in section\,\ref{sec:cool}, the density of the flow is too high to neglect the capacity of the flow to radiate internal energy away. Finally, the shocked region presents a characteristic spiral shape which delimits a narrow accretion channel along which matter flows in (or out beyond the stagnation point). The orientation of this stream differs to the one observed in \rlof systems due to the much lower effective gravity of the donor star, which alters the classic Roche potential we rely on in low mass X-ray binaries.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.99\columnwidth]{Pictures/iso-rho_adiab.png}
+\caption{3D contours of the mass density for the LF (semi-transparent blue) and HS (red) configurations. The black arrow indicates the approximate direction of the arriving wind, while the vertical direction is aligned with the orbital angular momentum. Notice the axisymmetry of the LF flow structure, whereas the HS flow is compressed in the orbital plane and forms a characteristic channel reminiscent of the stream of matter in \rlof systems.}
+\label{fig:3D_adiab}
+\end{figure} 
 
 \subsubsection{With cooling}
 \label{sec:cool_T}
 
+As previously noticed in numerical simulations of asymmetric Bondi-Hoyle-Lyttleton accretion, either in the context of common envelope phase \citep{MacLeod2014} 
+
+For LF, runaway cooling at the cone shock might lead to the formation of clumps beyond the scope of the present analysis, within which maybe dust grains like in WR-O binaries? Reference Lali? Meliani? Hendrix?
+
 a centrifugally supported structure forms
 
-Provided the density is high enough, condensation of the hot shocked flow into a disc \citep[][and references therein]{Taam2018} : underlying principle of two component accretion flows models.
 
-FOR BLACK HOLES :
-Presence of a disc-like structure which does not extend as far as in RLOF-fed systems (~LMXB) => no hysteresis in hardness-intensity diagram (for Cyg X-1, LMC X-1 or LMC X-3, the 3 wind-fed BH-HMXB). Indeed, the soft state might originate from : "A drop in the accretion rate affecting both flows would propagate through the halo immediately but might take up to several weeks to propagate through the disk.While the inner halo is thus temporarily depleted compared to the disk, a temporary soft state is expected." but if the disc has a much smaller outer radius (due to a much smaller angular momentum of the inflow), the viscous delay is expected to be so small that the dimming of the disc will be almost as fast as the one of the disc. \citep{Smith2002}. Explains also why no large outburst (ie a low contrast between the brightest and dimmest X-ray emission) in Cygnus X-1 (~x3) \citep{Grinberg:2014ux} : without an outer cool disc, the thermal instability resulting from the ionization of Hydrogen cannot occur (REF?). No quiescent state in Cyg X-1 : it is an argument in favor of the existence of a cool disc in the hard state.
 
 % - - - - - - - - - - - - - - - - - - - - - - - - 
 \subsection{Mass and angular momentum accretion rates}
@@ -378,9 +403,23 @@ If halted mass accretion, might be due to radiative heating from the X-ray sourc
 % ------------------------------------------------
 
 % - - - - - - - - - - - - - - - - - - - - - - - - 
-\subsection{Disc mass and morphology}
-\label{sec:disc}
+\subsection{Disc extension and viscous lag}
+\label{sec:rout}
 % - - - - - - - - - - - - - - - - - - - - - - - -
+
+as the disc transits in front of the star, ingress and egress indicative of outer ring extension
+
+mass and morphology
+
+% - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Viscous lag}
+\label{sec:visc}
+% - - - - - - - - - - - - - - - - - - - - - - - -
+
+Provided the density is high enough, condensation of the hot shocked flow into a disc \citep[][and references therein]{Taam2018} : underlying principle of two component accretion flows models.
+
+FOR BLACK HOLES :
+Presence of a disc-like structure which does not extend as far as in RLOF-fed systems (~LMXB) => no hysteresis in hardness-intensity diagram (for Cyg X-1, LMC X-1 or LMC X-3, the 3 wind-fed BH-HMXB). Indeed, the soft state might originate from : "A drop in the accretion rate affecting both flows would propagate through the halo immediately but might take up to several weeks to propagate through the disk.While the inner halo is thus temporarily depleted compared to the disk, a temporary soft state is expected." but if the disc has a much smaller outer radius (due to a much smaller angular momentum of the inflow), the viscous delay is expected to be so small that the dimming of the disc will be almost as fast as the one of the disc. \citep{Smith2002}. Explains also why no large outburst (ie a low contrast between the brightest and dimmest X-ray emission) in Cygnus X-1 (~x3) \citep{Grinberg:2014ux} : without an outer cool disc, the thermal instability resulting from the ionization of Hydrogen cannot occur (REF?). No quiescent state in Cyg X-1 : it is an argument in favor of the existence of a cool disc in the hard state.
 
 % ------------------------------------------------
 \section{Conclusion}
@@ -403,7 +442,7 @@ bridge the gap between the  / starts to resemble RLOF
 
 The interest is twofold \citep{Martinez-Nunez2017}
 
-What about the micro-structure? Clumps small compared to accretion radius for such small wind speed.
+What about the micro-structure? Clumps small compared to accretion radius for such small wind speed. Flip-flop possible?
 
 \begin{acknowledgements}
 Hugues Sana for his insights on binary evolution

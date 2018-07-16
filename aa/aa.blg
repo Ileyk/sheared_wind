@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: aa.aux
 The style file: agsm.bst
 Database file #1: /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
-Repeated entry---line 610 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
+Repeated entry---line 652 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
  : @article{Edgar:2004ip
  :                      ,
 I'm skipping whatever remains of this entry
@@ -13,45 +13,45 @@ Warning--I didn't find a database entry for "Sanders2017"
 Warning--I didn't find a database entry for "Taam2018"
 Warning--I didn't find a database entry for "Smith2002"
 Warning--I didn't find a database entry for "ElMellah"
-You've used 41 entries,
+You've used 43 entries,
             2909 wiz_defined-function locations,
-            979 strings with 17588 characters,
-and the built_in function-call counts, 338689 in all, are:
-= -- 56562
-> -- 4547
+            993 strings with 18130 characters,
+and the built_in function-call counts, 346062 in all, are:
+= -- 57760
+> -- 4641
 < -- 0
-+ -- 28322
-- -- 1434
-* -- 30813
-:= -- 65294
-add.period$ -- 41
-call.type$ -- 41
-change.case$ -- 573
-chr.to.int$ -- 41
-cite$ -- 41
-duplicate$ -- 655
-empty$ -- 1318
-format.name$ -- 1583
-if$ -- 60906
++ -- 28884
+- -- 1462
+* -- 31454
+:= -- 66790
+add.period$ -- 43
+call.type$ -- 43
+change.case$ -- 601
+chr.to.int$ -- 43
+cite$ -- 43
+duplicate$ -- 687
+empty$ -- 1379
+format.name$ -- 1623
+if$ -- 62227
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 42
-newline$ -- 167
-num.names$ -- 435
-pop$ -- 114
+missing$ -- 44
+newline$ -- 175
+num.names$ -- 455
+pop$ -- 120
 preamble$ -- 1
-purify$ -- 615
+purify$ -- 645
 quote$ -- 0
-skip$ -- 533
+skip$ -- 557
 stack$ -- 0
-substring$ -- 82247
-swap$ -- 124
-text.length$ -- 574
+substring$ -- 83909
+swap$ -- 130
+text.length$ -- 602
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
+type$ -- 170
 warning$ -- 0
-while$ -- 915
+while$ -- 959
 width$ -- 0
-write$ -- 584
+write$ -- 610
 (There was 1 error message)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 JUL 2018 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUL 2018 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -936,7 +936,20 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box40
-) (./aa.aux)
+) (./aa.aux
+
+LaTeX Warning: Label `fig:sfig1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sfig2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig2' multiply defined.
+
+)
 \openout1 = `aa.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 59.
@@ -1069,96 +1082,132 @@ Package caption Info: End \AtBeginDocument code.
 IMPORTANT
 
 Class aa Warning: Around 302 words in the abstract instead of 300 (max). You sh
-ould rewrite your abstract on input line 116.
+ould rewrite your abstract on input line 112.
 
 IMPORTANT 
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 123.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 119.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 123.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 123.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 119.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 119.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 123.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 119.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 123.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 119.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 123.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 119.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 123.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 119.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for T1+txss on input line 123.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 119.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 123.
+(Font)              scaled to size 16.41594pt on input line 119.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 16.41594pt on input line 123.
+(Font)              scaled to size 16.41594pt on input line 119.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 123.
+(Font)              scaled to size 13.67995pt on input line 119.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 123.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 123.
+(Font)              scaled to size 13.67995pt on input line 119.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 119.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 123.
+(Font)              scaled to size 8.54997pt on input line 119.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 123.
+(Font)              scaled to size 8.54997pt on input line 119.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 123.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 119.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 8.54997pt on input line 123.
+(Font)              scaled to size 8.54997pt on input line 119.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 124.
+(Font)              scaled to size 10.40245pt on input line 120.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 124.
+(Font)              scaled to size 10.40245pt on input line 120.
+
+
+Package natbib Warning: Citation `Duchene2013' on page 1 undefined on input lin
+e 122.
+
+
+Package natbib Warning: Citation `Abbott2016a' on page 1 undefined on input lin
+e 122.
+
+
+Package natbib Warning: Citation `Grinberg2017' on page 1 undefined on input li
+ne 122.
+
+
+Package natbib Warning: Citation `Lucy1970' on page 1 undefined on input line 1
+26.
+
+
+Package natbib Warning: Citation `Castor1975' on page 1 undefined on input line
+ 126.
+
+
+Package natbib Warning: Citation `Edgar:2004ip' on page 1 undefined on input li
+ne 128.
+
+
+Package natbib Warning: Citation `Illarionov1975' on page 1 undefined on input 
+line 128.
 
 
 Package natbib Warning: Citation `Shapiro1976' on page 1 undefined on input lin
-e 132.
+e 128.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 134.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 134.
+
+Package natbib Warning: Citation `Sander2017' on page 1 undefined on input line
+ 130.
+
+
+LaTeX Warning: Reference `' on page 1 undefined on input line 130.
+
+
+LaTeX Warning: Reference `' on page 1 undefined on input line 130.
 
 
 Underfull \vbox (badness 2837) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 135.
+Package hyperref Warning: Suppressing link with empty target on input line 131.
 
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1166,98 +1215,303 @@ Package hyperref Warning: Suppressing link with empty target on input line 135.
 
 ]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 167.
+(Font)              scaled to size 9.49997pt on input line 163.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 167.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 163.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 167.
+(Font)              scaled to size 9.49997pt on input line 163.
 
-<Pictures/big_picture.png, id=109, 607.068pt x 609.2361pt>
+<Pictures/big_picture.png, id=82, 607.068pt x 609.2361pt>
 File: Pictures/big_picture.png Graphic file (type png)
 
 <use Pictures/big_picture.png>
-Package pdftex.def Info: Pictures/big_picture.png used on input line 182.
-(pdftex.def)             Requested size: 235.5872pt x 236.42981pt.
+Package pdftex.def Info: Pictures/big_picture.png used on input line 178.
+(pdftex.def)             Requested size: 259.14912pt x 260.06999pt.
 File: Pictures/big_picture.png Graphic file (type png)
  <use Pictures/big_picture.png>
-Package pdftex.def Info: Pictures/big_picture.png used on input line 187.
-(pdftex.def)             Requested size: 235.5872pt x 236.42981pt.
+Package pdftex.def Info: Pictures/big_picture.png used on input line 183.
+(pdftex.def)             Requested size: 259.14912pt x 260.06999pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 180--190
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 176--186
 []$[]$
  []
 
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 180--190
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 176--186
 []$ 
  []
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd)
-Underfull \hbox (badness 10000) in alignment at lines 212--212
+Underfull \hbox (badness 10000) in alignment at lines 208--208
 [][][] 
  []
 
 
 Package natbib Warning: Citation `ElMellah2016' on page 2 undefined on input li
-ne 215.
+ne 211.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 225.
+Package natbib Warning: Citation `Sander2017' on page 2 undefined on input line
+ 220.
 
 
-[2 <./Pictures/big_picture.png>]
-
-Package natbib Warning: Citation `Sanders2017' on page 3 undefined on input lin
-e 233.
-
-<Pictures/inflow_maps.png, id=159, 883.1394pt x 411.939pt>
-File: Pictures/inflow_maps.png Graphic file (type png)
-
-<use Pictures/inflow_maps.png>
-Package pdftex.def Info: Pictures/inflow_maps.png used on input line 247.
-(pdftex.def)             Requested size: 512.1496pt x 238.89334pt.
+Package natbib Warning: Citation `Hamann1998' on page 2 undefined on input line
+ 220.
 
 
-Package natbib Warning: Citation `Ghosh1978' on page 3 undefined on input line 
-260.
+Package natbib Warning: Citation `Grafener2002' on page 2 undefined on input li
+ne 220.
 
 
-Package natbib Warning: Citation `Shakura2013b' on page 3 undefined on input li
-ne 260.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 263.
-
-
-[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 314.
+Package hyperref Warning: Suppressing link with empty target on input line 224.
+
+
+[2 <./Pictures/big_picture.png>]
+
+Package natbib Warning: Citation `Sander2017b' on page 3 undefined on input lin
+e 225.
+
+
+Package natbib Warning: Citation `ElMellah2016a' on page 3 undefined on input l
+ine 227.
+
+
+Package natbib Warning: Citation `Edgar:2004ip' on page 3 undefined on input li
+ne 227.
+
+
+Package natbib Warning: Citation `Manousakis2013' on page 3 undefined on input 
+line 227.
+
+
+Package natbib Warning: Citation `Vink2001' on page 3 undefined on input line 2
+29.
+
+
+Package natbib Warning: Citation `Hiltner1972' on page 3 undefined on input lin
+e 229.
+
+
+Package natbib Warning: Citation `Forman1973' on page 3 undefined on input line
+ 229.
+
+
+Package natbib Warning: Citation `Gimenez-Garcia2016' on page 3 undefined on in
+put line 229.
+
+
+Package natbib Warning: Citation `Sanders2017' on page 3 undefined on input lin
+e 229.
+
+
+Package natbib Warning: Citation `Blondin1990a' on page 3 undefined on input li
+ne 229.
+
+
+Package natbib Warning: Citation `Rawls2011' on page 3 undefined on input line 
+234.
+
+
+Package natbib Warning: Citation `Quaintrell2003a' on page 3 undefined on input
+ line 234.
+
+<Pictures/inflow_maps.png, id=100, 883.1394pt x 411.939pt>
+File: Pictures/inflow_maps.png Graphic file (type png)
+
+<use Pictures/inflow_maps.png>
+Package pdftex.def Info: Pictures/inflow_maps.png used on input line 243.
+(pdftex.def)             Requested size: 512.1496pt x 238.89334pt.
+
+
+Package natbib Warning: Citation `Martinez-Nunez2017' on page 3 undefined on in
+put line 248.
+
+
+Package natbib Warning: Citation `Furst2014' on page 3 undefined on input line 
+256.
+
+
+Package natbib Warning: Citation `Ghosh1978' on page 3 undefined on input line 
+256.
+
+
+Package natbib Warning: Citation `Shakura2013b' on page 3 undefined on input li
+ne 256.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 259.
+
+
+[3]
+
+Package natbib Warning: Citation `Xia2017' on page 4 undefined on input line 27
+6.
+
+
+Package natbib Warning: Citation `Toro1994' on page 4 undefined on input line 2
+76.
+
+
+Package natbib Warning: Citation `Vreugdenhil1993' on page 4 undefined on input
+ line 276.
+
+
+Package natbib Warning: Citation `ElMellah2015' on page 4 undefined on input li
+ne 276.
+
+
+Package natbib Warning: Citation `Hamann1998' on page 4 undefined on input line
+ 309.
+
+
+Package natbib Warning: Citation `Sander2017' on page 4 undefined on input line
+ 309.
+
+
+Package natbib Warning: Citation `Schure2009' on page 4 undefined on input line
+ 309.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 310.
 
 
 [4 <./Pictures/inflow_maps.png>]
-Underfull \hbox (badness 10000) in alignment at lines 347--347
+
+Package natbib Warning: Citation `Gimenez-Garcia2016' on page 5 undefined on in
+put line 318.
+
+
+Package natbib Warning: Citation `VanMarle2011' on page 5 undefined on input li
+ne 320.
+
+
+Package natbib Warning: Citation `Lin1985' on page 5 undefined on input line 32
+0.
+
+
+Package natbib Warning: Citation `Turner2001' on page 5 undefined on input line
+ 320.
+
+
+Package natbib Warning: Citation `Christians2012' on page 5 undefined on input 
+line 320.
+
+
+Package natbib Warning: Citation `Horedt2000' on page 5 undefined on input line
+ 324.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 343--343
 [][][][][] 
  []
 
+<Pictures/LF_adiab.jpeg, id=126, 832.10875pt x 710.655pt>
+File: Pictures/LF_adiab.jpeg Graphic file (type jpg)
 
-Package natbib Warning: Citation `Taam2018' on page 5 undefined on input line 3
-63.
+<use Pictures/LF_adiab.jpeg>
+Package pdftex.def Info: Pictures/LF_adiab.jpeg used on input line 357.
+(pdftex.def)             Requested size: 259.14912pt x 221.32008pt.
+
+<Pictures/HS_adiab.jpeg, id=127, 832.10875pt x 710.655pt>
+File: Pictures/HS_adiab.jpeg Graphic file (type jpg)
+
+<use Pictures/HS_adiab.jpeg>
+Package pdftex.def Info: Pictures/HS_adiab.jpeg used on input line 362.
+(pdftex.def)             Requested size: 259.14912pt x 221.32008pt.
+
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 355--365
+[]$[]$
+ []
 
 
-Package natbib Warning: Citation `Smith2002' on page 5 undefined on input line 
-366.
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 355--365
+[]$ 
+ []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 369.
+Package natbib Warning: Citation `Blondin:2012vf' on page 5 undefined on input 
+line 371.
 
 
-[5]
+Package natbib Warning: Citation `ElMellah2015' on page 5 undefined on input li
+ne 371.
 
-Package natbib Warning: Citation `ElMellah' on page 6 undefined on input line 3
-96.
+
+Package natbib Warning: Citation `Foglizzo1996' on page 5 undefined on input li
+ne 371.
+
+
+Package natbib Warning: Citation `ElMellah2015' on page 5 undefined on input li
+ne 371.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 374.
+
+
+[5] <Pictures/iso-rho_adiab.png, id=141, 1027.84pt x 882.29625pt>
+File: Pictures/iso-rho_adiab.png Graphic file (type png)
+
+<use Pictures/iso-rho_adiab.png>
+Package pdftex.def Info: Pictures/iso-rho_adiab.png used on input line 377.
+(pdftex.def)             Requested size: 253.51546pt x 217.61171pt.
+
+
+Package natbib Warning: Citation `Taam2018' on page 6 undefined on input line 3
+89.
+
+
+Package natbib Warning: Citation `Smith2002' on page 6 undefined on input line 
+392.
+
+
+Package natbib Warning: Citation `Grinberg:2014ux' on page 6 undefined on input
+ line 392.
+
+
+Package natbib Warning: Citation `Sugimura2018' on page 6 undefined on input li
+ne 399.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 400.
+
+
+[6 <./Pictures/LF_adiab.jpeg> <./Pictures/HS_adiab.jpeg> <./Pictures/iso-rho_ad
+iab.png (PNG copy)>]
+
+Package natbib Warning: Citation `Bozzo2008' on page 7 undefined on input line 
+418.
+
+
+Package natbib Warning: Citation `Shakura2012' on page 7 undefined on input lin
+e 418.
+
+
+Package natbib Warning: Citation `Romano2015' on page 7 undefined on input line
+ 418.
+
+
+Package natbib Warning: Citation `Hu2017' on page 7 undefined on input line 418
+.
+
+
+Package natbib Warning: Citation `Bozzo2017a' on page 7 undefined on input line
+ 420.
+
+
+Package natbib Warning: Citation `ElMellah' on page 7 undefined on input line 4
+22.
+
+
+Package natbib Warning: Citation `Martinez-Nunez2017' on page 7 undefined on in
+put line 430.
 
 (./aa.bbl
 Overfull \hbox (52.54675pt too wide) in paragraph at lines 13--19
@@ -1272,163 +1526,210 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--35
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://iopscience.iop.org/0004-637X/752/1/30
+/article/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--42
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1710.01877 http://dx.do
 i.org/10.1051/0004-
  []
 
 
-Overfull \hbox (50.45874pt too wide) in paragraph at lines 50--55
+Overfull \hbox (50.45874pt too wide) in paragraph at lines 57--62
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1303.3028 http://adsabs
 .harvard.edu/abs/2013ARA%26A..51..269D 
  []
 
 
-Underfull \hbox (badness 8075) in paragraph at lines 57--62
+Underfull \hbox (badness 8075) in paragraph at lines 64--69
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://www.sciencedirect.com/science/article
 /pii/S1387647304000739
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--71
+Underfull \hbox (badness 10000) in paragraph at lines 71--78
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/abs/2015sf2a.conf.
 .325E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--71
+Underfull \hbox (badness 10000) in paragraph at lines 71--78
 \T1/txr/m/it/8 http://adsabs.harvard.edu/abs/2015MNRAS.454.2657E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--98
+Underfull \hbox (badness 10000) in paragraph at lines 88--94
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/abs/1997A%26A...32
+0..342F
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--94
+\T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/9905226 http://arxiv.org/abs/astro
+-ph/9604160
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--113
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1311.5514 http://dx.doi
 .org/10.1088/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--112
+Underfull \hbox (badness 10000) in paragraph at lines 115--120
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/cgi-bin/nph-
+ []
+
+
+Overfull \hbox (123.33075pt too wide) in paragraph at lines 115--120
+\T1/txr/m/it/8 data_query?bibcode=1978ApJ...223L..83G&link_type=ABSTRACT%5Cnpap
+ers2://publication/doi/10.1086/182734
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--134
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1603.00925 http://dx.do
 i.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--132
+Underfull \hbox (badness 10000) in paragraph at lines 146--154
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1711.06743 http://dx.do
 i.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--142
+Package hyperref Warning: Suppressing link with empty target on input line 157.
+
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 158--164
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1402.4485%0Ahttp://dx.d
 oi.org/10.1051/0004-
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 142.
-
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
+Underfull \hbox (badness 10000) in paragraph at lines 166--171
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://articles.adsabs.harvard.edu/cgi-bin/n
 ph-
  []
 
 
-Overfull \hbox (137.27478pt too wide) in paragraph at lines 144--149
+Overfull \hbox (137.27478pt too wide) in paragraph at lines 166--171
 \T1/txr/m/it/8 iarticle_query?1998A%26A...335.1003H&data_type=PDF_HIGH&whole_pa
 per=YES&type=PRINTER&filetype=.pdf 
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 158--161
+Underfull \hbox (badness 1163) in paragraph at lines 180--183
 []\T1/txr/m/n/8 Horedt, G. P. (2000), `Pres-sure Ef-fects in Line Ac-cre-tion',
  \T1/txr/m/it/8 As-tro-phys. J.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--170
+Underfull \hbox (badness 10000) in paragraph at lines 185--192
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1706.03902 http://dx.do
 i.org/10.3847/1538-
  []
 
 
-Overfull \hbox (9.28273pt too wide) in paragraph at lines 163--170
+Overfull \hbox (9.28273pt too wide) in paragraph at lines 185--192
 \T1/txr/m/it/8 4357/aa79a3 http://arxiv.org/abs/1706.03902%0Ahttp://dx.doi.org/
 10.3847/1538-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--220
+Underfull \hbox (badness 10000) in paragraph at lines 234--242
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/abs/2003A&A...401.
 .313Q
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--220
+Underfull \hbox (badness 10000) in paragraph at lines 234--242
 \T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/0301243 http://dx.doi.org/10.1051/
 0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--230
+Underfull \hbox (badness 10000) in paragraph at lines 245--252
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1101.2465 http://dx.doi
 .org/10.1088/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--240
+Underfull \hbox (badness 10000) in paragraph at lines 255--262
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1502.04717 http://dx.do
 i.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--266
+Underfull \hbox (badness 10000) in paragraph at lines 282--288
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/0909.5204%0Ahttp://dx.d
 oi.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--266
+Underfull \hbox (badness 10000) in paragraph at lines 282--288
 \T1/txr/m/it/8 6361/200912495 http://arxiv.org/abs/0909.5204
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 269--275
+Underfull \hbox (badness 2478) in paragraph at lines 291--297
+\T1/txr/m/n/8 `Qua-si-spher-i-cal sub-sonic ac-cre-tion in X-ray pul-sars', \T1
+/txr/m/it/8 Physics-Uspekhi
+ []
+
+
+Overfull \hbox (88.26672pt too wide) in paragraph at lines 291--297
+\T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://stacks.iop.org/1063-7869/56/i=4/a=321
+?key=crossref.d27834f26b1421e3d64d2288cbf629a7
+ []
+
+
+Overfull \hbox (15.34671pt too wide) in paragraph at lines 291--297
+\T1/txr/m/it/8 http://arxiv.org/abs/1302.0500 http://dx.doi.org/10.3367/UFNe.01
+83.201304a.0337 
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 300--306
 []\T1/txr/m/n/8 Shakura, N., Post-nov, K., Ko-chetkova, A. and Hjal-mars-dot-te
 r, L. (2012),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--275
+Underfull \hbox (badness 10000) in paragraph at lines 300--306
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1110.3701 http://dx.doi
 .org/10.1111/j.1365-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--296
+Underfull \hbox (badness 10000) in paragraph at lines 322--327
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/0102145
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--312
+Underfull \hbox (badness 10000) in paragraph at lines 336--343
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/0101509
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--312
+Underfull \hbox (badness 10000) in paragraph at lines 336--343
 \T1/txr/m/it/8 http://dx.doi.org/10.1051/0004-6361:20010127 http://arxiv.org/ab
 s/astro-
  []
 
 
-Overfull \hbox (122.73074pt too wide) in paragraph at lines 314--318
+Overfull \hbox (122.73074pt too wide) in paragraph at lines 345--349
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 https://books.google.com/books/about/Numeric
 al_Methods_for_Advection_Diffusio.html?id=lqQeAQAAIAAJ 
  []
 
 
-Overfull \hbox (88.26672pt too wide) in paragraph at lines 321--326
+Overfull \hbox (88.26672pt too wide) in paragraph at lines 352--357
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://stacks.iop.org/0067-0049/234/i=2/a=30
 ?key=crossref.eaf55349f020bd924d414adc8d989a32 
  []
@@ -1438,33 +1739,38 @@ Overfull \hbox (88.26672pt too wide) in paragraph at lines 321--326
 Package natbib Warning: There were undefined citations.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 424.
+Package hyperref Warning: Suppressing link with empty target on input line 450.
 
 
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 424.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 424.
- (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 424.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 424.
+[8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 450.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 450.
+ (./aa.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 450.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 450.
 Package rerunfilecheck Info: File `aa.out' has not changed.
-(rerunfilecheck)             Checksum: D1B878512B8471CF4DCF27077066B145;1021.
+(rerunfilecheck)             Checksum: F25246D363702FE52338940CFEF285C5;1035.
 
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11340 strings out of 493014
- 161466 string characters out of 6133351
- 284190 words of memory out of 5000000
- 14519 multiletter control sequences out of 15000+600000
- 119372 words of font info for 189 fonts, out of 8000000 for 9000
+ 11364 strings out of 493014
+ 161982 string characters out of 6133351
+ 281502 words of memory out of 5000000
+ 14534 multiletter control sequences out of 15000+600000
+ 117996 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,18n,45p,2517b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,45p,2517b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/t
@@ -1480,10 +1786,10 @@ texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (7 pages, 869948 bytes).
+Output written on aa.pdf (8 pages, 1426042 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 322 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
