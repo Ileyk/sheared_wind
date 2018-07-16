@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUL 2018 19:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUL 2018 19:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,9 +949,6 @@ LaTeX Warning: Label `fig:sfig2' multiply defined.
 
 LaTeX Warning: Label `sub@fig:sfig2' multiply defined.
 
-
-LaTeX Warning: Label `fig:adiab' multiply defined.
-
 )
 \openout1 = `aa.aux'.
 
@@ -1191,7 +1188,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 163.
 
-<Pictures/big_picture.png, id=108, 607.068pt x 609.2361pt>
+<Pictures/big_picture.png, id=112, 607.068pt x 609.2361pt>
 File: Pictures/big_picture.png Graphic file (type png)
 
 <use Pictures/big_picture.png>
@@ -1229,7 +1226,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 221.
 Package natbib Warning: Citation `Sanders2017' on page 3 undefined on input lin
 e 229.
 
-<Pictures/inflow_maps.png, id=156, 883.1394pt x 411.939pt>
+<Pictures/inflow_maps.png, id=160, 883.1394pt x 411.939pt>
 File: Pictures/inflow_maps.png Graphic file (type png)
 
 <use Pictures/inflow_maps.png>
@@ -1258,14 +1255,14 @@ Underfull \hbox (badness 10000) in alignment at lines 343--343
 [][][][][] 
  []
 
-<Pictures/LF_adiab.jpeg, id=239, 832.10875pt x 710.655pt>
+<Pictures/LF_adiab.jpeg, id=243, 832.10875pt x 710.655pt>
 File: Pictures/LF_adiab.jpeg Graphic file (type jpg)
 
 <use Pictures/LF_adiab.jpeg>
 Package pdftex.def Info: Pictures/LF_adiab.jpeg used on input line 357.
 (pdftex.def)             Requested size: 259.14912pt x 221.32008pt.
 
-<Pictures/HS_adiab.jpeg, id=240, 832.10875pt x 710.655pt>
+<Pictures/HS_adiab.jpeg, id=244, 832.10875pt x 710.655pt>
 File: Pictures/HS_adiab.jpeg Graphic file (type jpg)
 
 <use Pictures/HS_adiab.jpeg>
@@ -1282,9 +1279,6 @@ Overfull \hbox (5.69055pt too wide) in paragraph at lines 355--365
  []
 
 
-LaTeX Warning: Reference `fig:3D_adiab' on page 5 undefined on input line 369.
-
-
 Package natbib Warning: Citation `Foglizzo2005' on page 5 undefined on input li
 ne 371.
 
@@ -1292,7 +1286,7 @@ ne 371.
 Package hyperref Warning: Suppressing link with empty target on input line 372.
 
 
-[5] <Pictures/iso-rho_adiab.png, id=268, 1027.84pt x 882.29625pt>
+[5] <Pictures/iso-rho_adiab.png, id=274, 1027.84pt x 882.29625pt>
 File: Pictures/iso-rho_adiab.png Graphic file (type png)
 
 <use Pictures/iso-rho_adiab.png>
@@ -1314,17 +1308,21 @@ Package hyperref Warning: Suppressing link with empty target on input line 396.
 [6 <./Pictures/LF_adiab.jpeg> <./Pictures/HS_adiab.jpeg>]
 
 Package natbib Warning: Citation `Taam2018' on page 7 undefined on input line 4
-16.
+23.
 
 
 Package natbib Warning: Citation `Smith2002' on page 7 undefined on input line 
-419.
+426.
 
 
 Package natbib Warning: Citation `ElMellah' on page 7 undefined on input line 4
-32.
+39.
 
-(./aa.bbl
+
+Package hyperref Warning: Suppressing link with empty target on input line 457.
+
+
+[7 <./Pictures/iso-rho_adiab.png (PNG copy)>] (./aa.bbl
 Overfull \hbox (52.54675pt too wide) in paragraph at lines 13--19
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/abs/1990ApJ...356.
 .591B%5Cnhttp://adsabs.harvard.edu/cgi-
@@ -1337,9 +1335,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--19
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 20.
-
-[7 <./Pictures/iso-rho_adiab.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 21--26
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://iopscience.iop.org/0004-637X/752/1/30
 /article/
@@ -1375,175 +1370,175 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--78
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--102
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/abs/1997A%26A...32
 0..342F
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--102
 \T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/9905226 http://arxiv.org/abs/astro
 -ph/9604160
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--113
+Underfull \hbox (badness 10000) in paragraph at lines 113--121
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1311.5514 http://dx.doi
 .org/10.1088/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--120
+Underfull \hbox (badness 10000) in paragraph at lines 123--128
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/cgi-bin/nph-
  []
 
 
-Overfull \hbox (123.33075pt too wide) in paragraph at lines 115--120
+Overfull \hbox (123.33075pt too wide) in paragraph at lines 123--128
 \T1/txr/m/it/8 data_query?bibcode=1978ApJ...223L..83G&link_type=ABSTRACT%5Cnpap
 ers2://publication/doi/10.1086/182734
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--134
+Underfull \hbox (badness 10000) in paragraph at lines 132--142
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1603.00925 http://dx.do
 i.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--154
+Underfull \hbox (badness 10000) in paragraph at lines 154--162
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1711.06743 http://dx.do
 i.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--164
+Underfull \hbox (badness 10000) in paragraph at lines 166--172
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1402.4485%0Ahttp://dx.d
 oi.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
+Underfull \hbox (badness 10000) in paragraph at lines 174--179
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://articles.adsabs.harvard.edu/cgi-bin/n
 ph-
  []
 
 
-Overfull \hbox (137.27478pt too wide) in paragraph at lines 166--171
+Overfull \hbox (137.27478pt too wide) in paragraph at lines 174--179
 \T1/txr/m/it/8 iarticle_query?1998A%26A...335.1003H&data_type=PDF_HIGH&whole_pa
 per=YES&type=PRINTER&filetype=.pdf 
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 180--183
+Underfull \hbox (badness 1163) in paragraph at lines 188--191
 []\T1/txr/m/n/8 Horedt, G. P. (2000), `Pres-sure Ef-fects in Line Ac-cre-tion',
  \T1/txr/m/it/8 As-tro-phys. J.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--200
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1706.03902 http://dx.do
 i.org/10.3847/1538-
  []
 
 
-Overfull \hbox (9.28273pt too wide) in paragraph at lines 185--192
+Overfull \hbox (9.28273pt too wide) in paragraph at lines 193--200
 \T1/txr/m/it/8 4357/aa79a3 http://arxiv.org/abs/1706.03902%0Ahttp://dx.doi.org/
 10.3847/1538-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--242
+Underfull \hbox (badness 10000) in paragraph at lines 248--256
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/abs/2003A&A...401.
 .313Q
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--242
+Underfull \hbox (badness 10000) in paragraph at lines 248--256
 \T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/0301243 http://dx.doi.org/10.1051/
 0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--252
+Underfull \hbox (badness 10000) in paragraph at lines 259--266
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1101.2465 http://dx.doi
 .org/10.1088/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
+Underfull \hbox (badness 10000) in paragraph at lines 269--276
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1502.04717 http://dx.do
 i.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--288
+Package hyperref Warning: Suppressing link with empty target on input line 276.
+
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 304--310
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/0909.5204%0Ahttp://dx.d
 oi.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--288
+Underfull \hbox (badness 10000) in paragraph at lines 304--310
 \T1/txr/m/it/8 6361/200912495 http://arxiv.org/abs/0909.5204
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 291--297
+Underfull \hbox (badness 2478) in paragraph at lines 313--319
 \T1/txr/m/n/8 `Qua-si-spher-i-cal sub-sonic ac-cre-tion in X-ray pul-sars', \T1
 /txr/m/it/8 Physics-Uspekhi
  []
 
 
-Overfull \hbox (88.26672pt too wide) in paragraph at lines 291--297
+Overfull \hbox (88.26672pt too wide) in paragraph at lines 313--319
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://stacks.iop.org/1063-7869/56/i=4/a=321
 ?key=crossref.d27834f26b1421e3d64d2288cbf629a7
  []
 
 
-Overfull \hbox (15.34671pt too wide) in paragraph at lines 291--297
+Overfull \hbox (15.34671pt too wide) in paragraph at lines 313--319
 \T1/txr/m/it/8 http://arxiv.org/abs/1302.0500 http://dx.doi.org/10.3367/UFNe.01
 83.201304a.0337 
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 297.
-
-
-[8]
-Underfull \hbox (badness 1087) in paragraph at lines 300--306
+Underfull \hbox (badness 1087) in paragraph at lines 322--328
 []\T1/txr/m/n/8 Shakura, N., Post-nov, K., Ko-chetkova, A. and Hjal-mars-dot-te
 r, L. (2012),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--306
+Underfull \hbox (badness 10000) in paragraph at lines 322--328
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1110.3701 http://dx.doi
 .org/10.1111/j.1365-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--327
+Underfull \hbox (badness 10000) in paragraph at lines 344--349
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/0102145
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--343
+Underfull \hbox (badness 10000) in paragraph at lines 358--365
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/astro-ph/0101509
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--343
+Underfull \hbox (badness 10000) in paragraph at lines 358--365
 \T1/txr/m/it/8 http://dx.doi.org/10.1051/0004-6361:20010127 http://arxiv.org/ab
 s/astro-
  []
 
 
-Overfull \hbox (122.73074pt too wide) in paragraph at lines 345--349
+Overfull \hbox (122.73074pt too wide) in paragraph at lines 367--371
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 https://books.google.com/books/about/Numeric
 al_Methods_for_Advection_Diffusio.html?id=lqQeAQAAIAAJ 
  []
 
 
-Overfull \hbox (88.26672pt too wide) in paragraph at lines 352--357
+Overfull \hbox (88.26672pt too wide) in paragraph at lines 374--379
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://stacks.iop.org/0067-0049/234/i=2/a=30
 ?key=crossref.eaf55349f020bd924d414adc8d989a32 
  []
@@ -1553,26 +1548,25 @@ Overfull \hbox (88.26672pt too wide) in paragraph at lines 352--357
 Package natbib Warning: There were undefined citations.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 460.
+Package hyperref Warning: Suppressing link with empty target on input line 467.
 
 
 [9
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
- (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
+ (./aa.aux
 
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
 
-Package rerunfilecheck Warning: File `aa.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 467.
+Package rerunfilecheck Info: File `aa.out' has not changed.
+(rerunfilecheck)             Checksum: 145D7A3A076915CFEE9CB317B62F0C98;1102.
 
-Package rerunfilecheck Info: Checksums for `aa.out':
-(rerunfilecheck)             Before: F25246D363702FE52338940CFEF285C5;1035
-(rerunfilecheck)             After:  145D7A3A076915CFEE9CB317B62F0C98;1102.
 
 LaTeX Warning: There were undefined references.
 
@@ -1581,13 +1575,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11372 strings out of 493014
- 162077 string characters out of 6133351
- 284815 words of memory out of 5000000
+ 11375 strings out of 493014
+ 162133 string characters out of 6133351
+ 285221 words of memory out of 5000000
  14540 multiletter control sequences out of 15000+600000
  117996 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,18n,45p,2517b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,45p,2517b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/t
@@ -1603,10 +1597,10 @@ texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (9 pages, 1432867 bytes).
+Output written on aa.pdf (9 pages, 1434420 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 
