@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: aa.aux
 The style file: agsm.bst
 Database file #1: /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
-Repeated entry---line 652 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
+Repeated entry---line 697 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
  : @article{Edgar:2004ip
  :                      ,
 I'm skipping whatever remains of this entry
@@ -13,45 +13,45 @@ Warning--I didn't find a database entry for "Sanders2017"
 Warning--I didn't find a database entry for "Taam2018"
 Warning--I didn't find a database entry for "Smith2002"
 Warning--I didn't find a database entry for "ElMellah"
-You've used 43 entries,
+You've used 46 entries,
             2909 wiz_defined-function locations,
-            993 strings with 18130 characters,
-and the built_in function-call counts, 346062 in all, are:
-= -- 57760
-> -- 4641
+            1012 strings with 18743 characters,
+and the built_in function-call counts, 363798 in all, are:
+= -- 60708
+> -- 4870
 < -- 0
-+ -- 28884
-- -- 1462
-* -- 31454
-:= -- 66790
-add.period$ -- 43
-call.type$ -- 43
-change.case$ -- 601
-chr.to.int$ -- 43
-cite$ -- 43
-duplicate$ -- 687
-empty$ -- 1379
-format.name$ -- 1623
-if$ -- 62227
++ -- 30334
+- -- 1532
+* -- 33032
+:= -- 70273
+add.period$ -- 46
+call.type$ -- 46
+change.case$ -- 643
+chr.to.int$ -- 46
+cite$ -- 46
+duplicate$ -- 733
+empty$ -- 1462
+format.name$ -- 1705
+if$ -- 65413
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 44
-newline$ -- 175
-num.names$ -- 455
-pop$ -- 120
+missing$ -- 47
+newline$ -- 187
+num.names$ -- 487
+pop$ -- 133
 preamble$ -- 1
-purify$ -- 645
+purify$ -- 690
 quote$ -- 0
-skip$ -- 557
+skip$ -- 595
 stack$ -- 0
-substring$ -- 83909
-swap$ -- 130
-text.length$ -- 602
+substring$ -- 88127
+swap$ -- 136
+text.length$ -- 644
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
+type$ -- 182
 warning$ -- 0
-while$ -- 959
+while$ -- 1023
 width$ -- 0
-write$ -- 610
+write$ -- 652
 (There was 1 error message)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUL 2018 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUL 2018 19:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,6 +949,9 @@ LaTeX Warning: Label `fig:sfig2' multiply defined.
 
 LaTeX Warning: Label `sub@fig:sfig2' multiply defined.
 
+
+LaTeX Warning: Label `fig:adiab' multiply defined.
+
 )
 \openout1 = `aa.aux'.
 
@@ -1156,54 +1159,21 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 10.40245pt on input line 120.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `Duchene2013' on page 1 undefined on input lin
-e 122.
-
-
-Package natbib Warning: Citation `Abbott2016a' on page 1 undefined on input lin
-e 122.
-
-
-Package natbib Warning: Citation `Grinberg2017' on page 1 undefined on input li
-ne 122.
-
-
-Package natbib Warning: Citation `Lucy1970' on page 1 undefined on input line 1
-26.
-
-
-Package natbib Warning: Citation `Castor1975' on page 1 undefined on input line
- 126.
-
-
-Package natbib Warning: Citation `Edgar:2004ip' on page 1 undefined on input li
-ne 128.
-
-
-Package natbib Warning: Citation `Illarionov1975' on page 1 undefined on input 
-line 128.
 
 
 Package natbib Warning: Citation `Shapiro1976' on page 1 undefined on input lin
 e 128.
 
 
+LaTeX Warning: Reference `' on page 1 undefined on input line 130.
+
+
+LaTeX Warning: Reference `' on page 1 undefined on input line 130.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package natbib Warning: Citation `Sander2017' on page 1 undefined on input line
- 130.
-
-
-LaTeX Warning: Reference `' on page 1 undefined on input line 130.
-
-
-LaTeX Warning: Reference `' on page 1 undefined on input line 130.
-
-
-Underfull \vbox (badness 2837) has occurred while \output is active []
 
 
 
@@ -1221,7 +1191,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 163.
 
-<Pictures/big_picture.png, id=82, 607.068pt x 609.2361pt>
+<Pictures/big_picture.png, id=108, 607.068pt x 609.2361pt>
 File: Pictures/big_picture.png Graphic file (type png)
 
 <use Pictures/big_picture.png>
@@ -1251,75 +1221,15 @@ Package natbib Warning: Citation `ElMellah2016' on page 2 undefined on input li
 ne 211.
 
 
-Package natbib Warning: Citation `Sander2017' on page 2 undefined on input line
- 220.
-
-
-Package natbib Warning: Citation `Hamann1998' on page 2 undefined on input line
- 220.
-
-
-Package natbib Warning: Citation `Grafener2002' on page 2 undefined on input li
-ne 220.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 224.
+Package hyperref Warning: Suppressing link with empty target on input line 221.
 
 
 [2 <./Pictures/big_picture.png>]
 
-Package natbib Warning: Citation `Sander2017b' on page 3 undefined on input lin
-e 225.
-
-
-Package natbib Warning: Citation `ElMellah2016a' on page 3 undefined on input l
-ine 227.
-
-
-Package natbib Warning: Citation `Edgar:2004ip' on page 3 undefined on input li
-ne 227.
-
-
-Package natbib Warning: Citation `Manousakis2013' on page 3 undefined on input 
-line 227.
-
-
-Package natbib Warning: Citation `Vink2001' on page 3 undefined on input line 2
-29.
-
-
-Package natbib Warning: Citation `Hiltner1972' on page 3 undefined on input lin
-e 229.
-
-
-Package natbib Warning: Citation `Forman1973' on page 3 undefined on input line
- 229.
-
-
-Package natbib Warning: Citation `Gimenez-Garcia2016' on page 3 undefined on in
-put line 229.
-
-
 Package natbib Warning: Citation `Sanders2017' on page 3 undefined on input lin
 e 229.
 
-
-Package natbib Warning: Citation `Blondin1990a' on page 3 undefined on input li
-ne 229.
-
-
-Package natbib Warning: Citation `Rawls2011' on page 3 undefined on input line 
-234.
-
-
-Package natbib Warning: Citation `Quaintrell2003a' on page 3 undefined on input
- line 234.
-
-<Pictures/inflow_maps.png, id=100, 883.1394pt x 411.939pt>
+<Pictures/inflow_maps.png, id=156, 883.1394pt x 411.939pt>
 File: Pictures/inflow_maps.png Graphic file (type png)
 
 <use Pictures/inflow_maps.png>
@@ -1327,100 +1237,35 @@ Package pdftex.def Info: Pictures/inflow_maps.png used on input line 243.
 (pdftex.def)             Requested size: 512.1496pt x 238.89334pt.
 
 
-Package natbib Warning: Citation `Martinez-Nunez2017' on page 3 undefined on in
-put line 248.
-
-
-Package natbib Warning: Citation `Furst2014' on page 3 undefined on input line 
-256.
-
-
-Package natbib Warning: Citation `Ghosh1978' on page 3 undefined on input line 
-256.
-
-
-Package natbib Warning: Citation `Shakura2013b' on page 3 undefined on input li
-ne 256.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 259.
+Package hyperref Warning: Suppressing link with empty target on input line 258.
 
 
 [3]
-
-Package natbib Warning: Citation `Xia2017' on page 4 undefined on input line 27
-6.
-
-
-Package natbib Warning: Citation `Toro1994' on page 4 undefined on input line 2
-76.
-
-
-Package natbib Warning: Citation `Vreugdenhil1993' on page 4 undefined on input
- line 276.
-
-
-Package natbib Warning: Citation `ElMellah2015' on page 4 undefined on input li
-ne 276.
-
-
-Package natbib Warning: Citation `Hamann1998' on page 4 undefined on input line
- 309.
-
-
-Package natbib Warning: Citation `Sander2017' on page 4 undefined on input line
- 309.
-
-
-Package natbib Warning: Citation `Schure2009' on page 4 undefined on input line
- 309.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 310.
+Package hyperref Warning: Suppressing link with empty target on input line 277.
 
 
 [4 <./Pictures/inflow_maps.png>]
 
-Package natbib Warning: Citation `Gimenez-Garcia2016' on page 5 undefined on in
-put line 318.
-
-
-Package natbib Warning: Citation `VanMarle2011' on page 5 undefined on input li
-ne 320.
-
-
-Package natbib Warning: Citation `Lin1985' on page 5 undefined on input line 32
-0.
-
-
-Package natbib Warning: Citation `Turner2001' on page 5 undefined on input line
- 320.
-
-
-Package natbib Warning: Citation `Christians2012' on page 5 undefined on input 
-line 320.
-
-
-Package natbib Warning: Citation `Horedt2000' on page 5 undefined on input line
- 324.
+Package natbib Warning: Citation `Saladino2018' on page 5 undefined on input li
+ne 330.
 
 
 Underfull \hbox (badness 10000) in alignment at lines 343--343
 [][][][][] 
  []
 
-<Pictures/LF_adiab.jpeg, id=126, 832.10875pt x 710.655pt>
+<Pictures/LF_adiab.jpeg, id=239, 832.10875pt x 710.655pt>
 File: Pictures/LF_adiab.jpeg Graphic file (type jpg)
 
 <use Pictures/LF_adiab.jpeg>
 Package pdftex.def Info: Pictures/LF_adiab.jpeg used on input line 357.
 (pdftex.def)             Requested size: 259.14912pt x 221.32008pt.
 
-<Pictures/HS_adiab.jpeg, id=127, 832.10875pt x 710.655pt>
+<Pictures/HS_adiab.jpeg, id=240, 832.10875pt x 710.655pt>
 File: Pictures/HS_adiab.jpeg Graphic file (type jpg)
 
 <use Pictures/HS_adiab.jpeg>
@@ -1437,26 +1282,17 @@ Overfull \hbox (5.69055pt too wide) in paragraph at lines 355--365
  []
 
 
-Package natbib Warning: Citation `Blondin:2012vf' on page 5 undefined on input 
-line 371.
+LaTeX Warning: Reference `fig:3D_adiab' on page 5 undefined on input line 369.
 
 
-Package natbib Warning: Citation `ElMellah2015' on page 5 undefined on input li
+Package natbib Warning: Citation `Foglizzo2005' on page 5 undefined on input li
 ne 371.
 
 
-Package natbib Warning: Citation `Foglizzo1996' on page 5 undefined on input li
-ne 371.
+Package hyperref Warning: Suppressing link with empty target on input line 372.
 
 
-Package natbib Warning: Citation `ElMellah2015' on page 5 undefined on input li
-ne 371.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 374.
-
-
-[5] <Pictures/iso-rho_adiab.png, id=141, 1027.84pt x 882.29625pt>
+[5] <Pictures/iso-rho_adiab.png, id=268, 1027.84pt x 882.29625pt>
 File: Pictures/iso-rho_adiab.png Graphic file (type png)
 
 <use Pictures/iso-rho_adiab.png>
@@ -1464,54 +1300,29 @@ Package pdftex.def Info: Pictures/iso-rho_adiab.png used on input line 377.
 (pdftex.def)             Requested size: 253.51546pt x 217.61171pt.
 
 
-Package natbib Warning: Citation `Taam2018' on page 6 undefined on input line 3
-89.
+Package natbib Warning: Citation `MacLeod2014' on page 6 undefined on input lin
+e 385.
 
 
-Package natbib Warning: Citation `Smith2002' on page 6 undefined on input line 
-392.
+Package natbib Warning: Citation `Saladino2018' on page 6 undefined on input li
+ne 385.
 
 
-Package natbib Warning: Citation `Grinberg:2014ux' on page 6 undefined on input
- line 392.
+Package hyperref Warning: Suppressing link with empty target on input line 396.
 
 
-Package natbib Warning: Citation `Sugimura2018' on page 6 undefined on input li
-ne 399.
+[6 <./Pictures/LF_adiab.jpeg> <./Pictures/HS_adiab.jpeg>]
+
+Package natbib Warning: Citation `Taam2018' on page 7 undefined on input line 4
+16.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 400.
-
-
-[6 <./Pictures/LF_adiab.jpeg> <./Pictures/HS_adiab.jpeg> <./Pictures/iso-rho_ad
-iab.png (PNG copy)>]
-
-Package natbib Warning: Citation `Bozzo2008' on page 7 undefined on input line 
-418.
-
-
-Package natbib Warning: Citation `Shakura2012' on page 7 undefined on input lin
-e 418.
-
-
-Package natbib Warning: Citation `Romano2015' on page 7 undefined on input line
- 418.
-
-
-Package natbib Warning: Citation `Hu2017' on page 7 undefined on input line 418
-.
-
-
-Package natbib Warning: Citation `Bozzo2017a' on page 7 undefined on input line
- 420.
+Package natbib Warning: Citation `Smith2002' on page 7 undefined on input line 
+419.
 
 
 Package natbib Warning: Citation `ElMellah' on page 7 undefined on input line 4
-22.
-
-
-Package natbib Warning: Citation `Martinez-Nunez2017' on page 7 undefined on in
-put line 430.
+32.
 
 (./aa.bbl
 Overfull \hbox (52.54675pt too wide) in paragraph at lines 13--19
@@ -1526,6 +1337,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--19
  []
 
 
+Package hyperref Warning: Suppressing link with empty target on input line 20.
+
+[7 <./Pictures/iso-rho_adiab.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 21--26
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://iopscience.iop.org/0004-637X/752/1/30
 /article/
@@ -1602,10 +1416,6 @@ i.org/10.1051/0004-
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 157.
-
-
-[7]
 Underfull \hbox (badness 10000) in paragraph at lines 158--164
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1402.4485%0Ahttp://dx.d
 oi.org/10.1051/0004-
@@ -1695,6 +1505,10 @@ Overfull \hbox (15.34671pt too wide) in paragraph at lines 291--297
  []
 
 
+Package hyperref Warning: Suppressing link with empty target on input line 297.
+
+
+[8]
 Underfull \hbox (badness 1087) in paragraph at lines 300--306
 []\T1/txr/m/n/8 Shakura, N., Post-nov, K., Ko-chetkova, A. and Hjal-mars-dot-te
 r, L. (2012),
@@ -1739,23 +1553,26 @@ Overfull \hbox (88.26672pt too wide) in paragraph at lines 352--357
 Package natbib Warning: There were undefined citations.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 450.
+Package hyperref Warning: Suppressing link with empty target on input line 460.
 
 
-[8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 450.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 450.
- (./aa.aux
+[9
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
+ (./aa.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
 
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 450.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 450.
-Package rerunfilecheck Info: File `aa.out' has not changed.
-(rerunfilecheck)             Checksum: F25246D363702FE52338940CFEF285C5;1035.
 
+Package rerunfilecheck Warning: File `aa.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `aa.out':
+(rerunfilecheck)             Before: F25246D363702FE52338940CFEF285C5;1035
+(rerunfilecheck)             After:  145D7A3A076915CFEE9CB317B62F0C98;1102.
 
 LaTeX Warning: There were undefined references.
 
@@ -1764,13 +1581,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11364 strings out of 493014
- 161982 string characters out of 6133351
- 281502 words of memory out of 5000000
- 14534 multiletter control sequences out of 15000+600000
+ 11372 strings out of 493014
+ 162077 string characters out of 6133351
+ 284815 words of memory out of 5000000
+ 14540 multiletter control sequences out of 15000+600000
  117996 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,18n,45p,2517b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,45p,2517b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/t
@@ -1786,10 +1603,10 @@ texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (8 pages, 1426042 bytes).
+Output written on aa.pdf (9 pages, 1432867 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 390 PDF objects out of 1000 (max. 8388607)
+ 352 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
