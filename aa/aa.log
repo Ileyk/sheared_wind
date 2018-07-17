@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUL 2018 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 JUL 2018 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,6 +949,30 @@ LaTeX Warning: Label `fig:sfig2' multiply defined.
 
 LaTeX Warning: Label `sub@fig:sfig2' multiply defined.
 
+
+LaTeX Warning: Label `fig:subim2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subim2' multiply defined.
+
+
+LaTeX Warning: Label `fig:subim1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subim1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subim2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subim2' multiply defined.
+
+
+LaTeX Warning: Label `fig:subim2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subim2' multiply defined.
+
 )
 \openout1 = `aa.aux'.
 
@@ -1188,53 +1212,54 @@ LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 163.
 
-<Pictures/big_picture.png, id=112, 607.068pt x 609.2361pt>
-File: Pictures/big_picture.png Graphic file (type png)
+<Pictures/HS.png, id=112, 546.3612pt x 562.9833pt>
+File: Pictures/HS.png Graphic file (type png)
+ <use Pictures/HS.png>
+Package pdftex.def Info: Pictures/HS.png used on input line 178.
+(pdftex.def)             Requested size: 259.14912pt x 267.03328pt.
 
-<use Pictures/big_picture.png>
-Package pdftex.def Info: Pictures/big_picture.png used on input line 178.
-(pdftex.def)             Requested size: 259.14912pt x 260.06999pt.
-File: Pictures/big_picture.png Graphic file (type png)
- <use Pictures/big_picture.png>
-Package pdftex.def Info: Pictures/big_picture.png used on input line 183.
-(pdftex.def)             Requested size: 259.14912pt x 260.06999pt.
+<Pictures/LF.png, id=114, 546.3612pt x 563.706pt>
+File: Pictures/LF.png Graphic file (type png)
+ <use Pictures/LF.png>
+Package pdftex.def Info: Pictures/LF.png used on input line 184.
+(pdftex.def)             Requested size: 259.14912pt x 267.37607pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 176--186
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 176--187
 []$[]$
  []
 
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 176--186
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 176--187
 []$ 
  []
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd)
-Underfull \hbox (badness 10000) in alignment at lines 208--208
+Underfull \hbox (badness 10000) in alignment at lines 209--209
 [][][] 
  []
 
 
 Package natbib Warning: Citation `ElMellah2016' on page 2 undefined on input li
-ne 211.
+ne 212.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 221.
+Package hyperref Warning: Suppressing link with empty target on input line 222.
 
 
-[2 <./Pictures/big_picture.png>]
+[2 <./Pictures/HS.png> <./Pictures/LF.png>]
 
 Package natbib Warning: Citation `Sanders2017' on page 3 undefined on input lin
-e 229.
+e 230.
 
-<Pictures/inflow_maps.png, id=160, 883.1394pt x 411.939pt>
+<Pictures/inflow_maps.png, id=162, 883.1394pt x 411.939pt>
 File: Pictures/inflow_maps.png Graphic file (type png)
 
 <use Pictures/inflow_maps.png>
-Package pdftex.def Info: Pictures/inflow_maps.png used on input line 243.
+Package pdftex.def Info: Pictures/inflow_maps.png used on input line 244.
 (pdftex.def)             Requested size: 512.1496pt x 238.89334pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 258.
+Package hyperref Warning: Suppressing link with empty target on input line 259.
 
 
 [3]
@@ -1242,87 +1267,130 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 277.
+Package hyperref Warning: Suppressing link with empty target on input line 278.
 
 
 [4 <./Pictures/inflow_maps.png>]
-
-Package natbib Warning: Citation `Saladino2018' on page 5 undefined on input li
-ne 330.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 343--343
+Underfull \hbox (badness 10000) in alignment at lines 344--344
 [][][][][] 
  []
 
-<Pictures/LF_adiab.jpeg, id=243, 832.10875pt x 710.655pt>
+<Pictures/LF_adiab.jpeg, id=247, 832.10875pt x 710.655pt>
 File: Pictures/LF_adiab.jpeg Graphic file (type jpg)
 
 <use Pictures/LF_adiab.jpeg>
-Package pdftex.def Info: Pictures/LF_adiab.jpeg used on input line 357.
+Package pdftex.def Info: Pictures/LF_adiab.jpeg used on input line 358.
 (pdftex.def)             Requested size: 259.14912pt x 221.32008pt.
 
-<Pictures/HS_adiab.jpeg, id=244, 832.10875pt x 710.655pt>
+<Pictures/HS_adiab.jpeg, id=248, 832.10875pt x 710.655pt>
 File: Pictures/HS_adiab.jpeg Graphic file (type jpg)
 
 <use Pictures/HS_adiab.jpeg>
-Package pdftex.def Info: Pictures/HS_adiab.jpeg used on input line 362.
+Package pdftex.def Info: Pictures/HS_adiab.jpeg used on input line 363.
 (pdftex.def)             Requested size: 259.14912pt x 221.32008pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 355--365
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 356--366
 []$[]$
  []
 
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 355--365
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 356--366
 []$ 
  []
-
-
-Package natbib Warning: Citation `Foglizzo2005' on page 5 undefined on input li
-ne 371.
 
 
 Package hyperref Warning: Suppressing link with empty target on input line 372.
 
 
-[5] <Pictures/iso-rho_adiab.png, id=274, 1027.84pt x 882.29625pt>
+[5] <Pictures/iso-rho_adiab.png, id=284, 1027.84pt x 882.29625pt>
 File: Pictures/iso-rho_adiab.png Graphic file (type png)
 
 <use Pictures/iso-rho_adiab.png>
-Package pdftex.def Info: Pictures/iso-rho_adiab.png used on input line 377.
+Package pdftex.def Info: Pictures/iso-rho_adiab.png used on input line 378.
 (pdftex.def)             Requested size: 253.51546pt x 217.61171pt.
 
+<Pictures/isoHot_1.png, id=285, 1027.84pt x 711.65875pt>
+File: Pictures/isoHot_1.png Graphic file (type png)
 
-Package natbib Warning: Citation `MacLeod2014' on page 6 undefined on input lin
-e 385.
+<use Pictures/isoHot_1.png>
+Package pdftex.def Info: Pictures/isoHot_1.png used on input line 389.
+(pdftex.def)             Requested size: 244.69386pt x 169.42249pt.
+
+<Pictures/isoHot_2.png, id=286, 1027.84pt x 711.65875pt>
+File: Pictures/isoHot_2.png Graphic file (type png)
+
+<use Pictures/isoHot_2.png>
+Package pdftex.def Info: Pictures/isoHot_2.png used on input line 395.
+(pdftex.def)             Requested size: 244.69386pt x 169.42249pt.
+File: Pictures/isoHot_1.png Graphic file (type png)
+ <use Pictures/isoHot_1.png>
+Package pdftex.def Info: Pictures/isoHot_1.png used on input line 403.
+(pdftex.def)             Requested size: 244.69386pt x 169.42249pt.
+File: Pictures/isoHot_2.png Graphic file (type png)
+
+<use Pictures/isoHot_2.png>
+Package pdftex.def Info: Pictures/isoHot_2.png used on input line 409.
+(pdftex.def)             Requested size: 244.69386pt x 169.42249pt.
+
+<Pictures/isoS_1.png, id=287, 1027.84pt x 711.65875pt>
+File: Pictures/isoS_1.png Graphic file (type png)
+
+<use Pictures/isoS_1.png>
+Package pdftex.def Info: Pictures/isoS_1.png used on input line 417.
+(pdftex.def)             Requested size: 244.69386pt x 169.42249pt.
+
+<Pictures/isoS_2.png, id=288, 1027.84pt x 711.65875pt>
+File: Pictures/isoS_2.png Graphic file (type png)
+
+<use Pictures/isoS_2.png>
+Package pdftex.def Info: Pictures/isoS_2.png used on input line 423.
+(pdftex.def)             Requested size: 244.69386pt x 169.42249pt.
+
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 387--427
+[]$[]$ $[]$
+ []
 
 
-Package natbib Warning: Citation `Saladino2018' on page 6 undefined on input li
-ne 385.
+Underfull \vbox (badness 5563) has occurred while \output is active []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 396.
+
+Package hyperref Warning: Suppressing link with empty target on input line 433.
 
 
 [6 <./Pictures/LF_adiab.jpeg> <./Pictures/HS_adiab.jpeg>]
+Underfull \vbox (badness 2653) has occurred while \output is active []
+
+
 
 Package natbib Warning: Citation `Taam2018' on page 7 undefined on input line 4
-23.
+71.
 
 
 Package natbib Warning: Citation `Smith2002' on page 7 undefined on input line 
-426.
+474.
 
 
 Package natbib Warning: Citation `ElMellah' on page 7 undefined on input line 4
-39.
+87.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 457.
+Package hyperref Warning: Suppressing link with empty target on input line 489.
 
 
-[7 <./Pictures/iso-rho_adiab.png (PNG copy)>] (./aa.bbl
+[7 <./Pictures/iso-rho_adiab.png (PNG copy)>]
+Underfull \vbox (badness 3930) has occurred while \output is active []
+
+
+Underfull \vbox (badness 7362) has occurred while \output is active []
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 505.
+
+
+[8 <./Pictures/isoHot_1.png (PNG copy)> <./Pictures/isoHot_2.png (PNG copy)> <.
+/Pictures/isoS_1.png (PNG copy)> <./Pictures/isoS_2.png (PNG copy)>] (./aa.bbl
 Overfull \hbox (52.54675pt too wide) in paragraph at lines 13--19
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://adsabs.harvard.edu/abs/1990ApJ...356.
 .591B%5Cnhttp://adsabs.harvard.edu/cgi-
@@ -1465,16 +1533,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--266
  []
 
 
+Package hyperref Warning: Suppressing link with empty target on input line 266.
+
+
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 269--276
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/1502.04717 http://dx.do
 i.org/10.1051/0004-
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 276.
-
-
-[8]
 Underfull \hbox (badness 10000) in paragraph at lines 304--310
 \T1/txr/bx/n/8 URL: \T1/txr/m/it/8 http://arxiv.org/abs/0909.5204%0Ahttp://dx.d
 oi.org/10.1051/0004-
@@ -1548,24 +1616,19 @@ Overfull \hbox (88.26672pt too wide) in paragraph at lines 374--379
 Package natbib Warning: There were undefined citations.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 467.
+Package hyperref Warning: Suppressing link with empty target on input line 515.
 
 
-[9
+[10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
- (./aa.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 467.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 515.
+ (./aa.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 515.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 515.
 Package rerunfilecheck Info: File `aa.out' has not changed.
-(rerunfilecheck)             Checksum: 145D7A3A076915CFEE9CB317B62F0C98;1102.
+(rerunfilecheck)             Checksum: 62CAE42439591C798625F7491AD8C32C;1108.
 
 
 LaTeX Warning: There were undefined references.
@@ -1575,13 +1638,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11375 strings out of 493014
- 162133 string characters out of 6133351
- 285221 words of memory out of 5000000
- 14540 multiletter control sequences out of 15000+600000
+ 11407 strings out of 493014
+ 162709 string characters out of 6133351
+ 286445 words of memory out of 5000000
+ 14565 multiletter control sequences out of 15000+600000
  117996 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,18n,45p,2517b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,45p,2517b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/t
@@ -1597,10 +1660,10 @@ texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (9 pages, 1434420 bytes).
+Output written on aa.pdf (10 pages, 2116896 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 359 compressed objects within 4 object streams
- 90 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 422 PDF objects out of 1000 (max. 8388607)
+ 376 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 
