@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: aa.aux
 The style file: agsm.bst
 Database file #1: /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
-Repeated entry---line 331 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
+Repeated entry---line 840 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
  : @article{Edgar:2004ip
  :                      ,
 I'm skipping whatever remains of this entry
@@ -13,45 +13,45 @@ Warning--I didn't find a database entry for "Sanders2017"
 Warning--I didn't find a database entry for "Taam2018"
 Warning--I didn't find a database entry for "Smith2002"
 Warning--I didn't find a database entry for "ElMellah"
-You've used 46 entries,
+You've used 47 entries,
             2909 wiz_defined-function locations,
-            1012 strings with 18676 characters,
-and the built_in function-call counts, 363798 in all, are:
-= -- 60708
-> -- 4870
+            1018 strings with 18930 characters,
+and the built_in function-call counts, 368792 in all, are:
+= -- 61530
+> -- 4940
 < -- 0
-+ -- 30334
-- -- 1532
-* -- 33032
-:= -- 70273
-add.period$ -- 46
-call.type$ -- 46
-change.case$ -- 643
-chr.to.int$ -- 46
-cite$ -- 46
-duplicate$ -- 733
-empty$ -- 1462
-format.name$ -- 1705
-if$ -- 65413
++ -- 30735
+- -- 1553
+* -- 33471
+:= -- 71267
+add.period$ -- 47
+call.type$ -- 47
+change.case$ -- 657
+chr.to.int$ -- 47
+cite$ -- 47
+duplicate$ -- 748
+empty$ -- 1488
+format.name$ -- 1729
+if$ -- 66309
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 47
-newline$ -- 187
-num.names$ -- 487
-pop$ -- 133
+missing$ -- 48
+newline$ -- 191
+num.names$ -- 498
+pop$ -- 137
 preamble$ -- 1
-purify$ -- 690
+purify$ -- 705
 quote$ -- 0
-skip$ -- 595
+skip$ -- 608
 stack$ -- 0
-substring$ -- 88127
-swap$ -- 136
-text.length$ -- 644
+substring$ -- 89291
+swap$ -- 138
+text.length$ -- 658
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 182
+type$ -- 186
 warning$ -- 0
-while$ -- 1023
+while$ -- 1044
 width$ -- 0
-write$ -- 652
+write$ -- 667
 (There was 1 error message)
