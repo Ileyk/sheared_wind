@@ -62,15 +62,6 @@ Bozzo, E., Falanga, M. \harvardand\ Stella, L.  \harvardyearleft
   J.} {\bf 683}(2),~1031--1044.
 \newline\harvardurl{http://iopscience.iop.org/article/10.1086/589990}
 
-\harvarditem[Bozzo et~al.]{Bozzo, Oskinova, Lobel \harvardand\
-  Hamann}{2017}{Bozzo2017a}
-Bozzo, E., Oskinova, L., Lobel, A. \harvardand\ Hamann, W.~R.  \harvardyearleft
-  2017\harvardyearright , `{On the super-orbital modulation of supergiant high
-  mass X-ray binaries}', {\em Astron. Astrophys. Vol. 606, id.L10, 4 pp.} {\bf
-  10},~4--7.
-\newline\harvardurl{http://arxiv.org/abs/1710.01877
-  http://dx.doi.org/10.1051/0004-6361/201731930}
-
 \harvarditem[Castor et~al.]{Castor, Abbott \harvardand\
   Klein}{1975}{Castor1975}
 Castor, J.~I., Abbott, D.~C. \harvardand\ Klein, R.~I.  \harvardyearleft
@@ -123,6 +114,12 @@ Edgar, R.~G.  \harvardyearleft 2004\harvardyearright , `{A review of
   Not. R. Astron. Soc.} {\bf 467}(3),~2585--2593.
 \newline\harvardurl{http://arxiv.org/abs/1609.01532
   http://dx.doi.org/10.1093/mnras/stx225}
+
+\harvarditem[{El Mellah} et~al.]{{El Mellah}, Sundqvist \harvardand\
+  Keppens}{2017}{ElMellah}
+{El Mellah}, I., Sundqvist, J.~O. \harvardand\ Keppens, R.  \harvardyearleft
+  2017\harvardyearright , `{Accretion from a clumpy massive-star wind in
+  Supergiant X-ray binaries}', {\em MNRAS} .
 
 \harvarditem[Foglizzo et~al.]{Foglizzo, Galletti \harvardand\
   Ruffert}{2005}{Foglizzo2005}
@@ -368,6 +365,32 @@ Narayan, R., Mahadevan, R. \harvardand\ Quataert, E.  \harvardyearleft
   {\em Theory Black Hole Accretion Disk. - Cambridge Univ. Press} (1988),~36.
 \newline\harvardurl{http://arxiv.org/abs/astro-ph/9803141}
 
+\harvarditem{Noebauer \harvardand\ Sim}{2015}{Noebauer2015}
+Noebauer, U.~M. \harvardand\ Sim, S.~A.  \harvardyearleft 2015\harvardyearright
+  , `{Self-consistent modelling of line-driven hot-star winds with Monte Carlo
+  radiation hydrodynamics}', {\em Mon. Not. R. Astron. Soc.} {\bf
+  453}(3),~3120--3134.
+\newline\harvardurl{http://mnras.oxfordjournals.org/content/453/3/3120}
+
+\harvarditem[Orosz et~al.]{Orosz, McClintock, Aufdenberg, Remillard, Reid,
+  Narayan \harvardand\ Gou}{2011}{Orosz2011}
+Orosz, J.~A., McClintock, J.~E., Aufdenberg, J.~P., Remillard, R.~A., Reid,
+  M.~J., Narayan, R. \harvardand\ Gou, L.  \harvardyearleft
+  2011\harvardyearright , `{The mass of the black hole in Cygnus X-1}', {\em
+  Astrophys. J.} {\bf 742}(2),~84.
+\newline\harvardurl{http://iopscience.iop.org/article/10.1088/0004-637X/742/2/84}
+
+\harvarditem{Owocki \harvardand\ Rybicki}{1984}{Owocki1984}
+Owocki, S.~P. \harvardand\ Rybicki, G.~B.  \harvardyearleft
+  1984\harvardyearright , `{Instabilities in line-driven stellar winds. I -
+  Dependence on perturbation wavelength}', {\em Astrophys. J.} {\bf 284},~337.
+\newline\harvardurl{http://adsabs.harvard.edu/abs/1984ApJ...284..337O}
+
+\harvarditem{Paczynski}{1977}{Paczynski1977}
+Paczynski, B.  \harvardyearleft 1977\harvardyearright , `{A model of accretion
+  disks in close binaries}', {\em Astrophys. J.} {\bf 216},~822.
+\newline\harvardurl{http://adsabs.harvard.edu/doi/10.1086/155526}
+
 \harvarditem{Petterson \harvardand\ A.}{1977{\em a}}{Petterson1977a}
 Petterson, J.~A. \harvardand\ A., J.  \harvardyearleft 1977{\em
   a}\harvardyearright , `{Twisted accretion disks. I - Derivation of the basic
@@ -462,6 +485,14 @@ Shakura, N., Postnov, K., Kochetkova, A. \harvardand\ Hjalmarsdotter, L.
   420}(1),~216--236.
 \newline\harvardurl{http://arxiv.org/abs/1110.3701
   http://dx.doi.org/10.1111/j.1365-2966.2011.20026.x}
+
+\harvarditem[Smith et~al.]{Smith, Heindl \harvardand\ Swank}{2001}{Smith2001}
+Smith, D.~M., Heindl, W.~A. \harvardand\ Swank, J.~H.  \harvardyearleft
+  2001\harvardyearright , `{Two Different Long-term Behaviors in Black-Hole
+  Candidates: Evidence for Two Accretion Flows?}', {\em Astrophys. Journal,
+  Vol. 569, Issue 1, pp. 362-380.} {\bf 569},~362--380.
+\newline\harvardurl{http://arxiv.org/abs/astro-ph/0103304
+  http://dx.doi.org/10.1086/339167}
 
 \harvarditem[Sundqvist et~al.]{Sundqvist, Owocki \harvardand\
   Puls}{2017}{Sundqvist2017}

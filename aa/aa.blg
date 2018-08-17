@@ -3,11 +3,11 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: aa.aux
 The style file: agsm.bst
 Database file #1: /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
-Repeated entry---line 387 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
+Repeated entry---line 389 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
  : @article{Edgar:2004ip
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 973 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
+Repeated entry---line 1044 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind.bib
  : @article{Bachetti2014
  :                      ,
 I'm skipping whatever remains of this entry
@@ -15,48 +15,46 @@ Warning--I didn't find a database entry for "Shapiro1976"
 Warning--I didn't find a database entry for "ElMellah2016"
 Warning--I didn't find a database entry for "Sanders2017"
 Warning--I didn't find a database entry for "Taam2018"
-Warning--I didn't find a database entry for "Smith2002"
-Warning--I didn't find a database entry for "ElMellah"
 Warning--there's a number but no volume in Narayan1998
-You've used 62 entries,
+You've used 67 entries,
             2909 wiz_defined-function locations,
-            1133 strings with 23866 characters,
-and the built_in function-call counts, 551610 in all, are:
-= -- 92254
-> -- 7444
+            1163 strings with 24811 characters,
+and the built_in function-call counts, 577011 in all, are:
+= -- 96439
+> -- 7765
 < -- 0
-+ -- 46375
-- -- 2358
-* -- 50365
-:= -- 106006
-add.period$ -- 62
-call.type$ -- 62
-change.case$ -- 867
-chr.to.int$ -- 61
-cite$ -- 63
-duplicate$ -- 988
-empty$ -- 2005
-format.name$ -- 2596
-if$ -- 99209
++ -- 48401
+- -- 2456
+* -- 52615
+:= -- 111031
+add.period$ -- 67
+call.type$ -- 67
+change.case$ -- 937
+chr.to.int$ -- 66
+cite$ -- 68
+duplicate$ -- 1067
+empty$ -- 2166
+format.name$ -- 2714
+if$ -- 103768
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 63
-newline$ -- 251
-num.names$ -- 656
-pop$ -- 174
+missing$ -- 68
+newline$ -- 270
+num.names$ -- 708
+pop$ -- 189
 preamble$ -- 1
-purify$ -- 930
+purify$ -- 1005
 quote$ -- 0
-skip$ -- 795
+skip$ -- 858
 stack$ -- 0
-substring$ -- 134458
-swap$ -- 184
-text.length$ -- 868
+substring$ -- 140436
+swap$ -- 198
+text.length$ -- 938
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 246
+type$ -- 266
 warning$ -- 1
-while$ -- 1384
+while$ -- 1494
 width$ -- 0
-write$ -- 878
+write$ -- 946
 (There were 2 error messages)
