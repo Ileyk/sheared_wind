@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: aa.aux
-The style file: agsm.bst
+The style file: aa.bst
 Database file #1: /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
 Repeated entry---line 702 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
  : @article{Bachetti2014
@@ -15,118 +15,49 @@ Repeated entry---line 1270 of file /Users/Ileyk/Documents/Bibtex/article_sheared
  : @article{Sander2017b
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--empty title in Abbott2016a
-Warning--empty title in ArmasPadilla2013
-Warning--empty title in Bachetti2014
-Warning--empty title in Blandford1999
-Warning--empty title in Blondin1990a
-Warning--empty title in Blondin:2012vf
-Warning--empty title in Bozzo2008
-Warning--empty title in Castor1975
-Warning--empty title in Christians2012
-Warning--empty title in Degenaar2017
-Warning--empty title in Duchene2013
-Warning--empty title in Edgar:2004ip
-Warning--empty title in ElMellah2015
-Warning--empty title in ElMellah2016a
-Warning--empty title in ElMellah
-Warning--empty title in Foglizzo2005
-Warning--empty title in Foglizzo1996
-Warning--empty title in Forman1973
-Warning--empty title in Foulkes:2010wa
-Warning--empty title in Frank2002
-Warning--empty title in Furst2010
-Warning--empty title in Furst2014
-Warning--empty title in Furst2016
-Warning--empty title in Ghosh1978
-Warning--empty title in Ghosh1979
-Warning--empty title in Gimenez-Garcia2016
-Warning--empty title in Grafener2002
-Warning--empty title in Grinberg2017
-Warning--empty title in Grinberg:2014ux
-Warning--empty title in Hamann1998
-Warning--empty title in Hatchett1977
-Warning--empty title in Hiltner1972
-Warning--empty title in Ho1987
-Warning--empty title in Horedt2000
-Warning--empty title in Hu2017
-Warning--empty title in Illarionov1975
-Warning--empty title in Israel2017
-Warning--empty title in Karino2014
-Warning--empty title in Lin1985
-Warning--empty title in Lucy1970
-Warning--empty title in MacLeod2014
-Warning--empty title in Manousakis2015c
-Warning--empty title in Manousakis2013
-Warning--empty title in Martinez-Nunez2017
-Warning--empty title in Medvedev2000
-Warning--empty title in Motch2011
-Warning--empty title in Narayan1998
-Warning--there's a number but no volume in Narayan1998
-Warning--empty title in Orosz2011
-Warning--empty title in Owocki1984
-Warning--empty title in Paczynski1977
-Warning--empty title in Petterson1977a
-Warning--empty title in Petterson1977
-Warning--empty title in Quaintrell2003a
-Warning--empty title in Rawls2011
-Warning--empty title in Romano2015
-Warning--empty title in Saladino2018
-Warning--empty title in Sander2017
-Warning--empty title in Sander2017b
-Warning--empty title in Schure2009
-Warning--empty title in Shakura2013b
-Warning--empty title in Shakura2012
-Warning--empty title in Shapiro1976
-Warning--empty title in Smith2001
-Warning--empty title in Sundqvist2017
-Warning--empty title in Taam2018
-Warning--empty title in Toro1994
-Warning--empty title in Turner2001
-Warning--empty title in VanMarle2011
-Warning--empty title in Vink2001
-Warning--empty title in Vreugdenhil1993
-Warning--empty title in Xia2017
-Warning--empty title in Ziolkowski1985
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in MacLeod2014
+Warning--empty journal in Manousakis2013
+Warning--no book title in Vreugdenhil1993
 You've used 73 entries,
-            2909 wiz_defined-function locations,
-            1056 strings with 15022 characters,
-and the built_in function-call counts, 600044 in all, are:
-= -- 100157
-> -- 8091
-< -- 0
-+ -- 50203
-- -- 2554
-* -- 54503
-:= -- 115694
+            3039 wiz_defined-function locations,
+            1124 strings with 15363 characters,
+and the built_in function-call counts, 38770 in all, are:
+= -- 3167
+> -- 3515
+< -- 31
++ -- 1164
+- -- 1089
+* -- 3380
+:= -- 7224
 add.period$ -- 73
 call.type$ -- 73
-change.case$ -- 949
-chr.to.int$ -- 72
-cite$ -- 146
-duplicate$ -- 1159
-empty$ -- 2347
-format.name$ -- 2838
-if$ -- 107883
-int.to.chr$ -- 6
-int.to.str$ -- 0
-missing$ -- 73
-newline$ -- 222
-num.names$ -- 770
-pop$ -- 574
+change.case$ -- 655
+chr.to.int$ -- 71
+cite$ -- 76
+duplicate$ -- 1373
+empty$ -- 1864
+format.name$ -- 1330
+if$ -- 7575
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 72
+newline$ -- 223
+num.names$ -- 292
+pop$ -- 832
 preamble$ -- 1
-purify$ -- 1095
+purify$ -- 655
 quote$ -- 0
-skip$ -- 783
+skip$ -- 978
 stack$ -- 0
-substring$ -- 145742
-swap$ -- 142
-text.length$ -- 1022
+substring$ -- 1366
+swap$ -- 20
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 290
-warning$ -- 73
-while$ -- 1627
+type$ -- 654
+warning$ -- 3
+while$ -- 279
 width$ -- 0
-write$ -- 882
+write$ -- 731
 (There were 3 error messages)

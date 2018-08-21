@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 AUG 2018 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 AUG 2018 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,43 +990,43 @@ LaTeX Warning: Label `sub@fig:subim2' multiply defined.
 )
 \openout1 = `aa.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 61.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 61.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 64.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 64.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 61.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 61.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 64.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 64.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 61.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 61.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 64.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 64.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 61.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 61.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 64.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 64.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 61.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 64.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
@@ -1093,7 +1093,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring OFF on input line 61.
+Package hyperref Info: Link coloring OFF on input line 64.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1103,9 +1103,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 61.
-LaTeX Info: Redefining \pageref on input line 61.
-LaTeX Info: Redefining \nameref on input line 61.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
 
 (./aa.out) (./aa.out)
 \@outlinefile=\write3
@@ -1120,88 +1120,92 @@ Package caption Info: End \AtBeginDocument code.
 IMPORTANT
 
 Class aa Warning: Around 304 words in the abstract instead of 300 (max). You sh
-ould rewrite your abstract on input line 114.
+ould rewrite your abstract on input line 121.
 
 IMPORTANT 
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 121.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 128.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 121.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 121.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 128.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 128.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 121.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 128.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 121.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 128.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 121.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 128.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 121.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 128.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for T1+txss on input line 121.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 128.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 121.
+(Font)              scaled to size 16.41594pt on input line 128.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 16.41594pt on input line 121.
+(Font)              scaled to size 16.41594pt on input line 128.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 121.
+(Font)              scaled to size 13.67995pt on input line 128.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 121.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 121.
+(Font)              scaled to size 13.67995pt on input line 128.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 128.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+  
+ []
+
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 121.
+(Font)              scaled to size 8.54997pt on input line 128.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 121.
+(Font)              scaled to size 8.54997pt on input line 128.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 121.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 128.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 8.54997pt on input line 121.
+(Font)              scaled to size 8.54997pt on input line 128.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 122.
+(Font)              scaled to size 10.40245pt on input line 129.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 122.
+(Font)              scaled to size 10.40245pt on input line 129.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 2837) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 131.
+Package hyperref Warning: Suppressing link with empty target on input line 138.
 
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1209,55 +1213,59 @@ Package hyperref Warning: Suppressing link with empty target on input line 131.
 
 ]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 167.
+(Font)              scaled to size 9.49997pt on input line 174.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 167.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 174.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 167.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 182.
+(Font)              scaled to size 9.49997pt on input line 174.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 189.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<Pictures/LF.png, id=158, 546.3612pt x 563.706pt>
+<Pictures/LF.png, id=160, 546.3612pt x 563.706pt>
 File: Pictures/LF.png Graphic file (type png)
  <use Pictures/LF.png>
-Package pdftex.def Info: Pictures/LF.png used on input line 200.
+Package pdftex.def Info: Pictures/LF.png used on input line 207.
 (pdftex.def)             Requested size: 259.14912pt x 267.37607pt.
 
-<Pictures/HS.png, id=160, 546.3612pt x 562.9833pt>
+<Pictures/HS.png, id=162, 546.3612pt x 562.9833pt>
 File: Pictures/HS.png Graphic file (type png)
  <use Pictures/HS.png>
-Package pdftex.def Info: Pictures/HS.png used on input line 206.
+Package pdftex.def Info: Pictures/HS.png used on input line 213.
 (pdftex.def)             Requested size: 259.14912pt x 267.03328pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 198--209
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 205--216
 []$[]$
  []
 
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 198--209
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 205--216
 []$ 
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 211.
+Package hyperref Warning: Suppressing link with empty target on input line 218.
 
 
 [2]
-Underfull \hbox (badness 10000) in alignment at lines 233--233
+Underfull \hbox (badness 10000) in alignment at lines 240--240
 [][][] 
  []
 
-<Pictures/inflow_maps.png, id=193, 883.1394pt x 411.939pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<Pictures/inflow_maps.png, id=191, 883.1394pt x 411.939pt>
 File: Pictures/inflow_maps.png Graphic file (type png)
 
 <use Pictures/inflow_maps.png>
-Package pdftex.def Info: Pictures/inflow_maps.png used on input line 239.
+Package pdftex.def Info: Pictures/inflow_maps.png used on input line 246.
 (pdftex.def)             Requested size: 512.1496pt x 238.89334pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 251.
+Package hyperref Warning: Suppressing link with empty target on input line 258.
 
 
 [3 <./Pictures/LF.png> <./Pictures/HS.png>]
@@ -1265,97 +1273,97 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 274.
+Package hyperref Warning: Suppressing link with empty target on input line 281.
 
 
 [4 <./Pictures/inflow_maps.png>]
 
-Package hyperref Warning: Suppressing link with empty target on input line 337.
+Package hyperref Warning: Suppressing link with empty target on input line 344.
 
 
 [5]
-Underfull \hbox (badness 10000) in alignment at lines 359--359
+Underfull \hbox (badness 10000) in alignment at lines 366--366
 [][][][][] 
  []
 
-<Pictures/LF_adiab.jpeg, id=318, 832.10875pt x 710.655pt>
+<Pictures/LF_adiab.jpeg, id=311, 832.10875pt x 710.655pt>
 File: Pictures/LF_adiab.jpeg Graphic file (type jpg)
 
 <use Pictures/LF_adiab.jpeg>
-Package pdftex.def Info: Pictures/LF_adiab.jpeg used on input line 373.
+Package pdftex.def Info: Pictures/LF_adiab.jpeg used on input line 380.
 (pdftex.def)             Requested size: 259.14912pt x 221.32008pt.
 
-<Pictures/HS_adiab.jpeg, id=319, 832.10875pt x 710.655pt>
+<Pictures/HS_adiab.jpeg, id=312, 832.10875pt x 710.655pt>
 File: Pictures/HS_adiab.jpeg Graphic file (type jpg)
 
 <use Pictures/HS_adiab.jpeg>
-Package pdftex.def Info: Pictures/HS_adiab.jpeg used on input line 378.
+Package pdftex.def Info: Pictures/HS_adiab.jpeg used on input line 385.
 (pdftex.def)             Requested size: 259.14912pt x 221.32008pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 371--381
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 378--388
 []$[]$
  []
 
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 371--381
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 378--388
 []$ 
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 388.
+Package hyperref Warning: Suppressing link with empty target on input line 395.
 
 
 [6 <./Pictures/LF_adiab.jpeg> <./Pictures/HS_adiab.jpeg>]
-<Pictures/iso-rho_adiab.png, id=355, 1027.84pt x 882.29625pt>
+<Pictures/iso-rho_adiab.png, id=348, 1027.84pt x 882.29625pt>
 File: Pictures/iso-rho_adiab.png Graphic file (type png)
 
 <use Pictures/iso-rho_adiab.png>
-Package pdftex.def Info: Pictures/iso-rho_adiab.png used on input line 395.
+Package pdftex.def Info: Pictures/iso-rho_adiab.png used on input line 402.
 (pdftex.def)             Requested size: 253.51546pt x 217.61171pt.
 
-<Pictures/isoS_1.png, id=358, 1027.84pt x 711.65875pt>
+<Pictures/isoS_1.png, id=351, 1027.84pt x 711.65875pt>
 File: Pictures/isoS_1.png Graphic file (type png)
 
 <use Pictures/isoS_1.png>
-Package pdftex.def Info: Pictures/isoS_1.png used on input line 406.
+Package pdftex.def Info: Pictures/isoS_1.png used on input line 413.
 (pdftex.def)             Requested size: 230.46748pt x 159.5625pt.
 
-<Pictures/isoS_2.png, id=359, 1027.84pt x 711.65875pt>
+<Pictures/isoS_2.png, id=352, 1027.84pt x 711.65875pt>
 File: Pictures/isoS_2.png Graphic file (type png)
 
 <use Pictures/isoS_2.png>
-Package pdftex.def Info: Pictures/isoS_2.png used on input line 412.
+Package pdftex.def Info: Pictures/isoS_2.png used on input line 419.
 (pdftex.def)             Requested size: 230.46748pt x 159.5625pt.
 
-<Pictures/isoHot_1.png, id=360, 1027.84pt x 711.65875pt>
+<Pictures/isoHot_1.png, id=353, 1027.84pt x 711.65875pt>
 File: Pictures/isoHot_1.png Graphic file (type png)
 
 <use Pictures/isoHot_1.png>
-Package pdftex.def Info: Pictures/isoHot_1.png used on input line 420.
+Package pdftex.def Info: Pictures/isoHot_1.png used on input line 427.
 (pdftex.def)             Requested size: 230.46748pt x 159.5625pt.
 
-<Pictures/isoHot_2.png, id=361, 1027.84pt x 711.65875pt>
+<Pictures/isoHot_2.png, id=354, 1027.84pt x 711.65875pt>
 File: Pictures/isoHot_2.png Graphic file (type png)
 
 <use Pictures/isoHot_2.png>
-Package pdftex.def Info: Pictures/isoHot_2.png used on input line 426.
+Package pdftex.def Info: Pictures/isoHot_2.png used on input line 433.
 (pdftex.def)             Requested size: 230.46748pt x 159.5625pt.
 
-<Pictures/isoCold_1.png, id=362, 1027.84pt x 716.6775pt>
+<Pictures/isoCold_1.png, id=355, 1027.84pt x 716.6775pt>
 File: Pictures/isoCold_1.png Graphic file (type png)
 
 <use Pictures/isoCold_1.png>
-Package pdftex.def Info: Pictures/isoCold_1.png used on input line 434.
+Package pdftex.def Info: Pictures/isoCold_1.png used on input line 441.
 (pdftex.def)             Requested size: 230.46748pt x 160.68776pt.
 
-<Pictures/isoCold_2.png, id=363, 1027.84pt x 716.6775pt>
+<Pictures/isoCold_2.png, id=356, 1027.84pt x 716.6775pt>
 File: Pictures/isoCold_2.png Graphic file (type png)
 
 <use Pictures/isoCold_2.png>
-Package pdftex.def Info: Pictures/isoCold_2.png used on input line 440.
+Package pdftex.def Info: Pictures/isoCold_2.png used on input line 447.
 (pdftex.def)             Requested size: 230.46748pt x 160.68776pt.
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 404--444
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 411--451
 []$[]$ $[]$
  []
 
@@ -1363,21 +1371,21 @@ Overfull \hbox (1.90001pt too wide) in paragraph at lines 404--444
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<Pictures/disc.png, id=364, 1027.84pt x 947.54pt>
+<Pictures/disc.png, id=357, 1027.84pt x 947.54pt>
 File: Pictures/disc.png Graphic file (type png)
  <use Pictures/disc.png>
-Package pdftex.def Info: Pictures/disc.png used on input line 450.
+Package pdftex.def Info: Pictures/disc.png used on input line 457.
 (pdftex.def)             Requested size: 243.27026pt x 224.26233pt.
 
-<Pictures/v_phi_Kep.pdf, id=369, 769.11345pt x 691.72992pt>
+<Pictures/v_phi_Kep.pdf, id=362, 769.11345pt x 691.72992pt>
 File: Pictures/v_phi_Kep.pdf Graphic file (type pdf)
 
 <use Pictures/v_phi_Kep.pdf>
-Package pdftex.def Info: Pictures/v_phi_Kep.pdf used on input line 457.
+Package pdftex.def Info: Pictures/v_phi_Kep.pdf used on input line 464.
 (pdftex.def)             Requested size: 243.27026pt x 218.79324pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 468.
+Package hyperref Warning: Suppressing link with empty target on input line 475.
 
 
 [7 <./Pictures/iso-rho_adiab.png (PNG copy)>]
@@ -1388,7 +1396,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 469.
+Package hyperref Warning: Suppressing link with empty target on input line 476.
 
 
 [8 <./Pictures/isoS_1.png (PNG copy)> <./Pictures/isoS_2.png> <./Pictures/isoHo
@@ -1398,51 +1406,49 @@ Underfull \vbox (badness 2042) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 496.
+Package hyperref Warning: Suppressing link with empty target on input line 503.
 
 
 [9 <./Pictures/disc.png (PNG copy)> <./Pictures/v_phi_Kep.pdf>]
-<Pictures/mdot_time.pdf, id=471, 695.11415pt x 697.2032pt>
+<Pictures/mdot_time.pdf, id=464, 695.11415pt x 697.2032pt>
 File: Pictures/mdot_time.pdf Graphic file (type pdf)
 
 <use Pictures/mdot_time.pdf>
-Package pdftex.def Info: Pictures/mdot_time.pdf used on input line 501.
+Package pdftex.def Info: Pictures/mdot_time.pdf used on input line 508.
 (pdftex.def)             Requested size: 243.27026pt x 243.99286pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 533.
+Package hyperref Warning: Suppressing link with empty target on input line 540.
 
 
 [10 <./Pictures/mdot_time.pdf>]
-Underfull \hbox (badness 1092) in paragraph at lines 554--555
-\T1/txr/m/n/10 AC-CEL-ER-A-TION IS NOT A MONOTONOUS FUNC-
- []
 
-
-Underfull \vbox (badness 3271) has occurred while \output is active []
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 580.
+Package hyperref Warning: Suppressing link with empty target on input line 566.
 
 
 [11] (./aa.bbl
-Underfull \hbox (badness 6364) in paragraph at lines 84--86
-[]\T1/txr/m/n/8 Foglizzo, T., Gal-letti, P. and Ruf-fert, M. (2005), \T1/txr/m/
-it/8 As-tron. As-tro-phys.
+Underfull \hbox (badness 3250) in paragraph at lines 86--88
+[]\T1/txr/m/n/8 Fürst, F., Pottschmidt, K., Wilms, J., et al. 2014, As-tro-phys
+. J., 780
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+[]\T1/txr/m/n/8 Grinberg, V., Pottschmidt, K., Böck, M., et al. 2014, arXiv.org
+
  []
 
 )
 
-Package hyperref Warning: Suppressing link with empty target on input line 590.
+Package hyperref Warning: Suppressing link with empty target on input line 598.
 
 
 [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 598.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 598.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 598.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 598.
 Package rerunfilecheck Info: File `aa.out' has not changed.
 (rerunfilecheck)             Checksum: E31CEC6F104F2E2946595B258AE2C87E;1231.
 
@@ -1451,11 +1457,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11519 strings out of 493014
- 164814 string characters out of 6133351
- 299039 words of memory out of 5000000
- 14631 multiletter control sequences out of 15000+600000
- 119949 words of font info for 189 fonts, out of 8000000 for 9000
+ 11517 strings out of 493014
+ 164807 string characters out of 6133351
+ 295061 words of memory out of 5000000
+ 14630 multiletter control sequences out of 15000+600000
+ 115509 words of font info for 186 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,45p,2503b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1472,10 +1478,10 @@ elvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (12 pages, 2508080 bytes).
+Output written on aa.pdf (12 pages, 2496518 bytes).
 PDF statistics:
- 682 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 126 named destinations out of 1000 (max. 500000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
+ 127 named destinations out of 1000 (max. 500000)
  212 words of extra memory for PDF output out of 10000 (max. 10000000)
 

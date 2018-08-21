@@ -39,6 +39,9 @@
 \usepackage[flushleft]{threeparttable}
 \usepackage{dblfloatfix} 
 
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{}{,} 
+
 \newcommand{\sgx}{SgXB\xspace}
 \newcommand{\sfxt}{SFXT}
 \newcommand{\sg}{Sg\xspace}
@@ -69,10 +72,10 @@
           \inst{1}
           \and
           A. A. C. Sander
-          \inst{2}
+          \inst{2,3}
           \and
           J. O. Sundqvist
-          \inst{3}
+          \inst{4}
           \and
           R. Keppens
           \inst{1}
@@ -82,6 +85,10 @@
    			 Department of Mathematics, KU Leuven, 
    			 Celestijnenlaan 200B, B-3001 Leuven, Belgium\\
               \email{ileyk.elmellah@kuleuven.be}
+         \and
+         	Armagh Observatory and Planetarium, 
+         	College Hill, 
+         	Armagh, BT61 9DG, Northern Ireland\\
          \and
              Institut f{\"u}r Physik und Astronomie, 
              Universit{\"a}t Potsdam, 
@@ -190,7 +197,7 @@ where $a_{\text{press}}$ is the acceleration due to thermal and turbulent pressu
 \label{eq:araddef}
 a_{\text{rad}}\left(r_{\text{\mystar}}\right)  = \frac{4\pi}{c} \frac{1}{\rho(r_{\text{\mystar}})}  \int\limits_{0}^{\infty} \kappa_\nu H_\nu \mathrm{d}\nu 
 \end{equation}
-with $c$ the speed of light and $\rho$ the mass density, deduced from the stellar mass loss rate and the velocity using the conservation of mass. XXX ANDREAS : COULD YOU QUICKLY DEFINE KAPPA AND H? XXX Using the technique described in \cite{Sander2017b}, the model provides a hydrodynamically consistent stratification, meaning that the mass loss rate and the velocity field were iteratively updated such that eventually the outward and inward forces balance each other throughout the stellar atmosphere. The resulting velocity and density stratification shows notable deviations from the typically assumed $\beta$-law, especially within a couple of stellar radii, where the orbiting accretor lies and where the obtained wind velocity is lower than previously estimated \citep{Gimenez-Garcia2016}. Notice that in spite of the non-spherical situation due to the presence of the \ns, we adopt $a_\text{rad}$ as $a_\text{press}$ as functions of the distance $r_{\text{\mystar}}$ to the donor star here for the sake of simplicity.
+with $c$ the speed of light and $\rho$ the mass density, deduced from the stellar mass loss rate and the velocity using the conservation of mass. \textcolor{red}{$\kappa_{\nu}$ and $H_{\nu}$ denote the opacity (in the form of a mass attenuation coefficient) and the Eddington flux at the frequency $\nu$.} Using the technique described in \cite{Sander2017b}, the model provides a hydrodynamically consistent stratification, meaning that the mass loss rate and the velocity field were iteratively updated such that eventually the outward and inward forces balance each other throughout the stellar atmosphere. The resulting velocity and density stratification shows notable deviations from the typically assumed $\beta$-law, especially within a couple of stellar radii, where the orbiting accretor lies and where the obtained wind velocity is lower than previously estimated \citep{Gimenez-Garcia2016}. Notice that in spite of the non-spherical situation due to the presence of the \ns, we adopt $a_\text{rad}$ as $a_\text{press}$ as functions of the distance $r_{\text{\mystar}}$ to the donor star here for the sake of simplicity.
 
 The streamlines computation is performed using the code developed in \cite{ElMellah2016a}, starting from the stellar surface whose ellipsoidal deformation, even for Roche lobe filling factors close to unity, is not included since it is expected to have a negligible impact on the formation of a wind-capture disc. An illustration of the result is given in Figure\,\ref{fig:big_picture} where the streamlines have been represented in the orbital plane. We stop the integration when the test-masses reach a sphere around the accretor $\sim$30\% larger than its Roche lobe radius. This strategy alleviates the difficulty of an a priori estimate of the accretion radius \citep[the critical impact parameter below which test-masses are captured in the BHL formalism,][]{Edgar:2004ip}. It delimits the space where the ballistic approximation no longer holds. Dissipative effects will be accounted for within this region in section\,\ref{sec:wind-capt_discs}. With this procedure, we focus on the fraction of the flow susceptible to be eventually accreted rather than on an accurate representation of the accretion tail in the wake of the accretor \citep[for this component, see rather][]{Manousakis2013}.
 
@@ -322,7 +329,7 @@ The computation is performed with the new version of the finite volume code \tex
 \subsubsection{Radiative cooling}
 \label{sec:cool}
 
-Let us estimate the importance of cooling in this physical environment. Upstream the shock, we rely on the temperature stratification derived from the solution of the statistical equilibrium equations and the radiative transfer. Based on the assumption of radiative equilibrium, the (electron) temperature structure in an expanding atmosphere is obtained by applying a generalized Uns{\"o}ld-Lucy method described in \citet{Hamann1998}. Including the X-ray irradiation on the donor star did not significantly alter the temperature profile upstream the accretor obtained in \cite{Sander2017}, leading to wind temperatures of 15 to 20kK. XXX ANDREAS : DO YOU CONFIRM THE CONTENT AND THE FORM? XXX. Downstream the shock, we assume that the gas is still optically thin and write the time scale $\tau_{\text{c}}$ to evacuate the internal energy per unit volume of an ideal gas at temperature $T$ and with a Hydrogen number density $n$, $u=nk_{\text{B}}T$, at a rate given by the cooling rate computed by \cite{Schure2009}, $\Lambda\left(T\right)$ :
+Let us estimate the importance of cooling in this physical environment. Upstream the shock, we rely on the temperature stratification derived from the solution of the statistical equilibrium equations and the radiative transfer. Based on the assumption of radiative equilibrium, the (electron) temperature structure in an expanding atmosphere is obtained by applying a generalized Uns{\"o}ld-Lucy method described in \citet{Hamann1998}. \textcolor{red}{Including the X-ray irradiation on the donor star leads only to a moderate increase of the temperature profile upstream the accretor compared to what was obtained in in \cite{Sander2017} XXX ANDREAS : DO YOU CONFIRM THE CONTENT AND THE FORM? XXX.} Downstream the shock, we assume that the gas is still optically thin and write the time scale $\tau_{\text{c}}$ to evacuate the internal energy per unit volume of an ideal gas at temperature $T$ and with a Hydrogen number density $n$, $u=nk_{\text{B}}T$, at a rate given by the cooling rate computed by \cite{Schure2009}, $\Lambda\left(T\right)$ :
 \begin{equation}
 \tau_{\text{c}}=\frac{nk_{\text{B}}T}{n^2\Lambda\left(T\right)}
 \end{equation}
@@ -551,7 +558,8 @@ Currently, we face a lack of conclusive evidence in favor of the presence of a p
 To summarize, in Vela X-1, we face two possible wind accretion scenarios :
 \begin{itemize}
 \item the line-driven wind acceleration is not efficient enough to provide the flow with a velocity larger than the orbital speed when it enters the Roche lobe of the accretor. In this case, the orbital effects control the dynamics of the wind which is seriously beamed, with a fraction of the stellar mass loss rate entering the Roche lobe of the accretor larger than 10\%. It quickly acquires angular momentum and within the shocked region, a disc-like structure is formed, whatever the cooling mechanism, with thicker discs for less efficient cooling. Because Vela X-1 is an eclipsing system and since we expect the wind-capture disc to form within the orbital plane, the thickness of the disc might significantly alter the absorbing column density : in the case of an inefficient cooling, the disc would be thick enough to intercept the line-of-sight and contribute to the observed absorbing column density. Also, \cite{Foulkes:2010wa} showed that the precession of a disc wrapped by a radiative pressure driven instability \citep{Petterson1977a,Petterson1977} could be responsible for the off-states observed in some systems, although mechanisms not relying on the presence of a disc have been proposed for Vela X-1 \citep[see \eg][]{Manousakis2015c}.
-\item the line-driven wind acceleration is more efficient than the one computed for a 1D steady atmosphere in \cite{Sander2017}, either because of a significant influence of the departure from a purely radial wind or because of a peculiar chemical composition of the donor star XXX ANDREAS : DO YOU KNOW HOW SENSITIVE YOUR RESULTS ARE ON THE CHEMICAL COMPOSITION YOU ASSUME? DID YOU TRY YOUR CODE ON A METAL RICH AND POOR STAR (ALTHOUGH I GUESS THE LINE-DRIVEN ACCELERATION IS NOT A MONOTONOUS FUNCTION OF THE METALLICITY)? XXX. In this case, the LF configuration, where the wind speed is slightly larger than the orbital speed, would be more representative of the wind accretion process at stake in Vela X-1 and no disc structure can form, whatever the cooling mechanism. The mass accretion rate, of the order of a few 0.1\% of the stellar mass loss rate, would be consistent with the observed mean X-ray luminosity for typical values of $\eta$ (\ie $\sim$ 5 to 10\%).
+\item the line-driven wind acceleration is more efficient than the one computed for a 1D steady atmosphere in \cite{Sander2017}, either because of a significant influence of the departure from a purely radial wind or because of \textcolor{red}{a different chemical composition of the donor star than assumed. For instance, among the most important driving elements of the donor star in Vela X-1, the abundances of N and Si are determined from spectral lines, but the abundances of S and Fe are just assumed to be solar \citep{Gimenez-Garcia2016} : since the Fe forest is well reproduced though, the abundances are thought to be accurate within a factor of at most 2.
+ XXX ANDREAS : DO YOU KNOW HOW SENSITIVE YOUR RESULTS ARE ON THE CHEMICAL COMPOSITION YOU ASSUME? DID YOU TRY YOUR CODE ON A METAL RICH AND POOR STAR (ALTHOUGH I GUESS THE LINE-DRIVEN ACCELERATION IS NOT A MONOTONOUS FUNCTION OF THE METALLICITY)? XXX. In the case of a more efficient wind acceleration, the LF configuration, with a wind speed slightly larger than the orbital speed, would be more representative of the wind accretion process at stake in Vela X-1 and no disc structure would form, whatever the cooling mechanism.} The mass accretion rate, of the order of a few 0.1\% of the stellar mass loss rate, would be consistent with the observed mean X-ray luminosity for typical values of $\eta$ (\ie $\sim$ 5 to 10\%).
 \end{itemize}
 
 The present study addressed the permanent behavior of the flow, but winds of massive stars are unstable and form internal shocks which lead to overdense clumps of matter \citep{Owocki1984,Sundqvist2017}. The impact of these clumps on the time variability of the mass accretion rate has been investigated in \cite{ElMellah} but a wind fast enough to not be bent by the orbital effects was considered. The present work shows that, provided some systems display winds of velocity similar to the orbital speed, the orbital bending and the associated net angular momentum can not be neglected. Because the clumps carry themselves a local angular momentum, \cite{ElMellah} showed that clumpy wind accretion was less efficient than its homogeneous counterpart : including the micro-structure of the wind might thus help to decrease the mass accretion rate at a few \ns magnetosphere radii, but the influence of the clumps on the properties of the wind-capture disc (\eg its permanence) remain to be studied. With a proper treatment of the effective viscosity in the disc and of the coupling between the disc and the magnetosphere, we could produce a physically-motivated synthetic curve of the torque applied to the \ns as a function of time, opening the door to a consistent way to address the question of the \ns spinning-up and down.
@@ -575,14 +583,14 @@ The present study addressed the permanent behavior of the flow, but winds of mas
 %What about the micro-structure? Clumps small compared to accretion radius for such small wind speed. Flip-flop possible?
 
 \begin{acknowledgements}
-IEM wishes to thank Antonios Manousakis for fruitful discussions about the underlying computational aspects and the members of the X-wind collaboration for the observational consequences of the present analysis. IEM also thanks Wenbin Liu for the insightful discussions on the accretion of angular momentum. IEM has received funding from the Research Foundation Flanders (FWO) and the European Union's Horizon 2020 research and innovation program under the Marie Sk\l odowska-Curie grant agreement No 665501. IEM and JOS are grateful for the hospitality of the International Space Science Institute (ISSI), Bern, Switzerland which sponsored a team meeting initiating a tighter collaboration between massive stars wind and X-ray binaries communities. The simulations were conducted on the Tier-1 VSC (Flemish Supercomputer Center funded by Hercules foundation and Flemish government).
+IEM wishes to thank Antonios Manousakis for fruitful discussions about the underlying computational aspects and the members of the X-wind collaboration for the observational consequences of the present analysis. IEM also thanks Wenbin Liu for the insightful discussions on the accretion of angular momentum. IEM has received funding from the Research Foundation Flanders (FWO) and the European Union's Horizon 2020 research and innovation program under the Marie Sk\l odowska-Curie grant agreement No 665501. A.A.C.S. would like to thank STFC for funding under grant number ST/R000565/1. IEM and JOS are grateful for the hospitality of the International Space Science Institute (ISSI), Bern, Switzerland which sponsored a team meeting initiating a tighter collaboration between massive stars wind and X-ray binaries communities. The simulations were conducted on the Tier-1 VSC (Flemish Supercomputer Center funded by Hercules foundation and Flemish government).
 % THANK REFERREE
 \end{acknowledgements}
 
 
 %-------------------------------------------------------------------
 
-\bibliographystyle{agsm}
+\bibliographystyle{aa} %agsm}
 \begin{tiny}
 \bibliography{/Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url}
 \end{tiny}
