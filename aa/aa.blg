@@ -3,61 +3,60 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: aa.aux
 The style file: aa.bst
 Database file #1: /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
-Repeated entry---line 702 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
- : @article{Bachetti2014
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1062 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
- : @article{Edgar:2004ip
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1270 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
+Repeated entry---line 658 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
  : @article{Sander2017b
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 939 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
+ : @article{Edgar:2004ip
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1496 of file /Users/Ileyk/Documents/Bibtex/article_sheared_wind_no_url.bib
+ : @article{Bachetti2014
+ :                      ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty journal in MacLeod2014
-Warning--empty journal in Manousakis2013
+Warning--empty journal in Furst2018
 Warning--no book title in Vreugdenhil1993
-You've used 73 entries,
+You've used 81 entries,
             3039 wiz_defined-function locations,
-            1124 strings with 15363 characters,
-and the built_in function-call counts, 38770 in all, are:
-= -- 3167
-> -- 3515
-< -- 31
-+ -- 1164
-- -- 1089
-* -- 3380
-:= -- 7224
-add.period$ -- 73
-call.type$ -- 73
-change.case$ -- 655
-chr.to.int$ -- 71
-cite$ -- 76
-duplicate$ -- 1373
-empty$ -- 1864
-format.name$ -- 1330
-if$ -- 7575
+            1179 strings with 16820 characters,
+and the built_in function-call counts, 43150 in all, are:
+= -- 3516
+> -- 3926
+< -- 30
++ -- 1301
+- -- 1218
+* -- 3772
+:= -- 8053
+add.period$ -- 81
+call.type$ -- 81
+change.case$ -- 730
+chr.to.int$ -- 79
+cite$ -- 83
+duplicate$ -- 1519
+empty$ -- 2069
+format.name$ -- 1474
+if$ -- 8426
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 72
-newline$ -- 223
-num.names$ -- 292
-pop$ -- 832
+missing$ -- 80
+newline$ -- 247
+num.names$ -- 324
+pop$ -- 916
 preamble$ -- 1
-purify$ -- 655
+purify$ -- 730
 quote$ -- 0
-skip$ -- 978
+skip$ -- 1087
 stack$ -- 0
-substring$ -- 1366
-swap$ -- 20
+substring$ -- 1532
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 654
-warning$ -- 3
-while$ -- 279
+type$ -- 726
+warning$ -- 2
+while$ -- 312
 width$ -- 0
-write$ -- 731
+write$ -- 813
 (There were 3 error messages)

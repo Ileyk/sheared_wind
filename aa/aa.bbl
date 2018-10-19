@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{81}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Abbott {et~al.}(2016)Abbott, Abbott, Abbott, \& Al}]{Abbott2016a}
@@ -12,10 +12,9 @@ Abbott, B.~P., Abbott, R., Abbott, T.~D., \& Al, E. 2016, Phys. Rev. Lett.,
 
 \bibitem[{Bachetti {et~al.}(2014)Bachetti, Harrison, Walton, Grefenstette,
   Chakrabarty, F{\"{u}}rst, Barret, Beloborodov, Boggs, Christensen, Craig,
-  Fabian, Hailey, Hornschemeier, Kaspi, Kulkarni, Maccarone, Miller, Rana,
+  Fabian, Hailey, Hornschemeier, Kaspi, Kulkarni, MacCarone, Miller, Rana,
   Stern, Tendulkar, Tomsick, Webb, \& Zhang}]{Bachetti2014}
-Bachetti, M., Harrison, F.~A., Walton, D.~J., {et~al.} 2014, Nature, Vol. 514,
-  Issue 7521, pp. 202-204 (2014)., 514, 202
+Bachetti, M., Harrison, F.~A., Walton, D.~J., {et~al.} 2014, Nature, 514, 202
 
 \bibitem[{Blandford \& Begelman(1999)}]{Blandford1999}
 Blandford, R.~D. \& Begelman, M.~C. 1999, Mon. Not. R. Astron. Soc., 303, 1
@@ -37,6 +36,10 @@ Castor, J.~I., Abbott, D.~C., \& Klein, R.~I. 1975, Astrophys. J., 195, 157
 \bibitem[{Christians(2012)}]{Christians2012}
 Christians, J. 2012, Int. J. Mech. Eng. Educ., 40, 53
 
+\bibitem[{Corbet(1984)}]{Corbet1984}
+Corbet, R. H.~D. 1984, Astron. Astrophys. (ISSN 0004-6361), vol. 141, no. 1,
+  Dec. 1984, p. 91-93., 141, 91
+
 \bibitem[{Degenaar {et~al.}(2017)Degenaar, Pinto, Miller, Wijnands, Altamirano,
   Paerels, Fabian, \& Chakrabarty}]{Degenaar2017}
 Degenaar, N., Pinto, C., Miller, J.~M., {et~al.} 2017, Mon. Not. R. Astron.
@@ -56,7 +59,17 @@ Edgar, R.~G. 2004, New Astron. Rev., 48, 843
 
 \bibitem[{{El Mellah} {et~al.}(2017){El Mellah}, Sundqvist, \&
   Keppens}]{ElMellah}
-{El Mellah}, I., Sundqvist, J.~O., \& Keppens, R. 2017, MNRAS
+{El Mellah}, I., Sundqvist, J.~O., \& Keppens, R. 2017, Mon. Not. R. Astron.
+  Soc., 475, 3240
+
+\bibitem[{{El Mellah} {et~al.}(2018){El Mellah}, Sundqvist, \&
+  Keppens}]{ElMellah2018a}
+{El Mellah}, I., Sundqvist, J.~O., \& Keppens, R. 2018, (submitted)
+
+\bibitem[{Falanga {et~al.}(2015)Falanga, Bozzo, Lutovinov, Bonnet-Bidaud,
+  Fetisova, \& Puls}]{Falanga2015}
+Falanga, M., Bozzo, E., Lutovinov, A., {et~al.} 2015, Astron. Astrophys., 577,
+  A130
 
 \bibitem[{Foglizzo {et~al.}(2005)Foglizzo, Galletti, \& Ruffert}]{Foglizzo2005}
 Foglizzo, T., Galletti, P., \& Ruffert, M. 2005, Astron. Astrophys., 2201, 15
@@ -69,10 +82,16 @@ Foglizzo, T. \& Ruffert, M. 1996, Astron. Astrophys., 361, 22
 Forman, W., Jones, C., Tananbaum, H., {et~al.} 1973, Astrophys. J., 182, L103
 
 \bibitem[{Foulkes {et~al.}(2010)Foulkes, Haswell, \& Murray}]{Foulkes:2010wa}
-Foulkes, S.~B., Haswell, C.~a., \& Murray, J.~R. 2010, arXiv.org, 401, 1275
+Foulkes, S.~B., Haswell, C.~A., \& Murray, J.~R. 2010, Mon. Not. R. Astron.
+  Soc., 401, 1275
 
 \bibitem[{Frank {et~al.}(1986)Frank, King, \& Raine}]{Frank2002}
 Frank, J., King, A., \& Raine, D.~J. 1986, Phys. Today, 39, 124
+
+\bibitem[{F{\"{u}}rst {et~al.}(2018)F{\"{u}}rst, Kretschmar, Grinberg,
+  Pottschmidt, Wilms, K{\"{u}}hnel, {El Mellah}, \&
+  Mart{\'{i}}nez-N{\'{u}}{\~{n}}ez}]{Furst2018}
+F{\"{u}}rst, F., Kretschmar, P., Grinberg, V., {et~al.} 2018
 
 \bibitem[{F{\"{u}}rst {et~al.}(2010)F{\"{u}}rst, Kreykenbohm, Pottschmidt,
   Wilms, Hanke, Rothschild, Kretschmar, Schulz, Huenemoerder, Klochkov, \&
@@ -120,8 +139,8 @@ Grinberg, V., Hell, N., {El Mellah}, I., {et~al.} 2017, Astron. Astrophys. Vol.
 \bibitem[{Grinberg {et~al.}(2014)Grinberg, Pottschmidt, B{\"{o}}ck, Schmid,
   Nowak, Uttley, Tomsick, Rodriguez, Hell, Markowitz, Bodaghee, Bel,
   Rothschild, \& Wilms}]{Grinberg:2014ux}
-Grinberg, V., Pottschmidt, K., B{\"{o}}ck, M., {et~al.} 2014, arXiv.org
-  [\eprint[arXiv]{1402.4485}]
+Grinberg, V., Pottschmidt, K., B{\"{o}}ck, M., {et~al.} 2014, Astron.
+  Astrophys. Vol. 565, id.A1, 19 pp., 565 [\eprint[arXiv]{1402.4485}]
 
 \bibitem[{Hamann \& Koesterke(1998)}]{Hamann1998}
 Hamann, W.-R. \& Koesterke, L. 1998, Astron. Astrophys, 335, 1003
@@ -139,9 +158,13 @@ Ho, C. \& Arons, J. 1987, Astrophys. J., 316, 283
 Horedt, G.~P. 2000, Astrophys. J., 541, 821
 
 \bibitem[{Hu {et~al.}(2017)Hu, Chou, Ng, Lin, \& Yen}]{Hu2017}
-Hu, C.-P., Chou, Y., Ng, C.~Y., Lin, L. C.-C., \& Yen, D. C.-C. 2017,
-  Astrophys. Journal, Vol. 844, Issue 1, Artic. id. 16, 10 pp. (2017)., 844
-  [\eprint[arXiv]{1706.03902}]
+Hu, C.-P., Chou, Y., Ng, C.-Y., Lin, L. C.-C., \& Yen, D. C.-C. 2017,
+  Astrophys. J., 844, 16
+
+\bibitem[{Huarte-Espinosa {et~al.}(2012)Huarte-Espinosa, Carroll-Nellenback,
+  Nordhaus, Frank, \& Blackman}]{HuarteEspinosa:2012wq}
+Huarte-Espinosa, M., Carroll-Nellenback, J., Nordhaus, J., Frank, A., \&
+  Blackman, E.~G. 2012, Mon. Not. R. Astron. Soc., 433, 295
 
 \bibitem[{Illarionov \& Sunyaev(1975)}]{Illarionov1975}
 Illarionov, A.~F. \& Sunyaev, R.~A. 1975, Astron. Astrophys., 39
@@ -158,23 +181,23 @@ Israel, G.~L., Belfiore, A., Stella, L., {et~al.} 2017, Science (80-. )., 355,
 \bibitem[{Karino(2014)}]{Karino2014}
 Karino, S. 2014, Publ. Astron. Soc. Japan, 66, 2
 
-\bibitem[{Lin \& Papaloizou(1985)}]{Lin1985}
-Lin, D. N.~C. \& Papaloizou, J. C.~B. 1985, Protostars planets II (A86-12626
-  03-90). Tucson, AZ, Univ. Arizona Press. 1985, p. 981-1072. NSF-supported
-  Res., 1293
-
 \bibitem[{Lucy \& Solomon(1970)}]{Lucy1970}
 Lucy, L.~B. \& Solomon, P.~M. 1970, Astrophys. J., 159, 879
 
-\bibitem[{MacLeod \& Ramirez-Ruiz(2014)}]{MacLeod2014}
-MacLeod, M. \& Ramirez-Ruiz, E. 2014 [\eprint[arXiv]{1410.3823}]
+\bibitem[{MacLeod {et~al.}(2017)MacLeod, Antoni, Murgia-Berthier, Macias, \&
+  Ramirez-Ruiz}]{MacLeod2017}
+MacLeod, M., Antoni, A., Murgia-Berthier, A., Macias, P., \& Ramirez-Ruiz, E.
+  2017, Astrophys. J., 838, 56
+
+\bibitem[{MacLeod \& Ramirez-Ruiz(2015)}]{MacLeod2015}
+MacLeod, M. \& Ramirez-Ruiz, E. 2015, Astrophys. J., 803, 41
 
 \bibitem[{Manousakis \& Walter(2015)}]{Manousakis2015c}
 Manousakis, A. \& Walter, R. 2015, Astron. Astrophys., 58, A58
 
-\bibitem[{Manousakis {et~al.}(2013)Manousakis, Walter, \&
-  Blondin}]{Manousakis2013}
-Manousakis, a., Walter, R., \& Blondin, J. 2013 [\eprint[arXiv]{1310.8205}]
+\bibitem[{Manousakis {et~al.}(2014)Manousakis, Walter, \&
+  Blondin}]{Manousakis2014}
+Manousakis, A., Walter, R., \& Blondin, J. 2014, EPJ Web Conf., 64, 02006
 
 \bibitem[{Mart{\'{i}}nez-N{\'{u}}{\~{n}}ez
   {et~al.}(2017)Mart{\'{i}}nez-N{\'{u}}{\~{n}}ez, Kretschmar, Bozzo, Oskinova,
@@ -191,9 +214,14 @@ Medvedev, M.~V. \& Narayan, R. 2000, Astrophys. Journal, Vol. 554, Issue 2, pp.
 \bibitem[{Mohamed \& Podsiadlowski(2007)}]{Mohamed2007}
 Mohamed, S. \& Podsiadlowski, P. 2007
 
-\bibitem[{Motch {et~al.}(2011)Motch, Pakull, Gris{\'{e}}, \& Soria}]{Motch2011}
-Motch, C., Pakull, M., Gris{\'{e}}, F., \& Soria, R. 2011, Astron. Nachrichten,
-  332, 367
+\bibitem[{Molteni {et~al.}(1999)Molteni, T{\'{o}}th, \&
+  Kuznetsov}]{Molteni1999}
+Molteni, D., T{\'{o}}th, G., \& Kuznetsov, O. A.~O. 1999, Apj, 516, 411
+
+\bibitem[{Murguia-Berthier {et~al.}(2017)Murguia-Berthier, MacLeod,
+  Ramirez-Ruiz, Antoni, \& Macias}]{Murguia-Berthier2017}
+Murguia-Berthier, A., MacLeod, M., Ramirez-Ruiz, E., Antoni, A., \& Macias, P.
+  2017, Astrophys. J., 845, 173
 
 \bibitem[{Narayan {et~al.}(1998)Narayan, Mahadevan, \& Quataert}]{Narayan1998}
 Narayan, R., Mahadevan, R., \& Quataert, E. 1998, Theory Black Hole Accretion
@@ -239,7 +267,7 @@ Saladino, M.~I., Pols, O.~R., van~der Helm, E., Pelupessy, I., \& Zwart, S.~P.
 \bibitem[{Sander {et~al.}(2017{\natexlab{a}})Sander, F{\"{u}}rst, Kretschmar,
   Oskinova, Todt, Hainich, Shenar, \& Hamann}]{Sander2017}
 Sander, A. A.~C., F{\"{u}}rst, F., Kretschmar, P., {et~al.} 2017{\natexlab{a}},
-  Astron. Astrophys., 610, A60
+  Astron. Astrophys. Vol. 610, id.A60, 19 pp., 610, A60
 
 \bibitem[{Sander {et~al.}(2017{\natexlab{b}})Sander, Hamann, Todt, Hainich, \&
   Shenar}]{Sander2017b}
@@ -270,18 +298,20 @@ Smith, D.~M., Heindl, W.~A., \& Swank, J.~H. 2001, Astrophys. Journal, Vol.
   569, Issue 1, pp. 362-380., 569, 362
 
 \bibitem[{Sundqvist {et~al.}(2017)Sundqvist, Owocki, \& Puls}]{Sundqvist2017}
-Sundqvist, J.~O., Owocki, S.~P., \& Puls, J. 2017, eprint arXiv:1710.07780
-  [\eprint[arXiv]{1710.07780}]
+Sundqvist, J.~O., Owocki, S.~P., \& Puls, J. 2017, Astron. Astrophys. Vol. 611,
+  id.A17, 10 pp., 611 [\eprint[arXiv]{1710.07780}]
 
 \bibitem[{Taam {et~al.}(2018)Taam, Qiao, Liu, \& Meyer-Hofmeister}]{Taam2018}
 Taam, R.~E., Qiao, E., Liu, B.~F., \& Meyer-Hofmeister, E. 2018, Astrophys.
   Journal, Vol. 860, Issue 2, Artic. id. 166, 5 pp. (2018)., 860, 1
 
+\bibitem[{Taani {et~al.}(2018)Taani, Karino, Song, Al-Wardat, Khasawneh, \&
+  Mardini}]{Taani2018}
+Taani, A., Karino, S., Song, L., {et~al.} 2018, eprint arXiv:1809.01213
+  [\eprint[arXiv]{1809.01213}]
+
 \bibitem[{Toro {et~al.}(1994)Toro, Spruce, \& Speares}]{Toro1994}
 Toro, E.~F., Spruce, M., \& Speares, W. 1994, Shock Waves, 4, 25
-
-\bibitem[{Turner \& Stone(2001)}]{Turner2001}
-Turner, N.~J. \& Stone, J.~M. 2001, Astrophys. J. Suppl. Ser., 135, 30
 
 \bibitem[{van Marle \& Keppens(2011)}]{VanMarle2011}
 van Marle, A.~J. \& Keppens, R. 2011, Comput. Fluids, 42, 44
@@ -293,9 +323,20 @@ Vink, J.~S., de~Koter, A., \& Lamers, H. J. G. L.~M. 2001, Astron. Astrophys.
 \bibitem[{Vreugdenhil \& Koren(1993)}]{Vreugdenhil1993}
 Vreugdenhil, C.~B. \& Koren, B. 1993 (Vieweg), 373
 
-\bibitem[{Xia {et~al.}(2018)Xia, Teunissen, Mellah, Chan{\'{e}}, \&
+\bibitem[{Walder {et~al.}(2014)Walder, Melzani, Folini, Winisdoerffer, \&
+  Favre}]{Walder2014}
+Walder, R., Melzani, M., Folini, D., Winisdoerffer, C., \& Favre, J.~M. 2014,
+  8th Int. Conf. Numer. Model. Sp. Plasma Flows (ASTRONUM 2013) ASP Conf. Ser.,
+  488, 1
+
+\bibitem[{Walter {et~al.}(2015)Walter, Lutovinov, Bozzo, \&
+  Tsygankov}]{Walter15}
+Walter, R., Lutovinov, A.~A., Bozzo, E., \& Tsygankov, S.~S. 2015, Astron.
+  Astrophys. Rev., 23, 2
+
+\bibitem[{Xia {et~al.}(2018)Xia, Teunissen, {El Mellah}, Chan{\'{e}}, \&
   Keppens}]{Xia2017}
-Xia, C., Teunissen, J., Mellah, I.~E., Chan{\'{e}}, E., \& Keppens, R. 2018,
+Xia, C., Teunissen, J., {El Mellah}, I., Chan{\'{e}}, E., \& Keppens, R. 2018,
   Astrophys. J. Suppl. Ser., 234, 30
 
 \bibitem[{Ziolkowski(1985)}]{Ziolkowski1985}
